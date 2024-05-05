@@ -106,11 +106,6 @@ const RightNav = ({ open, setOpen }) => {
                         Team
                     </Link>
                 </li>
-                <li onClick={toggle}>
-                    <Link href="https://weardshirt.myshopify.com/products/dhruva-tech-fest-iiitk">
-                        Official Merchandise
-                    </Link>
-                </li>
             </Ul>
         </div>
     )
