@@ -13,89 +13,91 @@ import Link from 'next/link'
 import logo from '../../public/betalab-horizontal.png'
 const Footer = () => {
     function love() {
-        alert("With ❤️💜💛, We present to you... Dhruva!")
+        alert('With ❤️💜💛, We present to you... Dhruva!')
     }
     return (
         <div className={styles.footer}>
             <div className={styles.footerUpper}>
-                <div className={styles.logo}>
+                {/* <div className={styles.logo}>
                     <Image src={logo} alt="Beta Labs Logo" priority={true} />
-                </div>
+                </div> */}
                 <div className={styles.icons}>
                     <ul>
                         <li>
-                            <Link
+                            {/* <Link
                                 href="mailto:techclub@iiitkottayam.ac.in"
                                 passHref={true}
                             >
                                 <FaEnvelope />
-                            </Link>
+                            </Link> */}
                         </li>
                         <li>
-                            <Link
+                            {/* <Link
                                 href="https://www.facebook.com/Dhruva-IIITK-100145739097786"
                                 passHref={true}
                             >
                                 <a target="_blank">
                                     <FaFacebookSquare />
                                 </a>
-                            </Link>
+                            </Link> */}
                         </li>
                         <li>
-                            <Link
+                            {/* <Link
                                 href="https://www.instagram.com/dhruva_iiitk/"
                                 passHref={true}
                             >
                                 <a target="_blank">
                                     <FaInstagram />
                                 </a>
-                            </Link>
+                            </Link> */}
                         </li>
                         <li>
-                            <Link
+                            {/* <Link
                                 href="https://twitter.com/Dhruva_IIITK"
                                 passHref={true}
                             >
                                 <a target="_blank">
                                     <FaTwitter />
                                 </a>
-                            </Link>
+                            </Link> */}
                         </li>
                         <li>
-                            <Link
+                            {/* <Link
                                 href="https://discord.com/channels/@me"
                                 passHref={true}
                             >
                                 <a target="_blank">
                                     <SiDiscord />
                                 </a>
-                            </Link>
+                            </Link> */}
                         </li>
                         <li>
-                            <Link
+                            {/* <Link
                                 href="https://www.youtube.com/channel/UCgEeC4C9ilVYTgBFlwofjUA"
                                 passHref={true}
                             >
                                 <a target="_blank">
                                     <FaYoutube />
                                 </a>
-                            </Link>
+                            </Link> */}
                         </li>
                         <li>
-                            <Link
+                            {/* <Link
                                 href="https://www.twitch.tv/dhruva_iiitk"
                                 passHref={true}
                             >
                                 <a target="_blank">
                                     <FaTwitch />
                                 </a>
-                            </Link>
+                            </Link> */}
                         </li>
                     </ul>
                 </div>
             </div>
             <div className={styles.footerLower}>
-                <span onClick={love} className={styles.heart}>Made with ❤️ by BetaLabs</span>
+                {/* <span onClick={love} className={styles.heart}>
+                    Made with ❤️ by BetaLabs
+                </span> */}
             </div>
         </div>
     )

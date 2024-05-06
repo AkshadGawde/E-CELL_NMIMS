@@ -87,22 +87,22 @@ const RightNav = ({ open, setOpen }) => {
                     </Link>
                 </li>
                 <li onClick={toggle}>
-                    <Link href="/events" passHref>
+                    <Link href="/" passHref>
                         Events
                     </Link>
                 </li>
                 <li onClick={toggle}>
-                    <Link href="/#Sponsors" passHref>
+                    <Link href="/" passHref>
                         Sponsors
                     </Link>
                 </li>
                 <li onClick={toggle}>
-                    <Link href="/#FAQ" passHref>
+                    <Link href="/" passHref>
                         FAQ
                     </Link>
                 </li>
                 <li onClick={toggle}>
-                    <Link href="/team" passHref>
+                    <Link href="/" passHref>
                         Team
                     </Link>
                 </li>
