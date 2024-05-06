@@ -8,12 +8,12 @@ const team = () => {
     return (
         <>
             <Head>
-                <title>DHRUVA - IIITK | Events </title>
+                <title>ECELL | EVENTS </title>
                 <meta
                     name="description"
-                    content="Dhruva IIITK Technical Fest"
+                    content="NMIMS Entrepreneurship Cell"
                 />
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/SVG/ecell-logo.svg" />
             </Head>
             <div className={styles.container}>
                 <Navbar />

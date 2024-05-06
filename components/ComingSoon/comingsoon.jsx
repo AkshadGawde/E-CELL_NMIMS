@@ -1,17 +1,21 @@
-import styles from "./Coming.module.css";
-import HButton from "@components/Accessories/button";
+import styles from './Coming.module.css'
+import HButton from '@components/Accessories/button'
 export default function Coming() {
-    return(
+    return (
         <div className={styles.home}>
             <div className={styles.navBar}>
-                <p className={styles.logo}>DHRUVA</p>
+                <p className={styles.logo}>ECELL</p>
             </div>
             <div className={styles.main}>
                 <div className={styles.textDiv}>
                     <p className={styles.maintxt}>Coming Soon!</p>
                     <div className={styles.innerTextDiv}>
-                        <p className={styles.txt}>Redefining the way technical fest used to be.<br/>
-                        Technical Fest you would have never attended before, exclusively by Beta Labs IIITK</p>
+                        <p className={styles.txt}>
+                            Redefining the way technical fest used to be.
+                            <br />
+                            Technical Fest you would have never attended before,
+                            exclusively by Beta Labs IIITK
+                        </p>
                     </div>
                     <HButton name="Contact Us"></HButton>
                 </div>
@@ -28,6 +32,5 @@ export default function Coming() {
             </div>
             */}
         </div>
-            
-    );
-};
+    )
+}

@@ -53,7 +53,7 @@ const Navbar = () => {
                 <Link href="/" passHref>
                     <a target="_self">
                         <Image
-                            src="/png/dhruva-dark-icon.png"
+                            src="/SVG/ecell-logo.svg"
                             className="logoimg"
                             alt="Dhruva Logo"
                             height={40}
@@ -65,7 +65,7 @@ const Navbar = () => {
 
                 <span className="maintxt">
                     <Link href="/" passHref>
-                        Dhruva
+                        ECELL
                     </Link>
                 </span>
             </div>
