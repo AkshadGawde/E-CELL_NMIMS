@@ -10,7 +10,7 @@
     padding-bottom: 80px;
     padding-left: 2%;
     padding-right: 2%;
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    background: radial-gradient(ellipse at bottom, #000000 0%, #000000 100%);
 }
 
 .heading > span {

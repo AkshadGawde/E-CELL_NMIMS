@@ -15,9 +15,9 @@ body {
     --title: 'Lexend Deca';
     --subtext: 'Montserrat';
     --coming: 'Montserrat';
-    --linearg1: #8c58fc;
+    --linearg1: #3a0ba0;
     --linearg2: #ffc089;
-    --cardbg: #2d2c2e;
+    --cardbg: #282728a2;
 }
 a {
     color: inherit;
@@ -54,9 +54,9 @@ a {
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: #858585;
+    background-color: #4c4b4b;
     border-radius: 7px;
-    border: 0px none #a09eff;
+    border: 0px none #5c5aee;
 }
 
 *::-webkit-scrollbar-thumb:hover {
