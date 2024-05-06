@@ -71,11 +71,11 @@ export default function Home() {
                             <Navbar />
                             <Header />
                             <About />
-                            <Attendes />
-                            <Speakers />
-                            <Timeline />
-                            <Sponsors />
-                            <Sponsor_Faq />
+                            {/* <Attendes /> */}
+                            {/* <Speakers /> */}
+                            {/* <Timeline /> */}
+                            {/* <Sponsors /> */}
+                            {/* <Sponsor_Faq /> */}
                         </>
                     )
                 ) : (
@@ -83,11 +83,11 @@ export default function Home() {
                         <Navbar />
                         <Header />
                         <About />
-                        <Attendes />
-                        <Speakers />
-                        <Timeline />
-                        <Sponsors />
-                        <Sponsor_Faq />
+                        {/* <Attendes /> */}
+                        {/* <Speakers /> */}
+                        {/* <Timeline /> */}
+                        {/* <Sponsors /> */}
+                        {/* <Sponsor_Faq /> */}
                     </>
                 )}
             </div>
