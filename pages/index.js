@@ -43,22 +43,22 @@ export default function Home() {
         <>
             <div className={styles.container} style={{ height: height }}>
                 <Head>
-                    <title>DHRUVA - IIITK</title>
+                    <title>ECELL | NMIMS</title>
                     <meta
                         name="description"
-                        content="Dhruva Indian Institute of Information Technology IIIT Kottayam Technical Fest"
+                        content="Welcome to Entrepreneurship Cell, NMIMS Navi Mumbai"
                     />
                     <meta
                         property="og:title"
-                        content="Dhruva Technical Fest IIIT Kottayam"
+                        content="Welcome to Entrepreneurship Cell, NMIMS Navi Mumbai"
                     />
                     <meta
                         property="og:description"
-                        content="Dhruva - Indian Institute of Information Technology (IIIT) Kottayam Technical Fest"
+                        content="Welcome to Entrepreneurship Cell, NMIMS Navi Mumbai"
                     />
                     <meta
                         property="og:url"
-                        content="https://www.dhruvaiiitk.tech/"
+                        content="https://www.ecellsvkm.com/"
                     />
                     <meta property="og:type" content="website" />
                     <link rel="icon" href="/favicon.ico" />

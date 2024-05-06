@@ -36,31 +36,28 @@ export const getStaticProps = async (context) => {
             time: data[0].time,
             organisers: data[0].organisers,
             tag: data[0].tag,
-            lead: data[0].leadLink
+            lead: data[0].leadLink,
         },
     }
 }
 export default function Home(props) {
     const organisers = props.organisers
-    
-    
 
-    
     return (
         <>
             <div className={styles.container}>
                 <Head>
-                    <title>DHRUVA - IIITK | {props.name} </title>
+                    <title>ECELL| NMIMS {props.name} </title>
                     <meta
                         name="description"
-                        content="Dhruva IIITK Technical Fest"
+                        content="NMIMS Entrepreneurship Cell"
                     />
-                    <link rel="icon" href="/favicon.ico" />
+                    <link rel="icon" href="/SVG/ecell-logo.svg" />
                 </Head>
                 <Navbar />
                 <EventHeading
                     title={props.name}
-                    content = {props.tag}
+                    content={props.tag}
                     register={props.register}
                     eventPoster={props.poster}
                     lead={props.lead}
@@ -70,7 +67,7 @@ export default function Home(props) {
                     date={props.date}
                     time={props.time}
                 />
-                <OrganizerContainer organiser = {organisers}/>
+                <OrganizerContainer organiser={organisers} />
             </div>
             <Footer />
         </>

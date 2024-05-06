@@ -19,7 +19,7 @@ const Header = () => {
                     data-aos-duration="2000"
                     data-aos-anchor-placement="top-bottom"
                 >
-                    <span>Where Tech</span> <span>Gets</span>{' '}
+                    <span>Where Ideas</span> <span>Gets</span>{' '}
                     <span className={styles.maintxt}>Stellar!</span>
                 </p>
                 <p
@@ -28,14 +28,13 @@ const Header = () => {
                     data-aos-duration="2500"
                 >
                     <span className={styles.subtext}>
-                        Welcome to Dhruva, IIIT Kottayam&apos;s own Technical
-                        Fest.
+                        Welcome to Entrepreneurship Cell, NMIMS Navi Mumbai
                     </span>
                     <span>
-                        Join us in this four-day-long virtual extravaganza
+                        Join us for an exhilarating four-day virtual event,
                         <br />
-                        that&apos;s bound to fire up your neurons and spark your
-                        creative flair!
+                        We guaranteed to fuel your entrepreneurial spirit and
+                        unleash your creative potential!
                     </span>
                 </p>
                 <HButtons />
