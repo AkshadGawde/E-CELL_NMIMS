@@ -9,20 +9,20 @@ import LeaderboardSmallData from '@components/Leaderboard/LeaderboardSmallData'
 const leaderboard = () => {
     return (
         <>
-        <div className = {styles.container}>
-            <Head>
-                <title>DHRUVA - IIITK | Leaderboard</title>
-                <meta
-                    name="description"
-                    content="Dhruva IIITK Technical Fest"
-                />
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-            <Navbar />
-            <LeaderboardHeading />
-            <LeaderboardSmallData />    
-        </div>
-        <Footer />
+            <div className={styles.container}>
+                <Head>
+                    <title>ECELL | NMIMS | Leaderboard</title>
+                    <meta
+                        name="description"
+                        content="ECELL | NMIMS Technical Fest"
+                    />
+                    <link rel="icon" href="/favicon.ico" />
+                </Head>
+                <Navbar />
+                <LeaderboardHeading />
+                <LeaderboardSmallData />
+            </div>
+            <Footer />
         </>
     )
 }
