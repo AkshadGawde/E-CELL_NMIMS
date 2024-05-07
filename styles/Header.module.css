@@ -15,7 +15,7 @@
 
 .heading > span {
     color: rgb(255, 255, 255);
-    font-size: 90px;
+    font-size: 80px;
     font-weight: 600;
     text-align: center;
 }
@@ -23,7 +23,7 @@
     margin-top: 11rem;
     font-family: var(--title);
     font-style: normal;
-    font-size: 90px;
+    font-size: 80px;
     line-height: 119.5%;
     /* or 114px */
     text-align: center;
@@ -37,7 +37,7 @@
     font-family: var(--coming);
     font-style: normal;
     font-weight: 500;
-    font-size: 1.4em;
+    font-size: 1.5em;
     display: flex;
     flex-wrap: wrap;
     align-items: center;

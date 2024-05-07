@@ -11,8 +11,8 @@ const HButtons = () => {
             <button className={styles.b2}>
                 <Link href="/" target="_blank">
                     <a target="_blank">
-                        <SiDiscord className={styles.faicon} />
-                        <span> Join Discord </span>
+                        {/* <SiDiscord className={styles.faicon} /> */}
+                        <span> Events </span>
                     </a>
                 </Link>
             </button>

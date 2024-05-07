@@ -31,7 +31,8 @@ const Header = () => {
                         Welcome to Entrepreneurship Cell, NMIMS Navi Mumbai
                     </span>
                     <span>
-                        Join us for an exhilarating four-day virtual event,
+                        Join us for an exhilarating two-day Navi Mumbai Startup
+                        Fest ,
                         <br />
                         We guaranteed to fuel your entrepreneurial spirit and
                         unleash your creative potential!
