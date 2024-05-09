@@ -51,7 +51,6 @@ const Navbar = () => {
         <Nav>
             <div className="logo">
                 <Link href="/" passHref>
-                    <a target="_self">
                         <Image
                             src="/SVG/ecell-logo.svg"
                             className="logoimg"
@@ -60,7 +59,7 @@ const Navbar = () => {
                             width={40}
                             loading="eager"
                         ></Image>
-                    </a>
+                    
                 </Link>
 
                 <span className="maintxt">

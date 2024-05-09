@@ -2,8 +2,6 @@ import Link from 'next/link'
 import styled from 'styled-components'
 import { useState } from 'react'
 import { useRouter } from 'next/dist/client/router'
-/*This code is for the style of right navbar which is changed when screen size is mobile. Also the if statement inside style components is for underline transition for the nav options when the screen is not mobile size*/
-/*Code Update: The burger and Right Navbar has been kept constant for both desktop and mobile screens*/
 
 const Ul = styled.ul`
     li {

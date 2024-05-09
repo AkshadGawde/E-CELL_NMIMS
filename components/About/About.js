@@ -24,22 +24,44 @@ const About = () => {
                     connect, and grow.
                     <br />
                     <br />
-                    Just like the North Star guides sailors, the
-                    Entrepreneurship Cell (E-Cell) at NMIMS Navi Mumbai is your
-                    beacon in innovation and entrepreneurship. Embrace your
+                    The Entrepreneurship Cell (E-Cell) at NMIMS Navi Mumbai is
+                    your beacon in innovation and entrepreneurship. Embrace your
                     technical talents and chart your course to success with us!
                 </p>
-                {/* <div className={styles.btn_container}>
-                    <HButtonLight name="About Us" icon = {<ImArrowUpRight2/>}/>
-                </div> */}
             </div>
+
+            <div className={styles.title_container}>
+                <h1 className={styles.title}>
+                    OUR <span>Vision</span>
+                </h1>
+
+                <p className={styles.content}>
+                    We're on a mission to empower student entrepreneurs,
+                    transforming them into job creators. Picture this: a college
+                    community buzzing with innovative ideas, like a beehive of
+                    creativity! We're here to nurture those ideas into
+                    groundbreaking business models, making our campus the
+                    epicenter of innovation.
+                    <br />
+                    <br />
+                    Imagine a world where every student is a potential
+                    game-changer, and we're the catalyst sparking this
+                    entrepreneurial revolution! This is an exciting journey,
+                    where dreams take flight like a rocket into the cosmos of
+                    possibilities!
+                </p>
+                <div className={styles.btn_container}>
+                    <HButtonLight name="Mail Us" icon={<ImArrowUpRight2 />} />
+                </div>
+            </div>
+
             <div className={styles.date_container}>
                 <div className={styles.left_date}>
                     <Date day="06" month="May" subtxt="th" />
                 </div>
                 <hr className={styles.line} />
                 <div className={styles.right_date}>
-                    <Date day="31" month="October" subtxt="st" />
+                    <Date day="31" month="April" subtxt="st" />{' '}
                 </div>
             </div>
             <br />

@@ -20,7 +20,7 @@
     font-family: var(--title);
     font-style: normal;
     font-weight: 700;
-    font-size: 7rem;
+    font-size: 6rem;
     text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255),
         -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
     color: var(--black);
@@ -28,13 +28,13 @@
 .title > span {
     color: #fff9f5;
     font-weight: 500;
-    font-size: 7rem;
+    font-size: 6rem;
     text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
         1.5px 1.5px 0 #000;
 }
 .content {
     font-family: var(--subtext);
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: -3.5%;
 }
 .btn_container {
