@@ -51,16 +51,14 @@ const Navbar = () => {
         <Nav>
             <div className="logo">
                 <Link href="/" passHref>
-                    <a target="_self">
-                        <Image
-                            src="/SVG/ecell-logo.svg"
-                            className="logoimg"
-                            alt="Dhruva Logo"
-                            height={40}
-                            width={40}
-                            loading="eager"
-                        ></Image>
-                    </a>
+                    <Image
+                        src="/SVG/ecell-logo.svg"
+                        className="logoimg"
+                        alt="Dhruva Logo"
+                        height={40}
+                        width={40}
+                        loading="eager"
+                    ></Image>
                 </Link>
 
                 <span className="maintxt">
