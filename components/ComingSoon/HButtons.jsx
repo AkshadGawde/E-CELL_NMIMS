@@ -6,10 +6,10 @@ const HButtons = () => {
     return (
         <div className={styles.buttons}>
             <Link href="/events">
-                    <button className={styles.b1}>Register</button>
+                <button className={styles.b1}>Register</button>
             </Link>
             <button className={styles.b2}>
-                <Link href="https://discord.gg/pyVrmC4DTk" target="_blank">
+                <Link href="/" target="_blank">
                     <a target="_blank">
                         <SiDiscord className={styles.faicon} />
                         <span> Join Discord </span>

@@ -8,16 +8,16 @@ const leaderboard_table = () => {
     return (
         <>
             <Head>
-                <title>DHRUVA - IIITK | Leaderboard </title>
+                <title>ECELL | NMIMS | Leaderboard </title>
                 <meta
                     name="description"
-                    content="Dhruva IIITK Technical Fest"
+                    content="ECELL | NMIMS Technical Fest"
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Navbar />
-            <div className={styles.container}>           
-               <Board /> 
+            <div className={styles.container}>
+                <Board />
             </div>
             <Footer />
         </>
