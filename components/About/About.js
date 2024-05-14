@@ -48,7 +48,7 @@ const About = () => {
                     game-changer, and we're the catalyst sparking this
                     entrepreneurial revolution! This is an exciting journey,
                     where dreams take flight like a rocket into the cosmos of
-                    possibilities! 🌌💫
+                    possibilities!
                 </p>
                 <div className={styles.btn_container}>
                     <HButtonLight name="Mail Us" icon={<ImArrowUpRight2 />} />
@@ -61,7 +61,7 @@ const About = () => {
                 </div>
                 <hr className={styles.line} />
                 <div className={styles.right_date}>
-                    <Date day="31" month="April" subtxt="st" />
+                    <Date day="31" month="April" subtxt="st" />{' '}
                 </div>
             </div>
             <br />
