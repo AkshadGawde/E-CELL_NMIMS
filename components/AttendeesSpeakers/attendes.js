@@ -12,16 +12,20 @@ const Attendes = () => {
                 <div className={styles.text}>
                     <h4 className={styles.h4}>Events</h4>
                     <p className={styles.bl}>
-                        Experience Adrenaline packed fun events that get your
-                        mental juices flowing! Show us the synergy of your team,
-                        or prove that you are the best lone wolf around; we have
-                        an event for everyone!
+                        Immerse yourself in adrenaline-fueled events that ignite
+                        your mental energy and creativity! Whether you’re
+                        looking to demonstrate your team's exceptional synergy
+                        or showcase your individual prowess as the ultimate lone
+                        wolf, we have the perfect challenge for you. Get ready
+                        for an exhilarating experience that promises
+                        unforgettable fun, excitement, and a true test of your
+                        skills. Dive in and prove yourself today!
                     </p>
                 </div>
                 <div data-aos="fade-left" className={styles.img}>
                     <img
                         data-aos="rotate-c"
-                        src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632664486/DSC_0838_2_zxyp2n.jpg"
+                        src="https://res.cloudinary.com/dq23wxdum/image/upload/c_crop,ar_1:1/v1715241791/event_3.jpg"
                         className={styles.hi}
                     />
                 </div>
@@ -34,13 +38,13 @@ const Attendes = () => {
                         ourselves. This hands-on experience saves a lot of
                         initial time-consuming steps of learning a topic and is
                         the basis for a strong foundation. Experience quality,
-                        fun-packed, interactive workshops ranging from x to y!
+                        fun-packed, interactive workshops at ECELL NMIMS.
                     </p>
                 </div>
                 <div data-aos="fade-left" className={styles.img}>
                     <img
                         data-aos="rotate-c"
-                        src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632664486/DSC02855_1_x0oa32.jpg"
+                        src="https://res.cloudinary.com/dq23wxdum/image/upload/c_crop,ar_1:1/v1715240683/wzbdtbytqsubua6p1cjl.jpg"
                         className={styles.hi2}
                     />
                 </div>
@@ -58,7 +62,7 @@ const Attendes = () => {
                 <div data-aos="fade-left" className={styles.img}>
                     <img
                         data-aos="rotate-c"
-                        src="https://res.cloudinary.com/dlu72yo9b/image/upload/v1632664485/DSC_0277_1_tdbkek_1_q1hcom.jpg"
+                        src="https://res.cloudinary.com/dq23wxdum/image/upload/v1715241403/event_2.jpg"
                         className={styles.hi3}
                     />
                 </div>

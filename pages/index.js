@@ -71,7 +71,7 @@ export default function Home() {
                             <Navbar />
                             <Header />
                             <About />
-                            {/* <Attendes /> */}
+                            <Attendes />
                             {/* <Speakers /> */}
                             {/* <Timeline /> */}
                             {/* <Sponsors /> */}
@@ -83,7 +83,7 @@ export default function Home() {
                         <Navbar />
                         <Header />
                         <About />
-                        {/* <Attendes /> */}
+                        <Attendes />
                         {/* <Speakers /> */}
                         {/* <Timeline /> */}
                         {/* <Sponsors /> */}
