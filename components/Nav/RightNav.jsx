@@ -85,7 +85,7 @@ const RightNav = ({ open, setOpen }) => {
                     </Link>
                 </li>
                 <li onClick={toggle}>
-                    <Link href="/" passHref>
+                    <Link href="/events" passHref>
                         Events
                     </Link>
                 </li>
