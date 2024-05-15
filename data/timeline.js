@@ -3,14 +3,14 @@ const event = [
 
     {
         day: 1,
-        name: 'Opening Ceremony',
-        time: '9:00 AM - 10:30 AM',
+        name: 'Event Comming Soon ',
+        time: 'TBD',
         link: '',
     },
     {
         day: 1,
-        name: 'Learning Workshops',
-        time: '11:00 AM - 1:00 PM',
+        name: 'Event Comming Soon ',
+        time: 'TBD',
     },
     {
         day: 1,
