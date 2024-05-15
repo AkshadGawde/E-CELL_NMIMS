@@ -38,7 +38,7 @@ export default function Timeline() {
     return (
         <div className={styles.main} id="Events">
             <div className={styles.header}>
-                <p className={styles.err}>Timeline</p>
+                <p className={styles.err}>Navi Mumbai Startup Fest</p>
             </div>
             <div className={styles.tabs}>
                 <div className={styles.days}>
@@ -48,12 +48,12 @@ export default function Timeline() {
                     <div onClick={handleday2}>
                         <Dcard name="Day 2" day={day2} />
                     </div>
-                    <div onClick={handleday3}>
+                    {/* <div onClick={handleday3}>
                         <Dcard name="Day 3" day={day3} />
-                    </div>
-                    <div onClick={handleday4}>
+                    </div> */}
+                    {/* <div onClick={handleday4}>
                         <Dcard name="Day 4" day={day4} />
-                    </div>
+                    </div> */}
                 </div>
                 <div
                     className={classNames(
@@ -165,7 +165,7 @@ export default function Timeline() {
                         })}
                     </div>
                 </div>
-                <div className={styles.mdays}>
+                {/* <div className={styles.mdays}>
                     <div onClick={handleday3}>
                         <Dcard name="Day 3" day={day3} />
                     </div>
@@ -182,8 +182,8 @@ export default function Timeline() {
                             }
                         })}
                     </div>
-                </div>
-                <div className={styles.mdays}>
+                </div> */}
+                {/* <div className={styles.mdays}>
                     <div onClick={handleday4}>
                         <Dcard name="Day 4" day={day4} />
                     </div>
@@ -200,7 +200,7 @@ export default function Timeline() {
                             }
                         })}
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

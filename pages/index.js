@@ -73,7 +73,7 @@ export default function Home() {
                             <About />
                             <Attendes />
                             {/* <Speakers /> */}
-                            {/* <Timeline /> */}
+                            <Timeline />
                             {/* <Sponsors /> */}
                             {/* <Sponsor_Faq /> */}
                         </>
@@ -85,7 +85,7 @@ export default function Home() {
                         <About />
                         <Attendes />
                         {/* <Speakers /> */}
-                        {/* <Timeline /> */}
+                        <Timeline />
                         {/* <Sponsors /> */}
                         {/* <Sponsor_Faq /> */}
                     </>
