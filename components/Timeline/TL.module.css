@@ -5,107 +5,121 @@
   width: 100%;
 }
 
-.err{
+.err {
   margin: 0%;
 }
 
-.header{
-    padding-top: 5%;
-    padding-bottom: calc(8vh - 5vw);
-    text-align: center;
-    font-family: var(--title);
-    font-size: 6.5rem;
-    text-shadow: -1.5px -1.5px 0 #fff, 1.5px -1.5px 0 #fff,
-        -1.5px 1.5px 0 #fff, 1.5px 1.5px 0 #fff;
-    color: var(--black);
-    letter-spacing: -6px;
+.header {
+  padding-top: 5%;
+  padding-bottom: calc(8vh - 5vw);
+  text-align: center;
+  font-family: var(--title);
+  font-size: 5rem;
+  text-shadow: -1.5px -1.5px 0 #fff, 1.5px -1.5px 0 #fff, -1.5px 1.5px 0 #fff, 1.5px 1.5px 0 #fff;
+  color: var(--black);
+  letter-spacing: -6px;
 }
 
 .tabs {
-    height: 100%;
-    display: flex;
-    margin-top: 5%;
-    margin-right: 5%;
-    margin-left: 10%;
-    margin-bottom: 10%;
-    flex-direction: row;
+  height: 100%;
+  display: flex;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  flex-direction: row;
 }
 
-.days{
-  height: 100%;
-  width: 40%;
+.days {
+  height: 50%;
+  width: 30%;
   display: flex;
   flex-direction: column;
 }
 
-.events2{
+.events2 {
   display: none !important;
 }
 
-.events{ 
-  width: 40%;
+.events { 
+  width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin-left: 10%;
 }
 
-  .mobile {
-    height: 100%;
-    display: flex;
-    margin-top: 5%;
-    margin-right: 5%;
-    margin-left: 5%;
-    flex-direction: column;
-    align-items: stretch;
+.mobile {
+  height: 100%;
+  display: flex;
+  margin-top: 5%;
+  margin-right: 5%;
+  margin-left: 5%;
+  flex-direction: column;
+  align-items: stretch;
 }
 
-.mdays{
+.mdays {
   margin-bottom: 8%;
   width: 100%;
 }
+
+/* Reduce font size for cards based on screen size */
 @media screen and (max-width: 950px) {
   .events {
       width: 70%;
   }
-
   .tabs {
       margin-left: 5%;
   }
   .days {
       width: 50%;
   }
+  .card p {
+      font-size: 14px; /* Adjust font size for cards */
+  }
 }
 
-  @media screen and (max-width: 750px) {
-    .tabs{
+@media screen and (max-width: 750px) {
+  .tabs {
       display: none;
-    }
-    .events{
+  }
+  .events {
       width: 100%;
       margin-left: 0;
-    }
-    .header {
-      font-size: 5.5rem;
+  }
+  .header {
+      font-size: 5rem;
       margin-right: 5px;
-    }
   }
-  @media screen and (min-width: 750.1px){
-    .mobile{
+  .card p {
+      font-size: 14px; /* Adjust font size for cards */
+  }
+}
+
+@media screen and (min-width: 750.1px) {
+  .mobile {
       display: none;
-    }
   }
-  @media screen and (max-width: 550px) {
-    .header {
-      font-size: 4.75rem;
-      text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff,
-        -1px 1px 0 #fff, 1px 1px 0 #fff;
-    }
+}
+
+@media screen and (max-width: 550px) {
+  .header {
+      font-size: 4rem;
+      text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
   }
-  @media screen and (max-width: 350px) {
-    .header {
+  .card p {
+      font-size: 12px; /* Adjust font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .header {
       font-size: 4rem;
       margin-bottom: 20px;
       letter-spacing: -5px;
-    }
   }
+  .card p {
+      font-size: 10px; /* Further reduce font size for very small screens */
+  }
+}
