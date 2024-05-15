@@ -12,12 +12,12 @@ const Attendes = () => {
                 <div className={styles.text}>
                     <h4 className={styles.h4}>Events</h4>
                     <p className={styles.bl}>
-                        Immerse yourself in adrenaline-fueled events that ignite
+                        Immerse yourself in adrenaline-fueled events that boost
                         your mental energy and creativity! Whether you’re
                         looking to demonstrate your team's exceptional synergy
                         or showcase your individual prowess as the ultimate lone
-                        wolf, we have the perfect challenge for you. Get ready
-                        for an exhilarating experience that promises
+                        wolf, we have the perfect challenge for you. <br /> Get
+                        ready for an exhilarating experience that promises
                         unforgettable fun, excitement, and a true test of your
                         skills. Dive in and prove yourself today!
                     </p>
