@@ -5,17 +5,19 @@ import EventHeading from '@components/Events/EventHeading'
 import Navbar from '@components/Nav/Navbar'
 import EventDetails from '@components/Events/EventDetails'
 import OrganizerContainer from '@components/Events/Orgnjdge'
-import { events } from '@data/events'
+import { events, happenings } from '@data/events'
 
 export const getStaticPaths = async () => {
-    const paths = events.map((event) => {
-        return {
-            params: { id: event.link },
-        }
-    })
+    const eventPaths = events.map((event) => ({
+        params: { id: event.link },
+    }))
+
+    const happeningsPaths = happenings.map((happening) => ({
+        params: { id: happening.link },
+    }))
 
     return {
-        paths,
+        paths: [...eventPaths, ...happeningsPaths],
         fallback: false,
     }
 }
@@ -23,23 +25,25 @@ export const getStaticPaths = async () => {
 export const getStaticProps = async (context) => {
     const link = context.params.id
 
-    const data = events.filter(function (el) {
-        return el.link == link
-    })
+    const data =
+        events.find((el) => el.link === link) ||
+        happenings.find((el) => el.link === link)
+
     return {
         props: {
-            name: data[0].name,
-            poster: data[0].poster,
-            description: data[0].description,
-            register: data[0].registration,
-            date: data[0].date,
-            time: data[0].time,
-            organisers: data[0].organisers,
-            tag: data[0].tag,
-            lead: data[0].leadLink,
+            name: data.name,
+            poster: data.poster,
+            description: data.description,
+            register: data.registration,
+            date: data.date,
+            time: data.time,
+            organisers: data.organisers,
+            tag: data.tag,
+            lead: data.leadLink,
         },
     }
 }
+
 export default function Home(props) {
     const organisers = props.organisers
 
@@ -61,7 +65,7 @@ export default function Home(props) {
                     register={props.register}
                     eventPoster={props.poster}
                     lead={props.lead}
-                ></EventHeading>
+                />
                 <EventDetails
                     description={props.description}
                     date={props.date}
