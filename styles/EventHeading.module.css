@@ -62,8 +62,8 @@
     .container {
         grid-template-columns: 50% 50%;
         margin-top: 10%;
-        justify-items: center;
-        align-items: center;
+        justify-items: left;
+        align-items: left;
         width: 100%;
     }
     .Heading h1 {
@@ -92,9 +92,9 @@
         padding-left: 2%;
         padding-right: 2%;
         margin-top: 15%;
-        justify-items: center;
-        align-items: center;
-        text-align: center;
+        justify-items: left;
+        align-items: left;
+        text-align: left;
     }
     .image {
         display: flex;
