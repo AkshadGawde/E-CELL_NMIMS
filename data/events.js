@@ -205,9 +205,17 @@ const happenings = [
         id: 1,
         link: 'InnovateX',
         name: 'InnovateX',
-        tag: 'Tag1',
-        description:
-            'Aimed to explore entrepreneurship in India and provide practical guidance. Featuring Faiz Malkani, co-founder of Rippl, to inspire and equip students.',
+        tag: 'Exploring Entrepreneurship',
+        description: `Join InnovateX, an event organized by E-Cell, GDSC, and Institutions Innovation Council at NMIMS Navi Mumbai!
+    - Aimed at exploring entrepreneurship in India and providing practical guidance.
+    - Featured Faiz Malkani, co-founder of Rippl, to inspire and equip students.
+    - Successfully bridged theoretical knowledge and practical challenges.
+    - Malkani's engaging address and interactive Q&A left a lasting impact.
+    - Facilitated networking opportunities and mentor connections.
+    - Positive feedback and enriching experience showcased the event's success.
+    - Sparked inspiration and motivation for entrepreneurial endeavors.
+    - Collaboration highlighted the effectiveness of joint efforts in fostering innovation.
+    - Expected impact on continued growth of entrepreneurial initiatives within the NMIMS community.`,
         date: '12th Jan 2024',
         time: '10:00am - 12:00pm',
         organisers: [
@@ -259,6 +267,266 @@ const happenings = [
         poster: '',
         registration: 'https://example.com/registration1',
         leadLink: 'exampleLeadLink1',
+    },
+    {
+        id: 3,
+        link: 'Panel-Discussion-HEIs',
+        name: 'Panel Discussion on Entrepreneurship Ecosystem HEIs',
+        tag: 'Exploring Institutional Entrepreneurship',
+        description: `Join the Panel Discussion on Entrepreneurship Ecosystem organized by NMIMS Navi Mumbai and E-Cell, STME!
+    - Led by Dr. Aparna Rao and Mr. Nilesh Lele.
+    - Theme: Entrepreneurship in Institutions: Students and Faculty as Changemakers.
+    - Mr. Lele discussed fostering innovation and shared experiences.
+    - Dr. Rao highlighted student entrepreneurs' stories and emphasized an entrepreneurial mindset.
+    - Urged for entrepreneurship education and supportive ecosystems.
+    - Referenced IIT Bombay as a role model.
+    - Aimed to inspire active engagement in developing the entrepreneurial ecosystem at NMIMS Navi Mumbai.
+    - Well-received by faculty and students.`,
+        date: '15th Dec 2023',
+        time: '10:00am - 12:00pm',
+        organisers: [
+            {
+                key: '1',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '123-456-7890',
+            },
+            {
+                key: '2',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '098-765-4321',
+            },
+        ],
+        poster: '',
+        registration: 'https://example.com/registration1',
+        leadLink: '',
+    },
+    {
+        id: 4,
+        link: 'Indo-German-Collaboration',
+        name: 'Indo-German Collaboration Session',
+        tag: 'Cross-Border Entrepreneurship',
+        description: `Join the Indo-German Collaboration Session organized by E-Cell of STME, Navi Mumbai!
+    - Organized interaction with Technical University, Braunschweig (TU BS), Germany.
+    - Focus: Collaboration for Indo-German Centre for Entrepreneurship.
+    - Faculty discussed NMIMS student opportunities in Summer Camp (Offline) and Summer School (Online), research, and exchange activities.
+    - Students engaged on cross-border entrepreneurship vision and objectives.
+    - Closing: Student entrepreneurs presented startup projects, receiving positive feedback.
+    - Well-received event by faculty and students, anticipating future collaboration.
+    - Objective: Explore collaboration for NMIMS Navi Mumbai and TU BS within Indo-German Centre.
+    - Outcome: Base established for robust cross-border entrepreneurship relationship, fostering innovation and startup opportunities.`,
+        date: '8th Dec 2023',
+        time: '12:00pm - 2:00pm',
+        organisers: [
+            {
+                key: '1',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '123-456-7890',
+            },
+            {
+                key: '2',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '098-765-4321',
+            },
+        ],
+        poster: '',
+        registration: 'https://example.com/registration1',
+        leadLink: '',
+    },
+    {
+        id: 5,
+        link: 'Tradiosity',
+        name: 'Tradiosity',
+        tag: 'Enhancing Financial Acumen',
+        description: `Join Tradiosity, the department of E-Cell, SOC dedicated to enhancing the financial acumen of young investors!
+    - Conducts insightful weekly trading sessions.
+    - Four successful sessions have been conducted, eliciting enthusiastic feedback from participants.
+    - Sessions cover stock trading fundamentals comprehensively, including compounding, basics of stock markets, Nifty 50 & Sensex insights, trading terminologies, diverse trading styles, and creating personalized stock watchlists.
+    - Goal is to provide students with practical knowledge and essential skills to confidently navigate financial markets.
+    - Positive responses motivate the team to continue fueling the curiosity of budding investors, encouraging ongoing exploration of the financial landscape.`,
+        date: '12th Oct 2023',
+        time: '11:00am - 1:00pm',
+        organisers: [
+            {
+                key: '1',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '123-456-7890',
+            },
+            {
+                key: '2',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '098-765-4321',
+            },
+        ],
+        poster: '',
+        registration: 'https://example.com/registration1',
+        leadLink: '',
+    },
+    {
+        id: 6,
+        link: 'The-Hass-lepreneurs',
+        name: 'The Hass-lepreneurs',
+        tag: 'Addressing Contemporary Entrepreneurial Issues',
+        description: `Join 'The Hass-lepreneurs', a dynamic Instagram talk show addressing contemporary issues in scams, policies, and entrepreneurial challenges!
+    - Weekly episodes feature guest speakers offering fresh perspectives and expertise.
+    - Primary focus on unraveling scam intricacies and analyzing current policies affecting entrepreneurs.
+    - Aims to empower the audience with knowledge and awareness in the online entrepreneurial space.
+    - Lively and interactive format encourages in-depth discussions, valuable insights, and practical advice.
+    - Provides a platform for navigating the evolving online business landscape and avoiding pitfalls.`,
+        date: 'September 2023 ',
+        time: '2:00pm - 4:00pm',
+        organisers: [
+            {
+                key: '1',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '123-456-7890',
+            },
+            {
+                key: '2',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '098-765-4321',
+            },
+        ],
+        poster: '',
+        registration: 'https://example.com/registration1',
+        leadLink: '',
+    },
+    {
+        id: 7, // Ensure this id is unique and doesn't conflict with existing ids
+        link: 'BOOTCAMP-23',
+        name: 'BOOTCAMP’23',
+        tag: 'Promoting Entrepreneurial Mindset',
+        description: `Join BOOTCAMP’23, a certification course affiliated with IIC to promote an entrepreneurial mindset among students!
+    - Sponsored by SPRK Technologies and Blackstone.
+    - Guest speakers invited:
+      - Saurabh Jain: Co-founder of Stable Money.
+      - Sagar Chandani: Angel Investor, Startup coach.
+      - Kamal Kumawat: Co-founder at Edgistify.
+      - Sanchit Jain: AWS Ambassador.
+      - Anuj Sharma: Founder of ALSISAR Impact.
+      - Hardik Prajapati: Director at HPC Engineering Co.`,
+        date: '15th March - 16th March 2023',
+        time: '2:00pm - 4:00pm',
+        organisers: [
+            {
+                key: '1',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '123-456-7890',
+            },
+            {
+                key: '2',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '098-765-4321',
+            },
+        ],
+        poster: '',
+        registration: 'https://example.com/registration1',
+        leadLink: '',
+    },
+    {
+        id: 8,
+        link: 'FabLab-at-RIDDL',
+        name: 'FabLab at RIDDL',
+        tag: 'Exploring Digital Fabrication',
+        description: `Join FabLab at RIDDL, located at KJ Somaiya Campus, for an opportunity to gain exposure to the latest technologies and explore the possibilities of digital fabrication!
+    - Objective: To gain exposure to the latest technologies and explore the possibilities of digital fabrication.
+    - A chance to meet like-minded people and get inspired by innovative projects being developed at the FabLab.`,
+        date: '25th February 2023',
+        time: '10:00am - 12:00pm',
+        organisers: [
+            {
+                key: '1',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '123-456-7890',
+            },
+            {
+                key: '2',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '098-765-4321',
+            },
+        ],
+        poster: '',
+        registration: 'https://example.com/registration1',
+        leadLink: '',
+    },
+    {
+        id: 9,
+        link: 'National-Entrepreneurship-Challenge',
+        name: 'National Entrepreneurship Challenge (NEC)',
+        tag: '9-Month Nationwide Event',
+        description: `The National Entrepreneurship Challenge (NEC) is a prestigious 9-month-long event conducted by the E-cell of IIT Bombay. NMIMS Navi Mumbai proudly achieved the 46th rank in this nationwide competition, showcasing the university's commitment to entrepreneurship and innovation.`,
+        date: 'TBD',
+        time: 'TBD',
+        organisers: [
+            {
+                key: '1',
+                name: 'E-Cell, IIT Bombay',
+                email: 'ecell@iitb.ac.in',
+                phoneNumber: '123-456-7890',
+            },
+            {
+                key: '2',
+                name: 'NMIMS Navi Mumbai',
+                email: 'info@nmims.edu',
+                phoneNumber: '098-765-4321',
+            },
+        ],
+        poster: '',
+        registration: 'https://example.com/registration1',
+        leadLink: '',
+    },
+    {
+        id: 10,
+        link: 'FabLab-at-Pune',
+        name: 'FabLab at Pune',
+        tag: 'Exploring Startup Incubation and Ecosystem',
+        description: `Join FabLab at Pune to create awareness among students about startup incubation and the startup ecosystem. This event aims to expose students to case studies of social innovation and inspire them to convert innovative ideas into successful startups.`,
+        date: '22th Dec 2023',
+        time: '3:00pm - 5:00pm',
+        organisers: [
+            {
+                key: '1',
+                name: 'Event Organisers',
+                email: 'organisers@example.com',
+                phoneNumber: '123-456-7890',
+            },
+        ],
+        poster: '',
+        registration: 'https://example.com/registration1',
+        leadLink: '',
+    },
+    {
+        id: 11,
+        link: 'Venturex',
+        name: 'Venturex',
+        tag: 'Guest Session by Entrepreneurs',
+        description: `Join Venturex for an insightful guest session featuring entrepreneurs:
+    - Shaunak Tomar, Founder and HOD of the Animal Rights and Advocacy Department at Citizens for Animal Protection (CAP) Foundation.
+    - Arjun Deshpande, Founder of Generic Aadhar.`,
+        date: '30th Aug 2022',
+        time: '10:00am - 12:00pm',
+        organisers: [
+            {
+                key: '1',
+                name: 'Event Organisers',
+                email: 'organisers@example.com',
+                phoneNumber: '123-456-7890',
+            },
+        ],
+        poster: '',
+        registration: 'https://example.com/registration1',
+        leadLink: '',
     },
 ]
 
