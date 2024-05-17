@@ -21,7 +21,7 @@ const events = [
                 phoneNumber: 'lorem Ipsum',
             },
         ],
-        poster: '',
+        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934140/xoyjmjxnuaibipravhq3.png',
         registration:
             'https://dare2compete.com/p/commit-the-flag-dhruva-indian-institute-of-information-technology-iiit-kottayam-224044?lb=wTDkKUs',
         leadLink: '1ikUbjDjqULqP3sSQeZPoYP3Wj4lwLW90PHB1ihbIFfk',
@@ -53,7 +53,7 @@ const events = [
                 phoneNumber: 'lorem Ipsum',
             },
         ],
-        poster: '',
+        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933407/er0yyc57kecnqrbydtcz.jpg',
         registration: 'https://forms.gle/dEafjBAL2QgXdf2h6',
         leadLink: '1vMIoyz6Q6FOtx9pPPP92yKkfrrZ-boipmSPAaI0qB6Y',
     },
@@ -84,7 +84,7 @@ const events = [
                 phoneNumber: 'lorem Ipsum',
             },
         ],
-        poster: '',
+        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933472/webdqyz61vflmz7ksasi.jpg',
         registration:
             'https://docs.google.com/forms/d/e/1FAIpQLSdmhqEWNW6Muy7dUTRUnfHUf4pap5elZZQzZ3A6SPtUiMr91A/viewform?usp=sf_link',
         leadLink: '1k2yejkk2p7URprQ71YsEw3jJr6F-bFe4JpdQ-Yz8Pr4',
@@ -115,7 +115,7 @@ const events = [
                 phoneNumber: 'Lorem Ipsum',
             },
         ],
-        poster: '',
+        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933521/bclwj2fihpyxekxij1rq.jpg',
         registration:
             'https://dare2compete.com/p/consolelogreplicate-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottay-221911',
         leadLink: '1RPPyF8Zo2tEH04WG0dLCmfYkceCndur4Y9HhqIvek6w',
@@ -138,7 +138,7 @@ const events = [
                 phoneNumber: 'Lorem Ipsum',
             },
         ],
-        poster: '',
+        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933617/ccwukdfvy6gs01gvukiz.jpg',
         registration:
             'https://dare2compete.com/p/take-de-bait-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-220531',
         leadLink: '1SZkSgZO9BVO9-rMkURy4T-f37GsdB-SPJRN_iw_ZKMM',
@@ -167,7 +167,7 @@ const events = [
                 phoneNumber: 'Lorem Ipsum',
             },
         ],
-        poster: '',
+        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933646/tx5kqvtqrcwcd7wchowu.jpg',
         registration:
             'https://dare2compete.com/p/brand-aid-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-223776?lb=iUGWfEQ',
         leadLink: '19YaOkzhCQiyUHg1pvAXeNPLVNGhNTSP4vIchESMBBAE',
@@ -194,7 +194,7 @@ const events = [
                 phoneNumber: 'Lorem Ipsum',
             },
         ],
-        poster: '',
+        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933928/zroucfhbz9jamjrkoopf.png',
         registration: '',
         leadLink: '14BEml9QbsCcVn25YWX8kNKz7KK74MvcU2116zx1jt08',
     },
