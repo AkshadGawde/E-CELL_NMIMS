@@ -18,7 +18,6 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: 'center',
     },
     paper: {
-        // backgroundColor: theme.palette.background.paper,
         backgroundColor: '#fff0',
         border: '2px solid #000',
         boxShadow: theme.shadows[5],
@@ -49,7 +48,6 @@ export default function ContactForm(props) {
             method: 'POST',
             body: JSON.stringify({ name, email, message }),
         })
-        // Success if status code is 201
         if (res.status === 201) {
             toast('Thank you for contacting us!', { type: 'success' })
         } else {

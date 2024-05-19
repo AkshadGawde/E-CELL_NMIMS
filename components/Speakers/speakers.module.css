@@ -13,7 +13,6 @@
     position: relative;
     width:100%;
     background:radial-gradient(var(--p3) ,var(--p4) ) ;
-    /* background: var(--light); */
     z-index:1;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -56,29 +55,19 @@
 
 .speakers_section .title {
     font-family: var(--title);
-    /* font-family: 'Roboto'; */
     font-size: clamp(2.8rem, 10vw, 6rem);
     font-weight: 400;
     width:min(100%,90vw);
     text-transform: capitalize;
-    
     padding-top:1rem;
     padding-left:2rem; 
     margin-bottom: 3rem;
-    
     color:#fdd7b6;
-    
-    /* -webkit-text-fill-color: white ;
-    -webkit-text-stroke-width: .1rem;
-    -webkit-text-stroke-color: black; */
-     
     text-shadow: -1px  -1px 0 rgb(0, 0, 0), 1px -1px 0 rgb(0, 0, 0),
         -1px 1px 0  rgb(0, 0, 0), 1px 1px 0  rgb(0, 0, 0);
     
 }
 .speakers{
-   
-    /* border:2px solid red; */
     width:100%;
     display: grid;
     grid-template-columns: minmax(500px, 1fr) minmax(500px, 1fr) !important;

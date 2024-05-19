@@ -5,7 +5,7 @@
     position: relative;
     z-index: 1;
 }
-.backgrounds{               /* parent div for the background layer */
+.backgrounds{            
     overflow: hidden;
     position: absolute;
     left: 0;
