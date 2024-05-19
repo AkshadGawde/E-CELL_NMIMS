@@ -10,7 +10,7 @@
     padding-bottom: 110px;
     padding-left: 2%;
     padding-right: 2%;
-    background: radial-gradient(ellipse at bottom, #000000 0%, #06163d 100%);
+    background: radial-gradient(ellipse at bottom, #000000 0%, #000000 100%);
 
     /* Responsive Padding */
     padding-top: 20px; /* Default top padding */
@@ -40,7 +40,7 @@
 }
 .heading {
     margin-top: 11rem;
-    font-family: var(--title);
+    font-family: poppins;
     font-style: normal;
     font-size: 80px;
     line-height: 119.5%;
