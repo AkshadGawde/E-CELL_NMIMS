@@ -49,7 +49,7 @@ export const Team = () => {
             <h2 data-aos="zoom-in" data-aos-duration="1500">
                 Presidents
             </h2>
-            <div className={styles.cards}>
+            <div className={styles.mentor}>
                 {President.map((data) => (
                     <Card
                         key={data.id}
@@ -65,7 +65,7 @@ export const Team = () => {
             <h2 data-aos="zoom-in" data-aos-duration="1500">
                 Public Relations Team
             </h2>
-            <div className={styles.cards}>
+            <div className={styles.mentor}>
                 {PR.map((data) => (
                     <Card
                         key={data.id}
@@ -81,7 +81,7 @@ export const Team = () => {
             <h2 data-aos="zoom-in" data-aos-duration="1500">
                 Creatives Team
             </h2>
-            <div className={styles.cards}>
+            <div className={styles.mentor}>
                 {Creatives.map((data) => (
                     <Card
                         key={data.id}
@@ -97,7 +97,7 @@ export const Team = () => {
             <h2 data-aos="zoom-in" data-aos-duration="1500">
                 Technical Team
             </h2>
-            <div className={styles.cards}>
+            <div className={styles.mentor}>
                 {technicals.map((data) => (
                     <Card
                         key={data.id}
@@ -113,7 +113,7 @@ export const Team = () => {
             <h2 data-aos="zoom-in" data-aos-duration="1500">
                 Marketing Team
             </h2>
-            <div className={styles.cards}>
+            <div className={styles.mentor}>
                 {Marketing.map((data) => (
                     <Card
                         key={data.id}
@@ -129,7 +129,7 @@ export const Team = () => {
             <h2 data-aos="zoom-in" data-aos-duration="1500">
                 Sponsorship Team
             </h2>
-            <div className={styles.cards}>
+            <div className={styles.mentor}>
                 {Sponsorship.map((data) => (
                     <Card
                         key={data.id}
@@ -146,7 +146,7 @@ export const Team = () => {
             <h2 data-aos="zoom-in" data-aos-duration="1500">
                 Events Team
             </h2>
-            <div className={styles.cards}>
+            <div className={styles.mentor}>
                 {eventM.map((data) => (
                     <Card
                         key={data.id}
@@ -162,7 +162,7 @@ export const Team = () => {
             <h2 data-aos="zoom-in" data-aos-duration="1500">
                 Admin/Logistics Team
             </h2>
-            <div className={styles.cards}>
+            <div className={styles.mentor}>
                 {Logistics.map((data) => (
                     <Card
                         key={data.id}
