@@ -24,7 +24,7 @@ const technicals = [
         id: 1,
         name: 'Akshad Gawde',
         image: '',
-        linkedin: '',
+        linkedin: 'https://www.linkedin.com/in/akshad-gawde-a91b54b0/',
         gif: '',
         instagram: '',
         twitter: '',
@@ -56,7 +56,7 @@ const eventM = [
     {
         id: 1,
         name: 'Jatin Verma',
-        image: '',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716224503/woldrdq1dodfxvr5fito.jpg',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -65,7 +65,7 @@ const eventM = [
     {
         id: 2,
         name: 'Saud Shaikh',
-        image: '',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716224501/lus9q4eeao3jwxkt6cve.jpg',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -107,7 +107,7 @@ const Creatives = [
     {
         id: 1,
         name: 'Aditee Moudgil',
-        image: '',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716224500/ynavlnx4devh3mp8mfuf.jpg',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -127,7 +127,7 @@ const Logistics = [
     {
         id: 1,
         name: 'Ketki Gharal',
-        image: '',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716224501/vzqotykx9tboiwekvcka.jpg',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -147,7 +147,7 @@ const Sponsorship = [
     {
         id: 1,
         name: 'Rahul Purohit',
-        image: '',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716224501/sn8hfv9pxh6ijhxhr0rl.jpg',
         linkedin: '',
         gif: '',
         instagram: '',
