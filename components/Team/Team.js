@@ -5,12 +5,15 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 import {
     mentors,
-    developers,
-    organisers,
+    technicals,
+    President,
     eventM,
-    design,
-    content,
-    outreach,
+    Finance,
+    PR,
+    Creatives,
+    Logistics,
+    Sponsorship,
+    Marketing,
 } from '@data/team'
 
 export const Team = () => {
@@ -41,10 +44,10 @@ export const Team = () => {
                 ))}
             </div>
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Developers
+                Technical Team
             </h2>
             <div className={styles.cards}>
-                {developers.map((data) => (
+                {technicals.map((data) => (
                     <Card
                         key={data.id}
                         name={data.name}
@@ -60,7 +63,7 @@ export const Team = () => {
                 Event Managers
             </h2>
             <div className={styles.cards}>
-            {eventM.map((data) => (
+                {eventM.map((data) => (
                     <Card
                         key={data.id}
                         name={data.name}
@@ -73,10 +76,10 @@ export const Team = () => {
                 ))}
             </div>
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Organisers
+                President
             </h2>
             <div className={styles.cards}>
-            {organisers.map((data) => (
+                {President.map((data) => (
                     <Card
                         key={data.id}
                         name={data.name}
@@ -89,10 +92,10 @@ export const Team = () => {
                 ))}
             </div>
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Design Team
+                Finance Team
             </h2>
             <div className={styles.cards}>
-            {design.map((data) => (
+                {Finance.map((data) => (
                     <Card
                         key={data.id}
                         name={data.name}
@@ -105,10 +108,10 @@ export const Team = () => {
                 ))}
             </div>
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Content Team
+                Public Realtions Team
             </h2>
             <div className={styles.cards}>
-            {content.map((data) => (
+                {PR.map((data) => (
                     <Card
                         key={data.id}
                         name={data.name}
@@ -121,10 +124,60 @@ export const Team = () => {
                 ))}
             </div>
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Outreach Team
+                Creatives Team
             </h2>
             <div className={styles.cards}>
-            {outreach.map((data) => (
+                {Creatives.map((data) => (
+                    <Card
+                        key={data.id}
+                        name={data.name}
+                        gif={data.gif}
+                        image={data.image}
+                        linkedin={data.linkedin}
+                        instagram={data.instagram}
+                        twitter={data.twitter}
+                    />
+                ))}
+            </div>
+            <h2 data-aos="zoom-in" data-aos-duration="1500">
+                Logistics Team
+            </h2>
+            <div className={styles.cards}>
+                {Logistics.map((data) => (
+                    <Card
+                        key={data.id}
+                        name={data.name}
+                        gif={data.gif}
+                        image={data.image}
+                        linkedin={data.linkedin}
+                        instagram={data.instagram}
+                        twitter={data.twitter}
+                    />
+                ))}
+            </div>
+
+            <h2 data-aos="zoom-in" data-aos-duration="1500">
+                Sponsorship Team
+            </h2>
+            <div className={styles.cards}>
+                {Sponsorship.map((data) => (
+                    <Card
+                        key={data.id}
+                        name={data.name}
+                        gif={data.gif}
+                        image={data.image}
+                        linkedin={data.linkedin}
+                        instagram={data.instagram}
+                        twitter={data.twitter}
+                    />
+                ))}
+            </div>
+
+            <h2 data-aos="zoom-in" data-aos-duration="1500">
+                Marketing Team
+            </h2>
+            <div className={styles.cards}>
+                {Marketing.map((data) => (
                     <Card
                         key={data.id}
                         name={data.name}
