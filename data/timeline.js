@@ -12,30 +12,30 @@ const event = [
         name: 'Event Comming Soon ',
         time: 'TBD',
     },
-    {
-        day: 1,
-        name: 'Event Comming Soon ',
-        time: 'TBD',
-        link: '',
-    },
-    {
-        day: 1,
-        name: 'Event Comming Soon',
-        time: 'TBD',
-        // link: 'brandaid',
-    },
-    {
-        day: 1,
-        name: 'Event Comming Soon',
-        time: 'TBD',
-        link: '',
-    },
-    {
-        day: 1,
-        name: 'Event Comming Soon',
-        time: 'TBD',
-        // link: 'rebibe-me-jett',
-    },
+    // {
+    //     day: 1,
+    //     name: 'Event Comming Soon ',
+    //     time: 'TBD',
+    //     link: '',
+    // },
+    // {
+    //     day: 1,
+    //     name: 'Event Comming Soon',
+    //     time: 'TBD',
+    //     // link: 'brandaid',
+    // },
+    // {
+    //     day: 1,
+    //     name: 'Event Comming Soon',
+    //     time: 'TBD',
+    //     link: '',
+    // },
+    // {
+    //     day: 1,
+    //     name: 'Event Comming Soon',
+    //     time: 'TBD',
+    //     // link: 'rebibe-me-jett',
+    // },
 
     // Day 2
 
@@ -51,30 +51,30 @@ const event = [
         time: 'TBD',
         link: '',
     },
-    {
-        day: 2,
-        name: 'Event Comming Soon',
-        time: 'TBD',
-        // link: 'sold-it',
-    },
-    {
-        day: 2,
-        name: 'Event Comming Soon',
-        time: 'TBD',
-        // link: 'console-log-replicate',
-    },
-    {
-        day: 2,
-        name: 'Event Comming Soon',
-        time: 'TBD',
-        // link: 'codesprint',
-    },
-    {
-        day: 2,
-        name: 'Event Comming Soon',
-        time: 'TBD',
-        // link: 'rebibe-me-jett',
-    },
+    // {
+    //     day: 2,
+    //     name: 'Event Comming Soon',
+    //     time: 'TBD',
+    //     // link: 'sold-it',
+    // },
+    // {
+    //     day: 2,
+    //     name: 'Event Comming Soon',
+    //     time: 'TBD',
+    //     // link: 'console-log-replicate',
+    // },
+    // {
+    //     day: 2,
+    //     name: 'Event Comming Soon',
+    //     time: 'TBD',
+    //     // link: 'codesprint',
+    // },
+    // {
+    //     day: 2,
+    //     name: 'Event Comming Soon',
+    //     time: 'TBD',
+    //     // link: 'rebibe-me-jett',
+    // },
 
     // Day 3
 
