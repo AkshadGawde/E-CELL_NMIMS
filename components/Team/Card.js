@@ -18,8 +18,6 @@ const Card = (props) => {
     return (
         <div
             className={styles.borderwrap}
-            onMouseOver={() => setImg(props.gif)}
-            onMouseOut={() => setImg(props.image)}
             data-aos="fade-up"
             data-aos-anchor-placement="top-bottom"
             data-aos-duration="1000"
@@ -36,11 +34,11 @@ const Card = (props) => {
                             className="imgs"
                         />
                     )}
-                     <style jsx global>{`
-                            .imgs {
-                                border-radius: 8px;
-                            }
-                        `}</style>
+                    <style jsx global>{`
+                        .imgs {
+                            border-radius: 8px;
+                        }
+                    `}</style>
                     <div className={styles.content_container}>
                         <span className={styles.name}>{props.name}</span>
                         {/* <span className={styles.role}>
@@ -78,7 +76,6 @@ const Card = (props) => {
                 </div>
             </div>
         </div>
-        // </div>
     )
 }
 

@@ -54,7 +54,7 @@ const Navbar = () => {
                     <Image
                         src="/SVG/ecell-logo.svg"
                         className="logoimg"
-                        alt="Dhruva Logo"
+                        alt="Ecell Logo"
                         height={40}
                         width={40}
                         loading="eager"

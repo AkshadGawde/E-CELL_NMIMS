@@ -8,7 +8,7 @@ const team = () => {
     return (
         <>
             <Head>
-                <title>ECELL | NMIMS Team </title>
+                <title>ECELL | Team </title>
                 <meta
                     name="description"
                     content="ECELL | NMIMS Technical Fest"

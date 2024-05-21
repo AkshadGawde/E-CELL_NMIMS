@@ -6,8 +6,7 @@ body {
     scroll-behavior: smooth;
     padding: 0;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: poppins, sans-serif;
 }
 :root {
     --black: #000;
@@ -33,7 +32,7 @@ a {
 }
 
 [data-aos='rotate-c'].aos-animate {
-    transform: rotateX(30deg) rotateY(0deg) rotateZ(15deg);
+    transform: rotateX(15deg) rotateY(0deg) rotateZ(0deg);
     transition-property: transform;
 }
 
