@@ -24,6 +24,7 @@
   display: flex;
   margin: 5% 5% 10% 10%;
   flex-direction: row;
+  font-size: 3rem;
 }
 
 .days {
@@ -42,6 +43,7 @@
   flex-direction: column;
   justify-content: space-around;
   margin-left: 10%;
+  font-size: 3rem;
 }
 
 .mobile {
