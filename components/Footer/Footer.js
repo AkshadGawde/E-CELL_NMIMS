@@ -39,7 +39,10 @@ const Footer = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="" passHref={true}>
+                            <Link
+                                href="https://www.instagram.com/ecell_nmims_navi_mumbai?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                                passHref={true}
+                            >
                                 <FaInstagram />
                             </Link>
                         </li>
@@ -56,11 +59,6 @@ const Footer = () => {
                         <li>
                             <Link href="" passHref={true}>
                                 <FaYoutube />
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="" passHref={true}>
-                                <FaTwitch />
                             </Link>
                         </li>
                     </ul>
