@@ -10,7 +10,6 @@ import { SiDiscord } from 'react-icons/si'
 import styles from './Footer.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
-import logo from '../../public/betalab-horizontal.png'
 
 const Footer = () => {
     function love() {
@@ -21,7 +20,13 @@ const Footer = () => {
         <div className={styles.footer}>
             <div className={styles.footerUpper}>
                 <div className={styles.logo}>
-                    {/* <Image src={logo} alt="E cell Logo" priority={true} /> */}
+                    <Image
+                        src="/SVG/ecell-logo.svg"
+                        className="logoimg"
+                        alt="Ecell Logo"
+                        height={40}
+                        width={40}
+                    ></Image>
                 </div>
                 <div className={styles.icons}>
                     <ul>
