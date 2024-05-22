@@ -32,7 +32,7 @@
     transition: all 0.2s ease-in-out;
 }
 .logo img {
-    width: 350px;
+    width: 30px;
     object-fit: cover;
 }
 .heart {
