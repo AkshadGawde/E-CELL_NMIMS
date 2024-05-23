@@ -5,7 +5,6 @@ import Footer from '@components/Footer/Footer'
 import Header from '@components/ComingSoon/Header'
 import Navbar from '@components/Nav/Navbar'
 import Timeline from '@components/Timeline/Timeline'
-
 import About from '@components/About/About'
 import { Sponsors } from '@components/Sponsor/Sponsors'
 import Speakers from '@components/Speakers/Speakers'
@@ -15,12 +14,10 @@ import Intro from '@components/Introduction/Intro'
 import { useEffect, useState } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-
 import { useRouter } from 'next/dist/client/router'
 
 export default function Home() {
     const router = useRouter()
-
     const [show, setShow] = useState(true)
     const [height, setHeight] = useState('100vh')
 
@@ -36,9 +33,11 @@ export default function Home() {
             return () => clearTimeout(timer)
         }
     }, [router.asPath])
+
     useEffect(() => {
         AOS.init({})
     }, [])
+
     return (
         <>
             <div className={styles.container} style={{ height: height }}>
@@ -74,8 +73,8 @@ export default function Home() {
                             <Attendes />
                             <Speakers />
                             <Timeline />
-                            {/* <Sponsors /> */}
-                            {/* <Sponsor_Faq /> */}
+                            <Sponsors />
+                            <Sponsor_Faq />
                         </>
                     )
                 ) : (
@@ -86,12 +85,12 @@ export default function Home() {
                         <Attendes />
                         <Speakers />
                         <Timeline />
-                        {/* <Sponsors /> */}
-                        {/* <Sponsor_Faq /> */}
+                        <Sponsors />
+                        <Sponsor_Faq />
                     </>
                 )}
             </div>
-            {!show && <Footer></Footer>}
+            {!show && <Footer />}
         </>
     )
 }
