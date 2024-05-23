@@ -1,13 +1,7 @@
 import { SponsorsRow } from './SponsorsRow'
 import styles from './Sponsor.module.css'
 import styleP from './Prizes.module.css'
-import {
-    sponsors,
-    sponsors2,
-    sponsors3,
-    sponsors4,
-    sponsors5,
-} from '@data/sponsor' // Ensure this path is correct
+import { sponsors, sponsors2, sponsors3 } from '@data/sponsor' // Ensure this path is correct
 import { prizes } from '@data/prizes' // Ensure this path is correct
 
 export const Sponsors = () => {
@@ -15,12 +9,12 @@ export const Sponsors = () => {
 
     return (
         <div className={styleP.prizesDiv} id="Sponsors">
-            <h2 className={styleP.prizeH2Stroke}>Prizes</h2>
+            {/* <h2 className={styleP.prizeH2Stroke}>Prizes</h2>
             <h3 className={styleP.prizeH3}>Total prize of</h3>
             <h2 className={styleP.prizeH2}>Rs. {prizeMoney}</h2>
             <h3 className={styleP.prizeH3}>
                 Also win exciting prizes&nbsp;from
-            </h3>
+            </h3> */}
 
             {/* Uncomment the line below if PrizesRow component is needed */}
             {/* <PrizesRow prizes={prizes} /> */}
@@ -61,21 +55,8 @@ export const Sponsors = () => {
                         className={styles.sponsorH3}
                         id={styles.Learn}
                         style={{ color: '#d15dcf' }}
-                    >
-                        Learning Partner
-                    </h3>
+                    ></h3>
                 </div>
-                <SponsorsRow sponsors={sponsors4} />
-                <div className={styles.backPill}>
-                    <h3
-                        className={styles.sponsorH3}
-                        id={styles.Ruby}
-                        style={{ color: '#ff6361' }}
-                    >
-                        Ruby Tier
-                    </h3>
-                </div>
-                <SponsorsRow sponsors={sponsors5} />
             </div>
         </div>
     )

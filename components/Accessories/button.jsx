@@ -11,18 +11,13 @@ import 'react-toastify/dist/ReactToastify.min.css'
 
 export function HButton(props) {
     function link() {
-        if(props.url) {
+        if (props.url) {
             window.open(props.url, '_blank')
         }
     }
     return (
         <>
-            <button
-                className={styles.btnh}
-                onClick={(event) =>
-                    link()
-                }
-            >
+            <button className={styles.btnh} onClick={(event) => link()}>
                 {props.name}&emsp;{props.icon}
             </button>
         </>
@@ -33,9 +28,7 @@ export function HButtonLight(props) {
         <>
             <button
                 className={styles.btnhl}
-                onClick={(event) =>
-                    window.open('mailto:techclub@iiitkottayam.ac.in')
-                }
+                onClick={(event) => window.open('mailto:gawdeakshad@gmail.com')}
             >
                 {props.name}&emsp;{props.icon}
             </button>
