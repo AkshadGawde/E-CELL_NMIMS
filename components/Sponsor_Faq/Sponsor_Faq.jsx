@@ -65,11 +65,11 @@ const Sponsor_Faq = () => {
                         <div className={Style.chatB}>
                             We are happy to resolve all the doubts, just email
                             us at{' '}
-                            {/* <a href="mailto:techclub@iiitkottayam.ac.in">
-                                techclub@
+                            <a href="mailto:gawdeakshad@gmail.com">
+                                gawdeakshad@
                                 <wbr />
-                                iiitkottayam.ac.in
-                            </a> */}
+                                gamil.com
+                            </a>
                             .
                         </div>
                     </div>
