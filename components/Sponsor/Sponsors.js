@@ -23,39 +23,14 @@ export const Sponsors = () => {
                 <h2 className={styles.sponsorH2}>Our Sponsors</h2>
             </div>
             <div className={styles.sponsorMargin}>
-                <div className={styles.backPill}>
-                    <h3
-                        className={styles.sponsorH3}
-                        style={{ color: '#ffaa00' }}
-                    >
-                        Gold Tier
-                    </h3>
-                </div>
+                <div className={styles.backPill}></div>
                 <SponsorsRow sponsors={sponsors} />
-                <div className={styles.backPill}>
-                    <h3
-                        className={styles.sponsorH3}
-                        style={{ color: '#2ebdeb' }}
-                    >
-                        Silver Tier
-                    </h3>
-                </div>
+                <div className={styles.backPill}></div>
                 <SponsorsRow sponsors={sponsors2} />
-                <div className={styles.backPill}>
-                    <h3
-                        className={styles.sponsorH3}
-                        style={{ color: '#50c878' }}
-                    >
-                        Emerald Tier
-                    </h3>
-                </div>
+                <div className={styles.backPill}></div>
                 <SponsorsRow sponsors={sponsors3} />
                 <div className={styles.backPill}>
-                    <h3
-                        className={styles.sponsorH3}
-                        id={styles.Learn}
-                        style={{ color: '#d15dcf' }}
-                    ></h3>
+                    <h3></h3>
                 </div>
             </div>
         </div>
