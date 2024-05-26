@@ -23,13 +23,13 @@ export const Sponsors = () => {
                 <h2 className={styles.sponsorH2}>Our Sponsors</h2>
             </div>
             <div className={styles.sponsorMargin}>
-                <div className={styles.backPill}></div>
+                <div></div>
                 <SponsorsRow sponsors={sponsors} />
-                <div className={styles.backPill}></div>
+                <div></div>
                 <SponsorsRow sponsors={sponsors2} />
-                <div className={styles.backPill}></div>
+                <div></div>
                 <SponsorsRow sponsors={sponsors3} />
-                <div className={styles.backPill}>
+                <div>
                     <h3></h3>
                 </div>
             </div>
