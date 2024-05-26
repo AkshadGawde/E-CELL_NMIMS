@@ -11,6 +11,7 @@ const event = [
         day: 1,
         name: 'Event Comming Soon ',
         time: 'TBD',
+        link: '',
     },
     // {
     //     day: 1,
@@ -43,7 +44,7 @@ const event = [
         day: 2,
         name: 'Event Comming Soon',
         time: 'TBD',
-        // link: 'retropolis',
+        link: '',
     },
     {
         day: 2,
@@ -51,6 +52,13 @@ const event = [
         time: 'TBD',
         link: '',
     },
+    {
+        day: 2,
+        name: 'Event Comming Soon',
+        time: 'TBD',
+        link: '',
+    },
+
     // {
     //     day: 2,
     //     name: 'Event Comming Soon',
