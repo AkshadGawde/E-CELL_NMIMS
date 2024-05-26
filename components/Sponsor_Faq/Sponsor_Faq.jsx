@@ -32,9 +32,10 @@ const Sponsor_Faq = () => {
                 <div className={Style.contacts}>
                     <div className={Style.faq}>
                         <span>FAQ</span>
-
                         <p className={Style.subtitle}>
-                            Feeling Overwhelmed?<br></br>Reach out to us.
+                            Feeling Overwhelmed?
+                            <br />
+                            Reach out to us.
                         </p>
                         <HButtonLight
                             name={'Contact Us'}
@@ -43,32 +44,31 @@ const Sponsor_Faq = () => {
                     </div>
                     <div className={Style.chat}>
                         <div className={Style.chatW}>
-                            Am I eligible for the events?
+                            What are the eligibility criteria for participating
+                            in the events?
                         </div>
                         <div className={Style.chatB}>
                             As long as you are currently enrolled in an
-                            Undergraduate degree program, you can participate in
+                            undergraduate degree program, you can participate in
                             any event.
                         </div>
                         <div className={Style.chatW}>
-                            I don&apos;t have any prior experience with the
-                            event. Should I participate?
+                            I lack prior experience with the events. Should I
+                            still participate?
                         </div>
                         <div className={Style.chatB}>
-                            Don&apos;t worry. Just check out our event page and
-                            hop on to our discord server. We will make sure you
-                            are equipped with the essential resources.
+                            Don't worry. Just check out our event page and hop
+                            on to our Discord server. We will make sure you are
+                            equipped with the essential resources.
                         </div>
                         <div className={Style.chatW}>
-                            What if my doubts are not listed here?
+                            What if my questions are not listed here?
                         </div>
                         <div className={Style.chatB}>
-                            We are happy to resolve all the doubts, just email
-                            us at{' '}
+                            We are happy to resolve all your doubts. Feel free
+                            to email us at{' '}
                             <a href="mailto:gawdeakshad@gmail.com">
-                                gawdeakshad@
-                                <wbr />
-                                gamil.com
+                                gawdeakshad@gmail.com
                             </a>
                             .
                         </div>
