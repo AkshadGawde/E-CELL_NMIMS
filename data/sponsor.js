@@ -5,8 +5,20 @@ let sponsors = [
     {
         id: 1,
         name: 'Belgian Waffle',
-        link: '',
+        link: 'https://thebelgianwaffle.co/',
         logo: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716483209/tdnrsox0swdhznuky2rp.jpg',
+    },
+    {
+        id: 2,
+        name: 'Skill India ',
+        link: '',
+        logo: '',
+    },
+    {
+        id: 3,
+        name: 'Flex Fuel',
+        link: '',
+        logo: '',
     },
 ]
 
@@ -14,13 +26,13 @@ let sponsors2 = [
     {
         id: 1,
         name: 'Cinnabon',
-        link: '',
+        link: 'https://www.cinnabon.com/',
         logo: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716483209/juxttuefdn4yyxealrf5.png',
     },
     {
         id: 2,
-        name: 'Plam',
-        link: '',
+        name: 'Plum',
+        link: 'https://plumgoodness.com/',
         logo: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716483209/u2zg7qjkazppp8ebdwya.png',
     },
 ]
@@ -29,14 +41,8 @@ let sponsors3 = [
     {
         id: 1,
         name: 'Sabarro',
-        link: '',
+        link: 'https://www.sbarroindia.com/',
         logo: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716483209/pmwqx6605r3kff1t01mb.png',
-    },
-    {
-        id: 2,
-        name: 'YOLO',
-        link: '',
-        logo: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716483209/lgem4jtm6s0ctk4gipfq.png',
     },
 ]
 

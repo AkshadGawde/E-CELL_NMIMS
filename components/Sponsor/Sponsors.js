@@ -1,8 +1,8 @@
 import { SponsorsRow } from './SponsorsRow'
 import styles from './Sponsor.module.css'
 import styleP from './Prizes.module.css'
-import { sponsors, sponsors2, sponsors3 } from '@data/sponsor' // Ensure this path is correct
-import { prizes } from '@data/prizes' // Ensure this path is correct
+import { sponsors, sponsors2, sponsors3 } from '@data/sponsor'
+import { prizes } from '@data/prizes'
 
 export const Sponsors = () => {
     const prizeMoney = '55,000'
