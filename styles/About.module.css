@@ -72,6 +72,19 @@
     justify-content: center;
     align-items: center;
 }
+
+.image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+    width: 100%;
+    
+}
+
+.image {
+    border-radius: 1%;
+}
 @media screen and (max-width: 1050px) {
     .title {
         font-size: 5rem;

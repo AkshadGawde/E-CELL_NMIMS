@@ -1,6 +1,7 @@
 import { HButtonLight } from '@components/Accessories/button'
 import { ImArrowUpRight2 } from 'react-icons/im'
 import { useState } from 'react'
+import Image from 'next/image'
 import styles from '../../styles/About.module.css'
 import Button from './Button'
 import { Date } from './Date'
@@ -18,10 +19,9 @@ const About = () => {
 
                 <p className={styles.content}>
                     Welcome to the official website of the Entrepreneurship Cell
-                    (E-Cell) at NMIMS Navi Mumbai. Here, we strive to foster
-                    innovation, entrepreneurship, and leadership among students,
-                    providing a platform for aspiring entrepreneurs to learn,
-                    connect, and grow.
+                    (E-Cell) at NMIMS Navi Mumbai. Here, Empower and inspire
+                    students to become successful entrepreneurs by providing
+                    them with the necessary resources, network and skills.
                     <br />
                     <br />
                     The Entrepreneurship Cell (E-Cell) at NMIMS Navi Mumbai is
@@ -55,7 +55,72 @@ const About = () => {
                 </div>
             </div>
 
-            <div className={styles.date_container}>
+            <div className={styles.title_container}>
+                <h1 className={styles.title}>
+                    Director's <span>Message</span>
+                </h1>
+                <div className={styles.image_container}>
+                    <Image
+                        src="https://res.cloudinary.com/dq23wxdum/image/upload/v1716808315/sbm4dbmtwsbffc0yamvl.png"
+                        alt="Director"
+                        width={300}
+                        height={300}
+                        className={styles.image}
+                    />
+                </div>
+                <p className={styles.content}>
+                    At NMIMS Navi Mumbai, our Entrepreneurship Cell (E-Cell)
+                    sparks innovation and entrepreneurship, guiding our
+                    institution forward. E-Cell nurtures the inherent potential
+                    in our students, fostering creativity and business acumen
+                    throughout our campus. Amidst evolving commerce and
+                    technology, E-Cell stands as a hub for cultivating ideas,
+                    fostering collaboration, and igniting initiatives that
+                    challenge norms.
+                    <br /> <br />
+                    Witnessing E-Cell's transformative impact is heartwarming,
+                    as students dive into startups and innovation, enriching
+                    NMIMS Navi Mumbai's success. This spirit of innovation and
+                    entrepreneurship shapes our future leaders, and we take
+                    pride in our creative, forward-thinking community.
+                </p>
+            </div>
+
+            <div className={styles.title_container}>
+                <h1 className={styles.title}>
+                    Faculty's <span>Message</span>
+                </h1>
+                <div className={styles.image_container}>
+                    <Image
+                        src="https://res.cloudinary.com/dq23wxdum/image/upload/v1716808349/log0h0ehmlrchfxuladt.png"
+                        alt="Faculty"
+                        width={300}
+                        height={300}
+                        className={styles.image}
+                    />
+                </div>
+                <p className={styles.content}>
+                    At NMIMS Navi Mumbai, the Entrepreneurship Cell (E-Cell)
+                    boosts innovation and ignites the entrepreneurial mindset of
+                    students, exemplifying the vibrant, unique spirit of our
+                    institution. E-Cell not only recognizes but nurtures the
+                    hidden talents in our smart young minds, fostering a culture
+                    of innovation and productivity.
+                    <br /> <br />
+                    Amidst the ever-changing business world and advancing
+                    technology, E-Cell stands as a hub for ideas, collaboration,
+                    and groundbreaking innovation. It’s inspiring to see
+                    students, driven by E-Cell's efforts, embark on the
+                    challenging journey of startups and contribute to NMIMS Navi
+                    Mumbai's success stories.
+                    <br /> <br />
+                    Through themed events, workshops, and programs, E-Cell
+                    empowers students with practical entrepreneurial skills,
+                    bridging the gap between academics and industry.
+                </p>
+            </div>
+
+            {/* <div className={styles.date_container}>
                 <div className={styles.left_date}>
                     <Date day="06" month="May" subtxt="th" />
                 </div>
@@ -63,7 +128,7 @@ const About = () => {
                 <div className={styles.right_date}>
                     <Date day="31" month="April" subtxt="st" />{' '}
                 </div>
-            </div>
+            </div> */}
             <br />
             <div className={styles.timer_container}>
                 {showTimer ? (
