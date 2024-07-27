@@ -32,6 +32,29 @@ const speaker = [
         link: '',
         // linkyt: '',
     },
+    {
+        id: 4,
+        name: 'Arjun Deshpande',
+        details: 'Founder Generic Aadhar',
+        date: '30th August ',
+        time: '11:30 Am',
+        how: 'Room C304',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722060528/Ecell/Arjun%20Deshpande.png',
+        link: '',
+        // linkyt: '',
+    },
+    {
+        id: 5,
+        name: 'Shaunak Tomar',
+        details:
+            'Founder, HOD - Animal Rights and Advocacy Department, Citizen of Animal Protection Foundation',
+        date: '30th August ',
+        time: '11:30 Am',
+        how: 'Room C304',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722060542/Ecell/z85fdaf5c7lbu8hvayuc.png',
+        link: '',
+        // linkyt: '',
+    },
 ]
 
 export { speaker }
