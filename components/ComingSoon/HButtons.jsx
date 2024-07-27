@@ -9,7 +9,7 @@ const HButtons = () => {
                 <button className={styles.b1}>Register</button>
             </Link>
             <button className={styles.b2}>
-                <Link href="/" target="_blank">
+                <Link href="/events" target="_blank">
                     {/* <SiDiscord className={styles.faicon} /> */}
                     <span> Events </span>
                 </Link>

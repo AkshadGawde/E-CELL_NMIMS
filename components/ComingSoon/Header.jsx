@@ -10,8 +10,17 @@ const Header = () => {
             // duration : 5000
         })
     }, [])
+
     return (
         <>
+            {/* <div className={styles.videoContainer}>
+                <video autoPlay loop muted className={styles.backgroundVideo}>
+                    <source
+                        src="../../public/videos/Ecell-Intro-reel.mp4"
+                        type="video/mp4"
+                    />
+                    Your browser does not support the video tag.
+                </video> */}
             <div className={styles.hbody} id="Header">
                 <p
                     className={styles.heading}
@@ -28,18 +37,15 @@ const Header = () => {
                     data-aos-duration="2500"
                 >
                     <span className={styles.subtext}>
-                        Welcome to Entrepreneurship Cell, NMIMS Navi Mumbai
+                        Welcome to Entrepreneurship Cell, STME NMIMS Navi Mumbai
                     </span>
                     <span>
-                        Join us for an exhilarating two-day Navi Mumbai Startup
-                        Fest ,
                         <br />
-                        We guaranteed to fuel your entrepreneurial spirit and
-                        unleash your creative potential!
                     </span>
                 </p>
                 <HButtons />
             </div>
+            {/* </div> */}
         </>
     )
 }
