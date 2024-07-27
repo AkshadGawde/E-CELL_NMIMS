@@ -206,32 +206,69 @@ const happenings = [
         link: 'InnovateX',
         name: 'InnovateX',
         tag: 'Exploring Entrepreneurship',
-        description: `Join InnovateX, an event organized by E-Cell, GDSC, and Institutions Innovation Council at NMIMS Navi Mumbai!
-    - Aimed at exploring entrepreneurship in India and providing practical guidance.
-    - Featured Faiz Malkani, co-founder of Rippl, to inspire and equip students.
-    - Successfully bridged theoretical knowledge and practical challenges.
-    - Malkani's engaging address and interactive Q&A left a lasting impact.
-    - Facilitated networking opportunities and mentor connections.
-    - Positive feedback and enriching experience showcased the event's success.
-    - Sparked inspiration and motivation for entrepreneurial endeavors.
-    - Collaboration highlighted the effectiveness of joint efforts in fostering innovation.
-    - Expected impact on continued growth of entrepreneurial initiatives within the NMIMS community.`,
+        description: `Join InnovateX, an event organized by E-Cell, GDSC, and Institutions Innovation Council at NMIMS Navi Mumbai!...`,
         date: '12th Jan 2024',
         time: '10:00am - 12:00pm',
         organisers: [
             {
                 key: '1',
-                name: 'Lorem Ipsum ',
-                email: 'Lorem Ipsum@gmail.com',
-                phoneNumber: 'lorem Ipsum',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '123-456-7890',
             },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934502/wozw0ojwe768qeawzexz.png',
         registration: 'https://example.com/registration1',
         leadLink: 'exampleLeadLink1',
+        images: [
+            'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934502/wozw0ojwe768qeawzexz.png',
+            'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934502/wozw0ojwe768qeawzexz.png',
+            'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934502/wozw0ojwe768qeawzexz.png',
+            'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934502/wozw0ojwe768qeawzexz.png',
+            'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934502/wozw0ojwe768qeawzexz.png',
+            'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934502/wozw0ojwe768qeawzexz.png',
+            'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934502/wozw0ojwe768qeawzexz.png',
+            'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934502/wozw0ojwe768qeawzexz.png',
+        ],
     },
     {
         id: 2,
+        link: 'BootCamp 23',
+        name: 'BoothCamp 23',
+        tag: 'Speaker Sessions : Join us for an inspiring and action-packed event designed for aspiring entrepreneurs and business enthusiasts. This is your chance to learn from industry experts and successful entrepreneurs, pitch your ideas to real-life investors, and gain valuable insights into the world of startups.',
+        description: `
+        Event Highlights:
+        • Speakers Session: Hear from seasoned entrepreneurs and industry experts as they share their journey, insights, and tips for success in the business world.
+        • Mock Shark Tank: Experience the thrill of pitching your startup idea to a panel of real-life investors. Get valuable feedback and potentially take your business to the next level.
+        • Participants Starter Kits: Receive a comprehensive starter kit to kickstart your entrepreneurial journey, packed with essential resources and tools.
+        • Certification of Completion: Earn a certificate of completion to showcase your participation and the knowledge gained from this event.
+        `,
+        date: '15th and 16th March 2023',
+        time: '2:00pm to 6:00pm',
+        organisers: [
+            {
+                key: '1',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '123-456-7890',
+            },
+        ],
+        poster: '/Event-images/BootCamp23_Banner.png',
+        registration: 'https://example.com/registration1',
+        leadLink: 'exampleLeadLink1',
+        images: [
+            '/Event-images/BootCamp_img1.png',
+            '/Event-images/BootCamp_img2.png',
+            '/Event-images/BootCamp_img3.png',
+            '/Event-images/BootCamp_img4.png',
+            '/Event-images/BootCamp_img5.png',
+            '/Event-images/BootCamp_img6.png',
+            '/Event-images/BootCamp_img7.png',
+            '/Event-images/BootCamp_img8.png',
+        ],
+    },
+    {
+        id: 3,
         link: 'Shark-Tank',
         name: 'Shark Tank Event',
         tag: 'Entrepreneurship Challenge',
@@ -267,9 +304,15 @@ const happenings = [
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934696/szk8yfiy8vaip9relnm4.png',
         registration: 'https://example.com/registration1',
         leadLink: 'exampleLeadLink1',
+        images: [
+            'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934502/wozw0ojwe768qeawzexz.png',
+            'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934502/wozw0ojwe768qeawzexz.png',
+            'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934502/wozw0ojwe768qeawzexz.png',
+            'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934502/wozw0ojwe768qeawzexz.png',
+        ],
     },
     {
-        id: 3,
+        id: 4,
         link: 'Panel-Discussion-HEIs',
         name: 'Panel Discussion on Entrepreneurship Ecosystem HEIs',
         tag: 'Exploring Institutional Entrepreneurship',
@@ -372,7 +415,9 @@ const happenings = [
         link: 'The-Hass-lepreneurs',
         name: 'The Hass-lepreneurs',
         tag: 'Addressing Contemporary Entrepreneurial Issues',
-        description: `Join 'The Hass-lepreneurs', a dynamic Instagram talk show addressing contemporary issues in scams, policies, and entrepreneurial challenges!
+        description: `E-cell embarked on an engaging and informative journey through its weekly talk show, 'The Hass-lepreneurs'!. The unique platform, which insfused elements of comedy and informality, aimed to discuss entrepreneurship, business, and startups, creating awareness and disseminating crucial information within the choosen genre.
+
+        Join 'The Hass-lepreneurs', a dynamic Instagram talk show addressing contemporary issues in scams, policies, and entrepreneurial challenges!
     - Weekly episodes feature guest speakers offering fresh perspectives and expertise.
     - Primary focus on unraveling scam intricacies and analyzing current policies affecting entrepreneurs.
     - Aims to empower the audience with knowledge and awareness in the online entrepreneurial space.

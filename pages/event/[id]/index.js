@@ -6,6 +6,7 @@ import Navbar from '@components/Nav/Navbar'
 import EventDetails from '@components/Events/EventDetails'
 import OrganizerContainer from '@components/Events/Orgnjdge'
 import { events, happenings } from '@data/events'
+import { images } from 'next.config'
 
 export const getStaticPaths = async () => {
     const eventPaths = events.map((event) => ({
@@ -40,6 +41,7 @@ export const getStaticProps = async (context) => {
             organisers: data.organisers,
             tag: data.tag,
             lead: data.leadLink,
+            images: data.images,
         },
     }
 }
@@ -70,6 +72,7 @@ export default function Home(props) {
                     description={props.description}
                     date={props.date}
                     time={props.time}
+                    images={props.images}
                 />
                 <OrganizerContainer organiser={organisers} />
             </div>
