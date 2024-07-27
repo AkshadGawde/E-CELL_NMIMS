@@ -10,7 +10,7 @@
     padding-bottom: 110px;
     padding-left: 2%;
     padding-right: 2%;
-    /* background: radial-gradient(ellipse at bottom, #000000 0%, #000000 100%); */
+    background: radial-gradient(ellipse at bottom, #000000 0%, #000000 100%);
 
     /* Responsive Padding */
     padding-top: 20px; /* Default top padding */
@@ -18,7 +18,7 @@
     /* Adjust padding for smaller screens */
     @media (max-width: 768px) {
         padding-top: 10px;
-        padding-bottom: 100px;
+        padding-bottom: 80px;
         padding-left: 1%;
         padding-right: 1%;
     }
@@ -82,7 +82,7 @@
 }
 .heading {
     margin-top: 11rem;
-    font-family: var(--title);
+    font-family: poppins;
     font-style: normal;
     font-size: 80px;
     line-height: 119.5%;
@@ -95,7 +95,7 @@
 
 .desciption {
     color: var(--white);
-    font-family: var(--coming);
+    font-family: poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 1.5em;
@@ -172,7 +172,7 @@
     right: 0;
     color: #fff;
     text-align: center;
-    font-family: var(--title), sans-serif;
+    font-family: poppins;
     font-weight: 300;
     font-size: 50px;
     letter-spacing: 10px;
