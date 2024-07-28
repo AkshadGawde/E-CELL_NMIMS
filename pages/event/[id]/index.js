@@ -5,7 +5,7 @@ import EventHeading from '@components/Events/EventHeading'
 import Navbar from '@components/Nav/Navbar'
 import EventDetails from '@components/Events/EventDetails'
 import OrganizerContainer from '@components/Events/Orgnjdge'
-import { events, happenings } from '@data/events'
+import { Pastevents, happenings } from '@data/events'
 import { images } from 'next.config'
 
 export const getStaticPaths = async () => {
@@ -27,7 +27,7 @@ export const getStaticProps = async (context) => {
     const link = context.params.id
 
     const data =
-        events.find((el) => el.link === link) ||
+        Pastevents.find((el) => el.link === link) ||
         happenings.find((el) => el.link === link)
 
     return {

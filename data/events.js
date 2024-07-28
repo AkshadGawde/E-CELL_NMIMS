@@ -1,4 +1,4 @@
-const events = [
+const Pastevents = [
     {
         id: 1,
         link: 'Black-Tie',
@@ -674,4 +674,4 @@ const happenings = [
     },
 ]
 
-export { events, happenings }
+export { Pastevents, happenings }

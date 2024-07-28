@@ -1,6 +1,5 @@
 import styles from '/styles/HButton.module.css'
 import Link from 'next/link'
-import { SiDiscord } from 'react-icons/si'
 
 const HButtons = () => {
     return (
