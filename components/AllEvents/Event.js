@@ -4,7 +4,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 
-import { events, happenings } from '@data/events'
+import { Pastevents, happenings } from '@data/events'
 import { getStaticProps } from 'pages/event/[id]'
 export const Event = () => {
     useEffect(() => {
@@ -16,7 +16,7 @@ export const Event = () => {
         <div className={styles.team_container}>
             <h1 style={{}}>E-Summit 1.0</h1>
             <div className={styles.cards}>
-                {events.map((data) => (
+                {Pastevents.map((data) => (
                     <Card
                         key={data.id}
                         id={data.id}

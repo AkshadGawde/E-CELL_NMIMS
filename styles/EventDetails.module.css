@@ -60,6 +60,7 @@
     color: #ffffff;
     margin-left: 0.3em;
 }
+
 .date,
 .contact {
     font-family: var(--title);
@@ -78,6 +79,7 @@
     background: linear-gradient(to left, var(--linearg1), var(--linearg2));
     border: none;
 }
+
 .contact > hr {
     width: 100%;
     height: 5px;
@@ -149,7 +151,6 @@
     .desc,
     .cont {
         font-size: 15px;
-        
     }
     .date,
     .contact {
@@ -158,5 +159,39 @@
 
     .date > hr {
         height: 3px;
+    }
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    padding: 10px;
+}
+
+.galleryImage {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media (max-width: 1200px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 800px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 565px) {
+    .gallery {
+        grid-template-columns: 1fr;
     }
 }

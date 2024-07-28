@@ -1,6 +1,5 @@
 import styles from '/styles/HButton.module.css'
 import Link from 'next/link'
-import { SiDiscord } from 'react-icons/si'
 
 const HButtons = () => {
     return (
@@ -9,7 +8,7 @@ const HButtons = () => {
                 <button className={styles.b1}>Register</button>
             </Link>
             <button className={styles.b2}>
-                <Link href="/" target="_blank">
+                <Link href="/events" target="_blank">
                     {/* <SiDiscord className={styles.faicon} /> */}
                     <span> Events </span>
                 </Link>

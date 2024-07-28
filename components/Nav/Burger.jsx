@@ -4,7 +4,8 @@ import { useRouter } from 'next/dist/client/router';
 import styled from 'styled-components';
 import RightNav from './RightNav';
 
-/*This code is divided into 3 parts, the Styled burgerbar formed when the screen become mobile size, when clicked its Open state becomes tru and is passed on RightBar to change the navigation view */
+/*This code is divided into 3 parts, the Styled burgerbar formed when the screen become mobile size, when clicked its Open state becomes true and is passed on RightBar to change the navigation view */
+/*The RightNav component is the navigation bar that appears when the burger is clicked, it is a flex container with column direction and has a background color of black*/
 /*Code update: Burger has been now kept fixed for both mobile and desktop screens*/
 
 const StyledBurger = styled.div`

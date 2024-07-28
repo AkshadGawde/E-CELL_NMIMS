@@ -11,14 +11,14 @@ let sponsors = [
     {
         id: 2,
         name: 'Skill India ',
-        link: '',
-        logo: '',
+        link: 'https://www.skillindiadigital.gov.in/home',
+        logo: '/Posters/SkillIndia_logo.png',
     },
     {
         id: 3,
         name: 'Flex Fuel',
         link: '',
-        logo: '',
+        logo: '/Posters/FlexFuel_logo.png',
     },
 ]
 
@@ -28,12 +28,6 @@ let sponsors2 = [
         name: 'Cinnabon',
         link: 'https://www.cinnabon.com/',
         logo: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716483209/juxttuefdn4yyxealrf5.png',
-    },
-    {
-        id: 2,
-        name: 'Plum',
-        link: 'https://plumgoodness.com/',
-        logo: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716483209/u2zg7qjkazppp8ebdwya.png',
     },
 ]
 

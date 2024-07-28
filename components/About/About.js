@@ -19,9 +19,11 @@ const About = () => {
 
                 <p className={styles.content}>
                     Welcome to the official website of the Entrepreneurship Cell
-                    (E-Cell) at NMIMS Navi Mumbai. Here, Empower and inspire
+                    (E-Cell) at NMIMS Navi Mumbai. Empowering and inspiring
                     students to become successful entrepreneurs by providing
-                    them with the necessary resources, network and skills.
+                    them with the necessary resources, network and skills. We
+                    guaranteed to fuel your entrepreneurial spirit and unleash
+                    your creative potential!
                     <br />
                     <br />
                     The Entrepreneurship Cell (E-Cell) at NMIMS Navi Mumbai is

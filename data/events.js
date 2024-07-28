@@ -1,4 +1,4 @@
-const events = [
+const Pastevents = [
     {
         id: 1,
         link: 'Black-Tie',
@@ -25,14 +25,23 @@ const events = [
         registration:
             'https://dare2compete.com/p/commit-the-flag-dhruva-indian-institute-of-information-technology-iiit-kottayam-224044?lb=wTDkKUs',
         leadLink: '1ikUbjDjqULqP3sSQeZPoYP3Wj4lwLW90PHB1ihbIFfk',
+        images: [
+            '/Event-images/BlackTie_img1.png',
+            '/Event-images/BlackTie_img2.png',
+            '/Event-images/BlackTie_img3.png',
+            '/Event-images/BlackTie_img4.png',
+            '/Event-images/BlackTie_img5.png',
+            '/Event-images/BlackTie_img6.png',
+            '/Event-images/BlackTie_img7.png',
+            '/Event-images/BlackTie_img8.png',
+        ],
     },
     {
         id: 2,
         link: 'Dragons Den',
         name: 'Dragons Den',
-        tag: 'Entrepreneurial Challenge',
-        description: `Join Dragons Den in a team of 2 to 4 and pitch your innovative idea!
-        - Problem Statement: Briefly describe the problem your idea addresses.
+        tag: 'Entrepreneurial Challenge: Join Dragons Den in a team of 2 to 4 and pitch your innovative idea!',
+        description: `- Problem Statement: Briefly describe the problem your idea addresses.
         - Solution Overview: Explain your proposed solution and its unique value proposition.
         - Market Opportunity: Outline the target market and its potential size.
         - Implementation Plan: Highlight key steps for bringing your idea to life.
@@ -56,6 +65,16 @@ const events = [
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933407/er0yyc57kecnqrbydtcz.jpg',
         registration: 'https://forms.gle/dEafjBAL2QgXdf2h6',
         leadLink: '1vMIoyz6Q6FOtx9pPPP92yKkfrrZ-boipmSPAaI0qB6Y',
+        images: [
+            // '/Event-images/BlackTie_img1.png',
+            // '/Event-images/BlackTie_img2.png',
+            // '/Event-images/BlackTie_img3.png',
+            // '/Event-images/BlackTie_img4.png',
+            // '/Event-images/BlackTie_img5.png',
+            // '/Event-images/BlackTie_img6.png',
+            // '/Event-images/BlackTie_img7.png',
+            // '/Event-images/BlackTie_img8.png',
+        ],
     },
     {
         id: 1,
@@ -88,6 +107,16 @@ const events = [
         registration:
             'https://docs.google.com/forms/d/e/1FAIpQLSdmhqEWNW6Muy7dUTRUnfHUf4pap5elZZQzZ3A6SPtUiMr91A/viewform?usp=sf_link',
         leadLink: '1k2yejkk2p7URprQ71YsEw3jJr6F-bFe4JpdQ-Yz8Pr4',
+        images: [
+            // '/Event-images/BlackTie_img1.png',
+            // '/Event-images/BlackTie_img2.png',
+            // '/Event-images/BlackTie_img3.png',
+            // '/Event-images/BlackTie_img4.png',
+            // '/Event-images/BlackTie_img5.png',
+            // '/Event-images/BlackTie_img6.png',
+            // '/Event-images/BlackTie_img7.png',
+            // '/Event-images/BlackTie_img8.png',
+        ],
     },
     {
         id: 1,
@@ -119,14 +148,23 @@ const events = [
         registration:
             'https://dare2compete.com/p/consolelogreplicate-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottay-221911',
         leadLink: '1RPPyF8Zo2tEH04WG0dLCmfYkceCndur4Y9HhqIvek6w',
+        images: [
+            // '/Event-images/BlackTie_img1.png',
+            // '/Event-images/BlackTie_img2.png',
+            // '/Event-images/BlackTie_img3.png',
+            // '/Event-images/BlackTie_img4.png',
+            // '/Event-images/BlackTie_img5.png',
+            // '/Event-images/BlackTie_img6.png',
+            // '/Event-images/BlackTie_img7.png',
+            // '/Event-images/BlackTie_img8.png',
+        ],
     },
     {
         id: 1,
         link: 'Panel Discussion',
         name: 'Panel Discussion !',
-        tag: 'Entrepreneurial Insights',
-        description: `Join the Panel Discussion and gain valuable insights from accomplished entrepreneurs and industry leaders!
-        - Engaging panel discussions covering vital topics like 'Scaling Your Startup' and 'Innovation in the Digital Age.'
+        tag: 'Entrepreneurial Insights: Join the Panel Discussion and gain valuable insights from accomplished entrepreneurs and industry leaders!',
+        description: `- Engaging panel discussions covering vital topics like 'Scaling Your Startup' and 'Innovation in the Digital Age.'
         - Attendees will gain invaluable insights, inspiration, and practical strategies for navigating the entrepreneurial landscape.`,
         date: '15th March 2023',
         time: '9:00am - 11:00am',
@@ -142,6 +180,12 @@ const events = [
         registration:
             'https://dare2compete.com/p/take-de-bait-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-220531',
         leadLink: '1SZkSgZO9BVO9-rMkURy4T-f37GsdB-SPJRN_iw_ZKMM',
+        images: [
+            '/Event-images/PD_img1.png',
+            '/Event-images/PD_img2.png',
+            '/Event-images/PD_img3.png',
+            '/Event-images/PD_img4.png',
+        ],
     },
     {
         id: 1,
@@ -171,13 +215,18 @@ const events = [
         registration:
             'https://dare2compete.com/p/brand-aid-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-223776?lb=iUGWfEQ',
         leadLink: '19YaOkzhCQiyUHg1pvAXeNPLVNGhNTSP4vIchESMBBAE',
+        images: [
+            '/Event-images/Squid_img1.png',
+            '/Event-images/Squid_img2.png',
+            '/Event-images/Squid_img3.png',
+        ],
     },
     {
         id: 1,
         link: 'IdeaHub',
         name: 'IdeaHub',
-        tag: 'Dynamic Tech Challenge',
-        description: `Join IdeaHub, the ultimate 2-day tech challenge transcending traditional hackathons!
+        tag: 'Dynamic Tech Challenge: Join IdeaHub, the ultimate 2-day tech challenge transcending traditional hackathons!',
+        description: `
 - Focused on fostering innovation and ideation across various domains.
 - Online presence on UnStop from 11th to 14th March, followed by on-campus ideathon rounds.
 - Opportunities for participants to tackle real-world problems and develop cutting-edge solutions.
@@ -197,6 +246,16 @@ const events = [
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933928/zroucfhbz9jamjrkoopf.png',
         registration: '',
         leadLink: '14BEml9QbsCcVn25YWX8kNKz7KK74MvcU2116zx1jt08',
+        images: [
+            // '/Event-images/BlackTie_img1.png',
+            // '/Event-images/BlackTie_img2.png',
+            // '/Event-images/BlackTie_img3.png',
+            // '/Event-images/BlackTie_img4.png',
+            // '/Event-images/BlackTie_img5.png',
+            // '/Event-images/BlackTie_img6.png',
+            // '/Event-images/BlackTie_img7.png',
+            // '/Event-images/BlackTie_img8.png',
+        ],
     },
 ]
 
@@ -206,38 +265,33 @@ const happenings = [
         link: 'InnovateX',
         name: 'InnovateX',
         tag: 'Exploring Entrepreneurship',
-        description: `Join InnovateX, an event organized by E-Cell, GDSC, and Institutions Innovation Council at NMIMS Navi Mumbai!
-    - Aimed at exploring entrepreneurship in India and providing practical guidance.
-    - Featured Faiz Malkani, co-founder of Rippl, to inspire and equip students.
-    - Successfully bridged theoretical knowledge and practical challenges.
-    - Malkani's engaging address and interactive Q&A left a lasting impact.
-    - Facilitated networking opportunities and mentor connections.
-    - Positive feedback and enriching experience showcased the event's success.
-    - Sparked inspiration and motivation for entrepreneurial endeavors.
-    - Collaboration highlighted the effectiveness of joint efforts in fostering innovation.
-    - Expected impact on continued growth of entrepreneurial initiatives within the NMIMS community.`,
+        description: `The successfull speaker series was a collaborative effort between Entrepreneurship Cell (E-Cell) and the Google Developer Student Club (GDSC) at NMIMS Navi Mumbai. The event featured a panel of accomplished entrepreneurs who shared their experiences, insights, and advice with the audience.`,
         date: '12th Jan 2024',
         time: '10:00am - 12:00pm',
         organisers: [
             {
                 key: '1',
-                name: 'Lorem Ipsum ',
-                email: 'Lorem Ipsum@gmail.com',
-                phoneNumber: 'lorem Ipsum',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '123-456-7890',
             },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934502/wozw0ojwe768qeawzexz.png',
-        registration: 'https://example.com/registration1',
-        leadLink: 'exampleLeadLink1',
+        registration: '',
+        leadLink: '',
+        images: [
+            '/Event-images/Innovate_img1.png',
+            '/Event-images/Innovate_img2.png',
+            '/Event-images/Innovate_img3.png',
+        ],
     },
+
     {
         id: 2,
         link: 'Shark-Tank',
         name: 'Shark Tank Event',
-        tag: 'Entrepreneurship Challenge',
-        description: `Join us for an exciting and dynamic Shark Tank event organized by the E-Cell of STME, designed to foster innovation and entrepreneurial spirit among students. This hybrid event, conducted both offline and online, offers participants the flexibility and convenience to showcase their ideas effectively.
-    
-    Event Structure:
+        tag: 'Entrepreneurship Challenge: Join us for an exciting and dynamic Shark Tank event organized by the E-Cell of STME, designed to foster innovation and entrepreneurial spirit among students. This hybrid event, conducted both offline and online, offers participants the flexibility and convenience to showcase their ideas effectively.',
+        description: `Event Structure:
     - Three Rounds of Competition:
       - Round 1: Quiz - Test your knowledge on entrepreneurship and business fundamentals.
       - Round 2: Pitching - The top teams will select a product to pitch, while the remaining teams choose from the available options. This round is judged on presentation skills, team participation, and the viability of the proposed solution.
@@ -267,13 +321,23 @@ const happenings = [
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934696/szk8yfiy8vaip9relnm4.png',
         registration: 'https://example.com/registration1',
         leadLink: 'exampleLeadLink1',
+        images: [
+            '/Event-images/SharkTank_img1.png',
+            '/Event-images/SharkTank_img2.png',
+            '/Event-images/SharkTank_img3.png',
+            '/Event-images/SharkTank_img4.png',
+            '/Event-images/SharkTank_img5.png',
+            '/Event-images/SharkTank_img6.png',
+            '/Event-images/SharkTank_img7.png',
+            '/Event-images/SharkTank_img8.png',
+        ],
     },
     {
         id: 3,
         link: 'Panel-Discussion-HEIs',
         name: 'Panel Discussion on Entrepreneurship Ecosystem HEIs',
-        tag: 'Exploring Institutional Entrepreneurship',
-        description: `Join the Panel Discussion on Entrepreneurship Ecosystem organized by NMIMS Navi Mumbai and E-Cell, STME!
+        tag: 'Exploring Institutional Entrepreneurship: Join the Panel Discussion on Entrepreneurship Ecosystem organized by NMIMS Navi Mumbai and E-Cell, STME!',
+        description: `
     - Led by Dr. Aparna Rao and Mr. Nilesh Lele.
     - Theme: Entrepreneurship in Institutions: Students and Faculty as Changemakers.
     - Mr. Lele discussed fostering innovation and shared experiences.
@@ -298,17 +362,22 @@ const happenings = [
                 phoneNumber: '098-765-4321',
             },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715936032/s3zincdmlhsk5jkmnkfr.png',
+        poster: '/Posters/PD_Logo.png',
         registration: 'https://example.com/registration1',
         leadLink: '',
+        images: [
+            '/Event-images/PanelDiscussion_img1.png',
+            '/Event-images/PanelDiscussion_img2.png',
+            '/Event-images/PanelDiscussion_img3.png',
+            '/Event-images/PanelDiscussion_img4.png',
+        ],
     },
     {
         id: 4,
         link: 'Indo-German-Collaboration',
         name: 'Indo-German Collaboration Session',
-        tag: 'Cross-Border Entrepreneurship',
-        description: `Join the Indo-German Collaboration Session organized by E-Cell of STME, Navi Mumbai!
-    - Organized interaction with Technical University, Braunschweig (TU BS), Germany.
+        tag: 'Cross-Border Entrepreneurship: Join the Indo-German Collaboration Session organized by E-Cell of STME, Navi Mumbai!',
+        description: `- Organized interaction with Technical University, Braunschweig (TU BS), Germany.
     - Focus: Collaboration for Indo-German Centre for Entrepreneurship.
     - Faculty discussed NMIMS student opportunities in Summer Camp (Offline) and Summer School (Online), research, and exchange activities.
     - Students engaged on cross-border entrepreneurship vision and objectives.
@@ -335,14 +404,19 @@ const happenings = [
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715936190/lax68aaqijoia1uc7mo1.png',
         registration: 'https://example.com/registration1',
         leadLink: '',
+        images: [
+            '/Event-images/IndoGerman_img1.png',
+            '/Event-images/IndoGerman_img3.png',
+            '/Event-images/IndoGerman_img2.png',
+            '/Event-images/IndoGerman_img4.png',
+        ],
     },
     {
         id: 5,
         link: 'Tradiosity',
         name: 'Tradiosity',
-        tag: 'Enhancing Financial Acumen',
-        description: `Join Tradiosity, the department of E-Cell, SOC dedicated to enhancing the financial acumen of young investors!
-    - Conducts insightful weekly trading sessions.
+        tag: 'Enhancing Financial Acumen: Join Tradiosity, the department of E-Cell, SOC dedicated to enhancing the financial acumen of young investors!',
+        description: `- Conducts insightful weekly trading sessions.
     - Four successful sessions have been conducted, eliciting enthusiastic feedback from participants.
     - Sessions cover stock trading fundamentals comprehensively, including compounding, basics of stock markets, Nifty 50 & Sensex insights, trading terminologies, diverse trading styles, and creating personalized stock watchlists.
     - Goal is to provide students with practical knowledge and essential skills to confidently navigate financial markets.
@@ -366,13 +440,23 @@ const happenings = [
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715936517/eb6k2ysfl5iitd3aj3v7.png',
         registration: 'https://example.com/registration1',
         leadLink: '',
+        images: [
+            // '/Event-images/BootCamp_img1.png',
+            // '/Event-images/BootCamp_img2.png',
+            // '/Event-images/BootCamp_img3.png',
+            // '/Event-images/BootCamp_img4.png',
+            // '/Event-images/BootCamp_img5.png',
+            // '/Event-images/BootCamp_img6.png',
+            // '/Event-images/BootCamp_img7.png',
+            // '/Event-images/BootCamp_img8.png',
+        ],
     },
     {
         id: 6,
         link: 'The-Hass-lepreneurs',
         name: 'The Hass-lepreneurs',
-        tag: 'Addressing Contemporary Entrepreneurial Issues',
-        description: `Join 'The Hass-lepreneurs', a dynamic Instagram talk show addressing contemporary issues in scams, policies, and entrepreneurial challenges!
+        tag: 'Addressing Contemporary Entrepreneurial Issues: E-cell embarked on an engaging and informative journey through its weekly talk show, The Hass-lepreneurs!. The unique platform, which insfused elements of comedy and informality, aimed to discuss entrepreneurship, business, and startups, creating awareness and disseminating crucial information within the choosen genre. ',
+        description: ` Join 'The Hass-lepreneurs', a dynamic Instagram talk show addressing contemporary issues in scams, policies, and entrepreneurial challenges!
     - Weekly episodes feature guest speakers offering fresh perspectives and expertise.
     - Primary focus on unraveling scam intricacies and analyzing current policies affecting entrepreneurs.
     - Aims to empower the audience with knowledge and awareness in the online entrepreneurial space.
@@ -397,23 +481,31 @@ const happenings = [
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715936625/oyc54zywlnulcty8tlhl.png',
         registration: 'https://example.com/registration1',
         leadLink: '',
+        images: [
+            // '/Event-images/BootCamp_img1.png',
+            // '/Event-images/BootCamp_img2.png',
+            // '/Event-images/BootCamp_img3.png',
+            // '/Event-images/BootCamp_img4.png',
+            // '/Event-images/BootCamp_img5.png',
+            // '/Event-images/BootCamp_img6.png',
+            // '/Event-images/BootCamp_img7.png',
+            // '/Event-images/BootCamp_img8.png',
+        ],
     },
     {
         id: 7,
-        link: 'BOOTCAMP-23',
-        name: 'BOOTCAMP’23',
-        tag: 'Promoting Entrepreneurial Mindset',
-        description: `Join BOOTCAMP’23, a certification course affiliated with IIC to promote an entrepreneurial mindset among students!
-    - Sponsored by SPRK Technologies and Blackstone.
-    - Guest speakers invited:
-      - Saurabh Jain: Co-founder of Stable Money.
-      - Sagar Chandani: Angel Investor, Startup coach.
-      - Kamal Kumawat: Co-founder at Edgistify.
-      - Sanchit Jain: AWS Ambassador.
-      - Anuj Sharma: Founder of ALSISAR Impact.
-      - Hardik Prajapati: Director at HPC Engineering Co.`,
-        date: '15th March - 16th March 2023',
-        time: '2:00pm - 4:00pm',
+        link: 'BootCamp 23',
+        name: 'BoothCamp 23',
+        tag: 'Speaker Sessions : Join us for an inspiring and action-packed event designed for aspiring entrepreneurs and business enthusiasts. This is your chance to learn from industry experts and successful entrepreneurs, pitch your ideas to real-life investors, and gain valuable insights into the world of startups.',
+        description: `
+        Event Highlights:
+        • Speakers Session: Hear from seasoned entrepreneurs and industry experts as they share their journey, insights, and tips for success in the business world.
+        • Mock Shark Tank: Experience the thrill of pitching your startup idea to a panel of real-life investors. Get valuable feedback and potentially take your business to the next level.
+        • Participants Starter Kits: Receive a comprehensive starter kit to kickstart your entrepreneurial journey, packed with essential resources and tools.
+        • Certification of Completion: Earn a certificate of completion to showcase your participation and the knowledge gained from this event.
+        `,
+        date: '15th and 16th March 2023',
+        time: '2:00pm to 6:00pm',
         organisers: [
             {
                 key: '1',
@@ -421,27 +513,31 @@ const happenings = [
                 email: 'LoremIpsum@gmail.com',
                 phoneNumber: '123-456-7890',
             },
-            {
-                key: '2',
-                name: 'Lorem Ipsum',
-                email: 'LoremIpsum@gmail.com',
-                phoneNumber: '098-765-4321',
-            },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715936918/ya9yjylnwexuvth7fk9r.png',
+        poster: '/Posters/BootCamp23_Banner.png',
         registration: 'https://example.com/registration1',
-        leadLink: '',
+        leadLink: 'exampleLeadLink1',
+        images: [
+            '/Event-images/BootCamp_img1.png',
+            '/Event-images/BootCamp_img2.png',
+            '/Event-images/BootCamp_img3.png',
+            '/Event-images/BootCamp_img4.png',
+            '/Event-images/BootCamp_img5.png',
+            '/Event-images/BootCamp_img6.png',
+            '/Event-images/BootCamp_img7.png',
+            '/Event-images/BootCamp_img8.png',
+        ],
     },
     {
         id: 8,
-        link: 'FabLab-at-RIDDL',
-        name: 'FabLab at RIDDL',
-        tag: 'Exploring Digital Fabrication',
-        description: `Join FabLab at RIDDL, located at KJ Somaiya Campus, for an opportunity to gain exposure to the latest technologies and explore the possibilities of digital fabrication!
+        link: 'FabLab-at-RIIDL',
+        name: 'FabLab at RIIDL',
+        tag: 'Frostering Startup Awarness: This inititative is aimed to equip students with valuable insights and practical knowledge about the startup ecosystem.',
+        description: `We raised awarness among students about the startup incubation and the startup ecosystem, exposing them to case studies of social innovation and successfully converting them into startups.
     - Objective: To gain exposure to the latest technologies and explore the possibilities of digital fabrication.
     - A chance to meet like-minded people and get inspired by innovative projects being developed at the FabLab.`,
         date: '25th February 2023',
-        time: '10:00am - 12:00pm',
+        time: 'Site Visit',
         organisers: [
             {
                 key: '1',
@@ -459,75 +555,123 @@ const happenings = [
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715937028/leveyuu80tyebddbvh76.png',
         registration: 'https://example.com/registration1',
         leadLink: '',
+        images: [
+            '/Event-images/FabLab_Riidl_img1.png',
+            '/Event-images/FabLab_Riidl_img2.png',
+            '/Event-images/FabLab_Riidl_img3.png',
+            '/Event-images/FabLab_Riidl_img4.png',
+            '/Event-images/FabLab_Riidl_img5.png',
+            '/Event-images/FabLab_Riidl_img6.png',
+            '/Event-images/FabLab_Riidl_img7.png',
+            '/Event-images/FabLab_Riidl_img8.png',
+        ],
     },
     {
         id: 9,
         link: 'National-Entrepreneurship-Challenge',
         name: 'National Entrepreneurship Challenge (NEC)',
-        tag: '9-Month Nationwide Event',
+        tag: '9-Month Nationwide Event | STME ECELL Rank - 24',
         description: `The National Entrepreneurship Challenge (NEC) is a prestigious 9-month-long event conducted by the E-cell of IIT Bombay. NMIMS Navi Mumbai proudly achieved the 46th rank in this nationwide competition, showcasing the university's commitment to entrepreneurship and innovation.`,
-        date: 'TBD',
-        time: 'TBD',
+        date: '2nd February 23',
+        time: 'IIT BOMBAY CAMPUS ',
         organisers: [
             {
                 key: '1',
-                name: 'E-Cell, IIT Bombay',
-                email: 'ecell@iitb.ac.in',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
                 phoneNumber: '123-456-7890',
             },
             {
                 key: '2',
-                name: 'NMIMS Navi Mumbai',
-                email: 'info@nmims.edu',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
                 phoneNumber: '098-765-4321',
             },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715936801/apzivjglsrj1mepxbq2w.png',
         registration: 'https://example.com/registration1',
         leadLink: '',
+        images: [
+            '/Event-images/NEC_img3.png',
+            '/Event-images/NEC_img1.png',
+            '/Event-images/NEC_img2.png',
+            '/Event-images/NEC_img4.png',
+            '/Event-images/NEC_img5.png',
+            '/Event-images/NEC_img6.png',
+            '/Event-images/NEC_img7.png',
+            '/Event-images/NEC_img8.png',
+        ],
     },
     {
         id: 10,
         link: 'FabLab-at-Pune',
         name: 'FabLab at Pune',
-        tag: 'Exploring Startup Incubation and Ecosystem',
-        description: `Join FabLab at Pune to create awareness among students about startup incubation and the startup ecosystem. This event aims to expose students to case studies of social innovation and inspire them to convert innovative ideas into successful startups.`,
+        tag: 'Exploring Startup Incubation and Ecosystem: Join FabLab at Pune to create awareness among students about startup incubation and the startup ecosystem.',
+        description: ` This event aims to expose students to case studies of social innovation and inspire them to convert innovative ideas into successful startups.`,
         date: '22th Dec 2023',
-        time: '3:00pm - 5:00pm',
+        time: 'FabLab visit at Pune',
         organisers: [
             {
                 key: '1',
-                name: 'Event Organisers',
-                email: 'organisers@example.com',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
                 phoneNumber: '123-456-7890',
             },
+            {
+                key: '2',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '098-765-4321',
+            },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715937140/ytoaqmd8wqovsthmkjje.png',
-        registration: 'https://example.com/registration1',
+        poster: '/Posters/FabLab_logo.png',
+        registration: '',
         leadLink: '',
+        images: [
+            '/Event-images/Fablab_Pune_img1.jpg',
+            '/Event-images/Fablab_Pune_img2.jpg',
+            '/Event-images/Fablab_Pune_img3.jpeg',
+            '/Event-images/Fablab_Pune_img4.jpg',
+        ],
     },
     {
         id: 11,
         link: 'Venturex',
         name: 'Venturex',
-        tag: 'Guest Session by Entrepreneurs',
-        description: `Join Venturex for an insightful guest session featuring entrepreneurs:
+        tag: 'Guest Session by Entrepreneurs: Join Venturex for an insightful guest session featuring entrepreneurs from diverse industries.',
+        description: `
     - Shaunak Tomar, Founder and HOD of the Animal Rights and Advocacy Department at Citizens for Animal Protection (CAP) Foundation.
     - Arjun Deshpande, Founder of Generic Aadhar.`,
-        date: '30th Aug 2022',
+        date: '12th jan 2024',
         time: '10:00am - 12:00pm',
         organisers: [
             {
                 key: '1',
-                name: 'Event Organisers',
-                email: 'organisers@example.com',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
                 phoneNumber: '123-456-7890',
+            },
+            {
+                key: '2',
+                name: 'Lorem Ipsum',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '098-765-4321',
             },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715937292/c5wpuj3kl8xqebatrptu.png',
-        registration: 'https://example.com/registration1',
+        registration: '',
         leadLink: '',
+        images: [
+            // '/Event-images/BootCamp_img1.png',
+            // '/Event-images/BootCamp_img2.png',
+            // '/Event-images/BootCamp_img3.png',
+            // '/Event-images/BootCamp_img4.png',
+            // '/Event-images/BootCamp_img5.png',
+            // '/Event-images/BootCamp_img6.png',
+            // '/Event-images/BootCamp_img7.png',
+            // '/Event-images/BootCamp_img8.png',
+        ],
     },
 ]
 
-export { events, happenings }
+export { Pastevents, happenings }
