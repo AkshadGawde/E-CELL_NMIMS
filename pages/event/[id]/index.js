@@ -9,7 +9,7 @@ import { Pastevents, happenings } from '@data/events'
 import { images } from 'next.config'
 
 export const getStaticPaths = async () => {
-    const eventPaths = events.map((event) => ({
+    const eventPaths = Pastevents.map((event) => ({
         params: { id: event.link },
     }))
 
