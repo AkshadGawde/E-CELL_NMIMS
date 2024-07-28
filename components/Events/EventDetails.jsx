@@ -28,9 +28,8 @@ const EventDetails = (props) => {
                 {date}
                 <br />
                 {time}
-
-                <hr />
             </p>
+            <hr />
         </div>
     )
 }

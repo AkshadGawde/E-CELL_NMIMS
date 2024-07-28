@@ -25,14 +25,23 @@ const events = [
         registration:
             'https://dare2compete.com/p/commit-the-flag-dhruva-indian-institute-of-information-technology-iiit-kottayam-224044?lb=wTDkKUs',
         leadLink: '1ikUbjDjqULqP3sSQeZPoYP3Wj4lwLW90PHB1ihbIFfk',
+        images: [
+            '/Event-images/BlackTie_img1.png',
+            '/Event-images/BlackTie_img2.png',
+            '/Event-images/BlackTie_img3.png',
+            '/Event-images/BlackTie_img4.png',
+            '/Event-images/BlackTie_img5.png',
+            '/Event-images/BlackTie_img6.png',
+            '/Event-images/BlackTie_img7.png',
+            '/Event-images/BlackTie_img8.png',
+        ],
     },
     {
         id: 2,
         link: 'Dragons Den',
         name: 'Dragons Den',
-        tag: 'Entrepreneurial Challenge',
-        description: `Join Dragons Den in a team of 2 to 4 and pitch your innovative idea!
-        - Problem Statement: Briefly describe the problem your idea addresses.
+        tag: 'Entrepreneurial Challenge: Join Dragons Den in a team of 2 to 4 and pitch your innovative idea!',
+        description: `- Problem Statement: Briefly describe the problem your idea addresses.
         - Solution Overview: Explain your proposed solution and its unique value proposition.
         - Market Opportunity: Outline the target market and its potential size.
         - Implementation Plan: Highlight key steps for bringing your idea to life.
@@ -56,6 +65,16 @@ const events = [
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933407/er0yyc57kecnqrbydtcz.jpg',
         registration: 'https://forms.gle/dEafjBAL2QgXdf2h6',
         leadLink: '1vMIoyz6Q6FOtx9pPPP92yKkfrrZ-boipmSPAaI0qB6Y',
+        images: [
+            // '/Event-images/BlackTie_img1.png',
+            // '/Event-images/BlackTie_img2.png',
+            // '/Event-images/BlackTie_img3.png',
+            // '/Event-images/BlackTie_img4.png',
+            // '/Event-images/BlackTie_img5.png',
+            // '/Event-images/BlackTie_img6.png',
+            // '/Event-images/BlackTie_img7.png',
+            // '/Event-images/BlackTie_img8.png',
+        ],
     },
     {
         id: 1,
@@ -88,6 +107,16 @@ const events = [
         registration:
             'https://docs.google.com/forms/d/e/1FAIpQLSdmhqEWNW6Muy7dUTRUnfHUf4pap5elZZQzZ3A6SPtUiMr91A/viewform?usp=sf_link',
         leadLink: '1k2yejkk2p7URprQ71YsEw3jJr6F-bFe4JpdQ-Yz8Pr4',
+        images: [
+            // '/Event-images/BlackTie_img1.png',
+            // '/Event-images/BlackTie_img2.png',
+            // '/Event-images/BlackTie_img3.png',
+            // '/Event-images/BlackTie_img4.png',
+            // '/Event-images/BlackTie_img5.png',
+            // '/Event-images/BlackTie_img6.png',
+            // '/Event-images/BlackTie_img7.png',
+            // '/Event-images/BlackTie_img8.png',
+        ],
     },
     {
         id: 1,
@@ -119,14 +148,23 @@ const events = [
         registration:
             'https://dare2compete.com/p/consolelogreplicate-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottay-221911',
         leadLink: '1RPPyF8Zo2tEH04WG0dLCmfYkceCndur4Y9HhqIvek6w',
+        images: [
+            // '/Event-images/BlackTie_img1.png',
+            // '/Event-images/BlackTie_img2.png',
+            // '/Event-images/BlackTie_img3.png',
+            // '/Event-images/BlackTie_img4.png',
+            // '/Event-images/BlackTie_img5.png',
+            // '/Event-images/BlackTie_img6.png',
+            // '/Event-images/BlackTie_img7.png',
+            // '/Event-images/BlackTie_img8.png',
+        ],
     },
     {
         id: 1,
         link: 'Panel Discussion',
         name: 'Panel Discussion !',
-        tag: 'Entrepreneurial Insights',
-        description: `Join the Panel Discussion and gain valuable insights from accomplished entrepreneurs and industry leaders!
-        - Engaging panel discussions covering vital topics like 'Scaling Your Startup' and 'Innovation in the Digital Age.'
+        tag: 'Entrepreneurial Insights: Join the Panel Discussion and gain valuable insights from accomplished entrepreneurs and industry leaders!',
+        description: `- Engaging panel discussions covering vital topics like 'Scaling Your Startup' and 'Innovation in the Digital Age.'
         - Attendees will gain invaluable insights, inspiration, and practical strategies for navigating the entrepreneurial landscape.`,
         date: '15th March 2023',
         time: '9:00am - 11:00am',
@@ -142,6 +180,12 @@ const events = [
         registration:
             'https://dare2compete.com/p/take-de-bait-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-220531',
         leadLink: '1SZkSgZO9BVO9-rMkURy4T-f37GsdB-SPJRN_iw_ZKMM',
+        images: [
+            '/Event-images/PD_img1.png',
+            '/Event-images/PD_img2.png',
+            '/Event-images/PD_img3.png',
+            '/Event-images/PD_img4.png',
+        ],
     },
     {
         id: 1,
@@ -171,13 +215,18 @@ const events = [
         registration:
             'https://dare2compete.com/p/brand-aid-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-223776?lb=iUGWfEQ',
         leadLink: '19YaOkzhCQiyUHg1pvAXeNPLVNGhNTSP4vIchESMBBAE',
+        images: [
+            '/Event-images/Squid_img1.png',
+            '/Event-images/Squid_img2.png',
+            '/Event-images/Squid_img3.png',
+        ],
     },
     {
         id: 1,
         link: 'IdeaHub',
         name: 'IdeaHub',
-        tag: 'Dynamic Tech Challenge',
-        description: `Join IdeaHub, the ultimate 2-day tech challenge transcending traditional hackathons!
+        tag: 'Dynamic Tech Challenge: Join IdeaHub, the ultimate 2-day tech challenge transcending traditional hackathons!',
+        description: `
 - Focused on fostering innovation and ideation across various domains.
 - Online presence on UnStop from 11th to 14th March, followed by on-campus ideathon rounds.
 - Opportunities for participants to tackle real-world problems and develop cutting-edge solutions.
@@ -197,6 +246,16 @@ const events = [
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933928/zroucfhbz9jamjrkoopf.png',
         registration: '',
         leadLink: '14BEml9QbsCcVn25YWX8kNKz7KK74MvcU2116zx1jt08',
+        images: [
+            // '/Event-images/BlackTie_img1.png',
+            // '/Event-images/BlackTie_img2.png',
+            // '/Event-images/BlackTie_img3.png',
+            // '/Event-images/BlackTie_img4.png',
+            // '/Event-images/BlackTie_img5.png',
+            // '/Event-images/BlackTie_img6.png',
+            // '/Event-images/BlackTie_img7.png',
+            // '/Event-images/BlackTie_img8.png',
+        ],
     },
 ]
 
@@ -303,18 +362,14 @@ const happenings = [
                 phoneNumber: '098-765-4321',
             },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715936032/s3zincdmlhsk5jkmnkfr.png',
+        poster: '/Posters/PD_Logo.png',
         registration: 'https://example.com/registration1',
         leadLink: '',
         images: [
-            // '/Event-images/BootCamp_img1.png',
-            // '/Event-images/BootCamp_img2.png',
-            // '/Event-images/BootCamp_img3.png',
-            // '/Event-images/BootCamp_img4.png',
-            // '/Event-images/BootCamp_img5.png',
-            // '/Event-images/BootCamp_img6.png',
-            // '/Event-images/BootCamp_img7.png',
-            // '/Event-images/BootCamp_img8.png',
+            '/Event-images/PanelDiscussion_img1.png',
+            '/Event-images/PanelDiscussion_img2.png',
+            '/Event-images/PanelDiscussion_img3.png',
+            '/Event-images/PanelDiscussion_img4.png',
         ],
     },
     {
@@ -350,14 +405,10 @@ const happenings = [
         registration: 'https://example.com/registration1',
         leadLink: '',
         images: [
-            // '/Event-images/BootCamp_img1.png',
-            // '/Event-images/BootCamp_img2.png',
-            // '/Event-images/BootCamp_img3.png',
-            // '/Event-images/BootCamp_img4.png',
-            // '/Event-images/BootCamp_img5.png',
-            // '/Event-images/BootCamp_img6.png',
-            // '/Event-images/BootCamp_img7.png',
-            // '/Event-images/BootCamp_img8.png',
+            '/Event-images/IndoGerman_img1.png',
+            '/Event-images/IndoGerman_img3.png',
+            '/Event-images/IndoGerman_img2.png',
+            '/Event-images/IndoGerman_img4.png',
         ],
     },
     {
@@ -463,7 +514,7 @@ const happenings = [
                 phoneNumber: '123-456-7890',
             },
         ],
-        poster: '/Event-images/BootCamp23_Banner.png',
+        poster: '/Posters/BootCamp23_Banner.png',
         registration: 'https://example.com/registration1',
         leadLink: 'exampleLeadLink1',
         images: [
@@ -479,14 +530,14 @@ const happenings = [
     },
     {
         id: 8,
-        link: 'FabLab-at-RIDDL',
-        name: 'FabLab at RIDDL',
+        link: 'FabLab-at-RIIDL',
+        name: 'FabLab at RIIDL',
         tag: 'Frostering Startup Awarness: This inititative is aimed to equip students with valuable insights and practical knowledge about the startup ecosystem.',
         description: `We raised awarness among students about the startup incubation and the startup ecosystem, exposing them to case studies of social innovation and successfully converting them into startups.
     - Objective: To gain exposure to the latest technologies and explore the possibilities of digital fabrication.
     - A chance to meet like-minded people and get inspired by innovative projects being developed at the FabLab.`,
         date: '25th February 2023',
-        time: '10:00am - 12:00pm',
+        time: 'Site Visit',
         organisers: [
             {
                 key: '1',
@@ -505,24 +556,24 @@ const happenings = [
         registration: 'https://example.com/registration1',
         leadLink: '',
         images: [
-            // '/Event-images/BootCamp_img1.png',
-            // '/Event-images/BootCamp_img2.png',
-            // '/Event-images/BootCamp_img3.png',
-            // '/Event-images/BootCamp_img4.png',
-            // '/Event-images/BootCamp_img5.png',
-            // '/Event-images/BootCamp_img6.png',
-            // '/Event-images/BootCamp_img7.png',
-            // '/Event-images/BootCamp_img8.png',
+            '/Event-images/FabLab_Riidl_img1.png',
+            '/Event-images/FabLab_Riidl_img2.png',
+            '/Event-images/FabLab_Riidl_img3.png',
+            '/Event-images/FabLab_Riidl_img4.png',
+            '/Event-images/FabLab_Riidl_img5.png',
+            '/Event-images/FabLab_Riidl_img6.png',
+            '/Event-images/FabLab_Riidl_img7.png',
+            '/Event-images/FabLab_Riidl_img8.png',
         ],
     },
     {
         id: 9,
         link: 'National-Entrepreneurship-Challenge',
         name: 'National Entrepreneurship Challenge (NEC)',
-        tag: '9-Month Nationwide Event',
+        tag: '9-Month Nationwide Event | STME ECELL Rank - 24',
         description: `The National Entrepreneurship Challenge (NEC) is a prestigious 9-month-long event conducted by the E-cell of IIT Bombay. NMIMS Navi Mumbai proudly achieved the 46th rank in this nationwide competition, showcasing the university's commitment to entrepreneurship and innovation.`,
-        date: 'TBD',
-        time: 'TBD',
+        date: '2nd February 23',
+        time: 'IIT BOMBAY CAMPUS ',
         organisers: [
             {
                 key: '1',
@@ -541,14 +592,14 @@ const happenings = [
         registration: 'https://example.com/registration1',
         leadLink: '',
         images: [
-            // '/Event-images/BootCamp_img1.png',
-            // '/Event-images/BootCamp_img2.png',
-            // '/Event-images/BootCamp_img3.png',
-            // '/Event-images/BootCamp_img4.png',
-            // '/Event-images/BootCamp_img5.png',
-            // '/Event-images/BootCamp_img6.png',
-            // '/Event-images/BootCamp_img7.png',
-            // '/Event-images/BootCamp_img8.png',
+            '/Event-images/NEC_img3.png',
+            '/Event-images/NEC_img1.png',
+            '/Event-images/NEC_img2.png',
+            '/Event-images/NEC_img4.png',
+            '/Event-images/NEC_img5.png',
+            '/Event-images/NEC_img6.png',
+            '/Event-images/NEC_img7.png',
+            '/Event-images/NEC_img8.png',
         ],
     },
     {
@@ -558,7 +609,7 @@ const happenings = [
         tag: 'Exploring Startup Incubation and Ecosystem: Join FabLab at Pune to create awareness among students about startup incubation and the startup ecosystem.',
         description: ` This event aims to expose students to case studies of social innovation and inspire them to convert innovative ideas into successful startups.`,
         date: '22th Dec 2023',
-        time: '3:00pm - 5:00pm',
+        time: 'FabLab visit at Pune',
         organisers: [
             {
                 key: '1',
@@ -573,18 +624,14 @@ const happenings = [
                 phoneNumber: '098-765-4321',
             },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715937140/ytoaqmd8wqovsthmkjje.png',
-        registration: 'https://example.com/registration1',
+        poster: '/Posters/FabLab_logo.png',
+        registration: '',
         leadLink: '',
         images: [
-            // '/Event-images/BootCamp_img1.png',
-            // '/Event-images/BootCamp_img2.png',
-            // '/Event-images/BootCamp_img3.png',
-            // '/Event-images/BootCamp_img4.png',
-            // '/Event-images/BootCamp_img5.png',
-            // '/Event-images/BootCamp_img6.png',
-            // '/Event-images/BootCamp_img7.png',
-            // '/Event-images/BootCamp_img8.png',
+            '/Event-images/Fablab_Pune_img1.jpg',
+            '/Event-images/Fablab_Pune_img2.jpg',
+            '/Event-images/Fablab_Pune_img3.jpeg',
+            '/Event-images/Fablab_Pune_img4.jpg',
         ],
     },
     {
@@ -612,7 +659,7 @@ const happenings = [
             },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715937292/c5wpuj3kl8xqebatrptu.png',
-        registration: 'https://example.com/registration1',
+        registration: '',
         leadLink: '',
         images: [
             // '/Event-images/BootCamp_img1.png',
