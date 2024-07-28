@@ -4,12 +4,11 @@ import Footer from '@components/Footer/Footer'
 import EventHeading from '@components/Events/EventHeading'
 import Navbar from '@components/Nav/Navbar'
 import EventDetails from '@components/Events/EventDetails'
-import OrganizerContainer from '@components/Events/Orgnjdge'
+import OrganizerContainer from '@components/Events/OrganizerContainer'
 import { Pastevents, happenings } from '@data/events'
-import { images } from 'next.config'
 
 export const getStaticPaths = async () => {
-    const eventPaths = events.map((event) => ({
+    const eventPaths = Pastevents.map((event) => ({
         params: { id: event.link },
     }))
 
@@ -29,6 +28,12 @@ export const getStaticProps = async (context) => {
     const data =
         Pastevents.find((el) => el.link === link) ||
         happenings.find((el) => el.link === link)
+
+    if (!data) {
+        return {
+            notFound: true,
+        }
+    }
 
     return {
         props: {
