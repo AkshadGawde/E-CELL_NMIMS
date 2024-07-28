@@ -9,29 +9,30 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@material-ui/core": "^4.12.3",
+    "@material-ui/core": "^4.12.4",
     "@notionhq/client": "^2.2.15",
     "aos": "^2.3.4",
     "classnames": "^2.5.1",
-    "cloudinary": "^2.2.0",
+    "cloudinary": "^2.3.1",
     "cors": "^2.8.5",
     "gsap": "^3.12.5",
-    "iframe-resizer-react": "^1.1.0",
+    "iframe-resizer-react": "^1.1.1",
     "moment": "^2.30.1",
-    "next": "^14.2.3",
+    "next": "^14.2.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.2.1",
     "react-loader-spinner": "^6.1.6",
     "react-toastify": "^10.0.5",
-    "styled-components": "^6.1.11",
+    "styled-components": "^6.1.12",
     "swr": "^2.2.5",
-    "universal-cookie": "^7.1.4"
+    "universal-cookie": "^7.2.0"
   },
   "devDependencies": {
     "babel-plugin-styled-components": "^2.1.4",
-    "eslint": "^9.2.0",
+    "eslint": "^9.8.0",
     "eslint-config-next": "14.2.3",
-    "eslint-config-prettier": "^9.1.0"
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1"
   }
 }
