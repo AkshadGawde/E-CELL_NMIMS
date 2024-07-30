@@ -30,11 +30,11 @@ const Card = (props) => {
                                 alt="poster"
                                 height="250"
                                 width="250"
-                                priority = {true}
-                                 className="img"
+                                priority={true}
+                                className="img"
                             />
                         )}
-                         <style jsx global>{`
+                        <style jsx global>{`
                             .img {
                                 border-radius: 8px;
                             }
@@ -45,7 +45,9 @@ const Card = (props) => {
                         </div>
                         <div className={styles.detailContainer}>
                             <p>
-                                {props.date}<br/>{props.time}
+                                {props.date}
+                                <br />
+                                {props.time}
                             </p>
                         </div>
                     </div>
