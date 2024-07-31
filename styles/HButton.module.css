@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 4%;
+    cursor: pointer;
 }
 
 .b1, .b2 {
@@ -11,8 +12,8 @@
     width: 197px;
     border-radius: 25px;
     font-size: 18px;
-    cursor: pointer; /* Ensure cursor pointer */
     font-family: var(--title);
+    cursor: pointer;
 }
 
 .b1 {
@@ -20,6 +21,7 @@
     color: var(--black);
     font-weight: 600;
     border: none;
+    cursor: pointer;
 }
 
 .b2 {
@@ -29,6 +31,7 @@
     margin-left: 2%;
     font-weight: 400;
     padding: 5px;
+    cursor: pointer;
 }
 
 .faicon {
@@ -37,6 +40,7 @@
     transform: translateY(20%);
     font-size: larger;
     color: #7289d9;
+    cursor: pointer;
 }
 
 @media (max-width: 600px) {

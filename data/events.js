@@ -338,7 +338,7 @@ const happenings = [
         name: 'Panel Discussion on Entrepreneurship Ecosystem HEIs',
         tag: 'Exploring Institutional Entrepreneurship: Join the Panel Discussion on Entrepreneurship Ecosystem organized by NMIMS Navi Mumbai and E-Cell, STME!',
         description: `
-    - Led by Dr. Aparna Rao and Mr. Nilesh Lele.
+    - Led by Dr. x and Mr. Nilesh Lele.
     - Theme: Entrepreneurship in Institutions: Students and Faculty as Changemakers.
     - Mr. Lele discussed fostering innovation and shared experiences.
     - Dr. Rao highlighted student entrepreneurs' stories and emphasized an entrepreneurial mindset.
@@ -676,14 +676,51 @@ const happenings = [
 
 const UpcomingEvents = [
     {
+        id: 2,
+        link: 'India Sustainability Startathon 2024',
+        name: 'India Sustainability Startathon 2024',
+        tag: 'Join Us in Shaping a Greener Future - An Exclusive Event by Rotaract Club of NMIMS and E-Cell, Focused on Sustainable Innovation and Leadership',
+        description: `Receive a FULLY FUNDED SCHOLARSHIP to be part of the ASEAN - China - India Youth Leadership Summit 2024 in SINGAPORE and get an opportunity to pre-incubate your sustainability startup!
+        In addition to this,
+🌿 Be part of the Climate Ninja Program by The Sustainability Mafia
+🏅 In-person Certificate Bootcamp in Design Thinking and Innovation
+📜 USD 375 worth 10 Online Certification Courses
+🎓 Access to 10 Masterclasses by International Faculty
+👨‍🏫 10 hours of one-on-one mentoring and a lifetime connection with international mentors.`,
+        date: '31st July,2024',
+        time: '',
+        organisers: [
+            {
+                key: '1',
+                name: 'Events Head: Jatin Verma',
+                email: 'LoremIpsum@gmail.com',
+                phoneNumber: '123-456-7890',
+            },
+        ],
+        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722366069/Ecell/Events/nfqgjhfbmjlleklta75m.png',
+        registration: 'https://forms.gle/QDACZ8515kwM9AWx8',
+        leadLink: '',
+        images: [
+            // '/Event-images/BootCamp_img1.png',
+            // '/Event-images/BootCamp_img2.png',
+            // '/Event-images/BootCamp_img3.png',
+            // '/Event-images/BootCamp_img4.png',
+            // '/Event-images/BootCamp_img5.png',
+            // '/Event-images/BootCamp_img6.png',
+            // '/Event-images/BootCamp_img7.png',
+            // '/Event-images/BootCamp_img8.png',
+        ],
+    },
+]
+
+const Archives = [
+    {
         id: 1,
         link: 'ScaleUp Webinar',
         name: 'ScaleUp Webinar',
         tag: 'Transform Your Study Dreams into Reality - Join the CollegeDunia Study Abroad Seminar at NMIMS for Expert Guidance and Global Opportunities!',
         description: `Learn how to maximize your return on investment and make informed decisions for a bright future! 
-Don't miss this chance to get all your questions answered and take the first step towards your dream university!
-Register now:
-https://forms.gle/Z6ryfmmU1q79bNAG7 `,
+Don't miss this chance to get all your questions answered and take the first step towards your dream university!`,
         date: '31st July,2024',
         time: '12 PM- 1PM ( SOC ), 1PM- 2PM (STME) & 2:30-3:30 x(All Schools); Venue: Class 307 , NMIMS Campus',
         organisers: [
@@ -708,46 +745,6 @@ https://forms.gle/Z6ryfmmU1q79bNAG7 `,
             // '/Event-images/BootCamp_img8.png',
         ],
     },
-
-    {
-        id: 2,
-        link: 'India Sustainability Startathon 2024',
-        name: 'India Sustainability Startathon 2024',
-        tag: 'Join Us in Shaping a Greener Future - An Exclusive Event by Rotaract Club of NMIMS and E-Cell, Focused on Sustainable Innovation and Leadership',
-        description: `Receive a FULLY FUNDED SCHOLARSHIP to be part of the ASEAN - China - India Youth Leadership Summit 2024 in SINGAPORE and get an opportunity to pre-incubate your sustainability startup!
-        In addition to this,
-🌿 Be part of the Climate Ninja Program by The Sustainability Mafia
-🏅 In-person Certificate Bootcamp in Design Thinking and Innovation
-📜 USD 375 worth 10 Online Certification Courses
-🎓 Access to 10 Masterclasses by International Faculty
-👨‍🏫 10 hours of one-on-one mentoring and a lifetime connection with international mentors.
-
-Register now:
-https://forms.gle/QDACZ8515kwM9AWx8 `,
-        date: '31st July,2024',
-        time: '',
-        organisers: [
-            {
-                key: '1',
-                name: 'Events Head: Jatin Verma',
-                email: 'LoremIpsum@gmail.com',
-                phoneNumber: '123-456-7890',
-            },
-        ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722366069/Ecell/Events/nfqgjhfbmjlleklta75m.png',
-        registration: '',
-        leadLink: '',
-        images: [
-            // '/Event-images/BootCamp_img1.png',
-            // '/Event-images/BootCamp_img2.png',
-            // '/Event-images/BootCamp_img3.png',
-            // '/Event-images/BootCamp_img4.png',
-            // '/Event-images/BootCamp_img5.png',
-            // '/Event-images/BootCamp_img6.png',
-            // '/Event-images/BootCamp_img7.png',
-            // '/Event-images/BootCamp_img8.png',
-        ],
-    },
 ]
 
-export { Pastevents, happenings, UpcomingEvents }
+export { Pastevents, happenings, UpcomingEvents, Archives }

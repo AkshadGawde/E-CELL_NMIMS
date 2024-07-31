@@ -5,6 +5,18 @@
   width: 100%;
 }
 
+.countdown {
+  text-align: center;
+  font-family: var(--title);
+  color: var(--white);
+  padding: 20% 0;
+  font-size: 3rem;
+}
+
+.countdown p {
+  font-size: 2rem;
+}
+
 .err {
   margin: 0;
 }
@@ -48,73 +60,4 @@
 
 .mobile {
   height: 100%;
-  display: flex;
-  margin: 5%;
-  flex-direction: column;
-  align-items: stretch;
-}
-
-.mdays {
-  margin-bottom: 8%;
-  width: 100%;
-}
-
-/* Reduce font size for cards based on screen size */
-@media screen and (max-width: 950px) {
-  .events {
-      width: 70%;
-  }
-  .tabs {
-      margin-left: 5%;
-  }
-  .days {
-      width: 50%;
-  }
-  .card p {
-      font-size: 14px; /* Adjust font size for cards */
-  }
-}
-
-@media screen and (max-width: 750px) {
-  .tabs {
-      display: none;
-  }
-  .events {
-      width: 100%;
-      margin-left: 0;
-  }
-  .header {
-      font-size: 5rem;
-      margin-right: 5px;
-  }
-  .card p {
-      font-size: 14px; /* Adjust font size for cards */
-  }
-}
-
-@media screen and (min-width: 750.1px) {
-  .mobile {
-      display: none;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  .header {
-      font-size: 4rem;
-      text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
-  }
-  .card p {
-      font-size: 12px; /* Adjust font size for smaller screens */
-  }
-}
-
-@media screen and (max-width: 350px) {
-  .header {
-      font-size: 4rem;
-      margin-bottom: 20px;
-      letter-spacing: -5px;
-  }
-  .card p {
-      font-size: 10px; /* Further reduce font size for very small screens */
-  }
-}
+} 
