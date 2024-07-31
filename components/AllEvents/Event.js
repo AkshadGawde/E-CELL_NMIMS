@@ -29,6 +29,7 @@ export const Event = () => {
                         tag={data.tag}
                         link={data.link}
                         registration={data.registration}
+                        venue={data.venue}
                     />
                 ))}
             </div>
@@ -45,6 +46,7 @@ export const Event = () => {
                         time={data.time}
                         tag={data.tag}
                         link={data.link}
+                        venue={data.venue}
                     />
                 ))}
             </div>

@@ -4,18 +4,17 @@ import Link from 'next/dist/client/link'
 
 const Contact = (props) => {
     return (
-        <div className = {styles.contact}>             
-            <p >
+        <div className={styles.contact}>
+            <p>
                 {props.name}
                 <br />
                 {props.email}
-                <br />
-                {props.phone}
-                
+                {/* <br />
+                {props.phone} */}
             </p>
             <hr />
         </div>
-        )
+    )
 }
 
 export default Contact

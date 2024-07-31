@@ -32,7 +32,7 @@ const technicals = [
     {
         id: 1,
         name: 'Akshad Gawde',
-        image: '',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722452359/Ecell/zamouqa4jbjob5q2ldra.png',
         linkedin: 'https://www.linkedin.com/in/akshad-gawde-a91b54b0/',
         gif: '',
         instagram: '',
@@ -44,7 +44,7 @@ const President = [
     {
         id: 1,
         name: 'Abhinav Kidav',
-        image: '',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722451001/Ecell/qixbyqfexvqeizdo5tzs.jpg',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -53,7 +53,7 @@ const President = [
     {
         id: 2,
         name: 'Aarya Mishra',
-        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722418081/Ecell/qb1djkkthhmpeyt5ydh5.heic',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722451872/Ecell/n47omfpx9uiiprju4jlv.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -91,12 +91,21 @@ const Finance = [
         instagram: '',
         twitter: '',
     },
+    {
+        id: 2,
+        name: 'Aditya Ladge',
+        image: '',
+        linkedin: '',
+        gif: '',
+        instagram: '',
+        twitter: '',
+    },
 ]
 const PR = [
     {
         id: 1,
         name: 'Sreevasini s',
-        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722417984/Ecell/lc0pzilmyayfvbwxew2r.jpg',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722450973/Ecell/v0npmt9dniaikmt4zdib.jpg',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -135,8 +144,8 @@ const Creatives = [
 const Logistics = [
     {
         id: 1,
-        name: 'Ketki Gharal',
-        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716224501/vzqotykx9tboiwekvcka.jpg',
+        name: 'Aditya Kurup',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722451710/Ecell/m3rshq4qy0nl9mj37igi.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -154,15 +163,6 @@ const Logistics = [
 ]
 const Sponsorship = [
     {
-        id: 1,
-        name: 'Rahul Purohit',
-        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716224501/sn8hfv9pxh6ijhxhr0rl.jpg',
-        linkedin: '',
-        gif: '',
-        instagram: '',
-        twitter: '',
-    },
-    {
         id: 2,
         name: 'Ishika Mohan',
         image: '',
@@ -175,7 +175,7 @@ const Sponsorship = [
 const Marketing = [
     {
         id: 1,
-        name: 'Mohit Patil',
+        name: '',
         image: '',
         linkedin: '',
         gif: '',
@@ -193,5 +193,4 @@ export {
     Creatives,
     Logistics,
     Sponsorship,
-    Marketing,
 }

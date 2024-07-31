@@ -48,6 +48,8 @@ const Card = (props) => {
                                 {props.date}
                                 <br />
                                 {props.time}
+                                <br />
+                                {props.venue}
                             </p>
                         </div>
                     </div>

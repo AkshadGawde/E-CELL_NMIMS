@@ -8,12 +8,10 @@ import {
     technicals,
     President,
     eventM,
-    Finance,
     PR,
     Creatives,
     Logistics,
     Sponsorship,
-    Marketing,
 } from '@data/team'
 
 export const Team = () => {
@@ -41,7 +39,7 @@ export const Team = () => {
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
             </div>
@@ -57,7 +55,7 @@ export const Team = () => {
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
             </div>
@@ -73,7 +71,7 @@ export const Team = () => {
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
             </div>
@@ -89,7 +87,7 @@ export const Team = () => {
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
             </div>
@@ -105,12 +103,12 @@ export const Team = () => {
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
             </div>
 
-            <h2 data-aos="zoom-in" data-aos-duration="1500">
+            {/* <h2 data-aos="zoom-in" data-aos-duration="1500">
                 Marketing Team
             </h2>
             <div className={styles.mentor}>
@@ -121,10 +119,10 @@ export const Team = () => {
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
-            </div>
+            </div> */}
 
             <h2 data-aos="zoom-in" data-aos-duration="1500">
                 Sponsorship Team
@@ -137,7 +135,7 @@ export const Team = () => {
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
             </div>
@@ -154,13 +152,13 @@ export const Team = () => {
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
             </div>
 
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Admin/Logistics Team
+                Logistics Team
             </h2>
             <div className={styles.mentor}>
                 {Logistics.map((data) => (
@@ -170,7 +168,7 @@ export const Team = () => {
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
             </div>
