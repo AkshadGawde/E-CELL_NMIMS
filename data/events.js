@@ -725,7 +725,7 @@ https://forms.gle/Z6ryfmmU1q79bNAG7 `,
 Register now:
 https://forms.gle/QDACZ8515kwM9AWx8 `,
         date: '31st July,2024',
-        time: '12 PM- 1PM ( SOC ), 1PM- 2PM (STME) & 2:30-3:30 x(All Schools); Venue: Class 307 , NMIMS Campus',
+        time: '',
         organisers: [
             {
                 key: '1',

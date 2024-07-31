@@ -2,7 +2,7 @@ const mentors = [
     {
         id: 1,
         name: 'Dr. Aparna Rao',
-        image: '',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716808349/log0h0ehmlrchfxuladt.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -11,6 +11,15 @@ const mentors = [
     {
         id: 2,
         name: 'Dr. Toral Shah',
+        image: '',
+        linkedin: '',
+        gif: '',
+        instagram: '',
+        twitter: '',
+    },
+    {
+        id: 2,
+        name: 'Mrs. Asha Rawat',
         image: '',
         linkedin: '',
         gif: '',
@@ -44,7 +53,7 @@ const President = [
     {
         id: 2,
         name: 'Aarya Mishra',
-        image: '',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722418081/Ecell/qb1djkkthhmpeyt5ydh5.heic',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -87,7 +96,7 @@ const PR = [
     {
         id: 1,
         name: 'Sreevasini s',
-        image: '',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722417984/Ecell/lc0pzilmyayfvbwxew2r.jpg',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -95,7 +104,7 @@ const PR = [
     },
     {
         id: 2,
-        name: 'Onkar Mane',
+        name: 'Tanay koli',
         image: '',
         linkedin: '',
         gif: '',

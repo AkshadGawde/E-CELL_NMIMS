@@ -38,7 +38,7 @@ export default function Timeline() {
     return (
         <div className={styles.main} id="Events">
             <div className={styles.header}>
-                <p className={styles.err}>Navi Mumbai Startup Fest</p>
+                <p className={styles.err}>Navi Mumbai Startup Fest </p>
             </div>
             <div className={styles.tabs}>
                 <div className={styles.days}>
