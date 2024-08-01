@@ -95,7 +95,7 @@ const RightNav = ({ open, setOpen }) => {
                     </Link>
                 </li>
                 <li onClick={toggle}>
-                    <Link href="/" passHref>
+                    <Link href="/Sponsor_Faq" passHref>
                         FAQ
                     </Link>
                 </li>

@@ -58,8 +58,8 @@ const Sponsor_Faq = () => {
                         </div>
                         <div className={Style.chatB}>
                             Don't worry. Just check out our event page and hop
-                            on to our Discord server. We will make sure you are
-                            equipped with the essential resources.
+                            on. We will make sure you are equipped with the
+                            essential resources.
                         </div>
                         <div className={Style.chatW}>
                             What if my questions are not listed here?
@@ -67,8 +67,8 @@ const Sponsor_Faq = () => {
                         <div className={Style.chatB}>
                             We are happy to resolve all your doubts. Feel free
                             to email us at{' '}
-                            <a href="mailto:gawdeakshad@gmail.com">
-                                gawdeakshad@gmail.com
+                            <a href="mailto:ecell.stme@nmims.edu.in">
+                                ecell.stme@nmims.edu.in
                             </a>
                             .
                         </div>

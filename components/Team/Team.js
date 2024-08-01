@@ -4,7 +4,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 import {
-    mentors,
+    Finance,
     technicals,
     President,
     eventM,
@@ -12,6 +12,7 @@ import {
     Creatives,
     Logistics,
     Sponsorship,
+    mentors,
 } from '@data/team'
 
 export const Team = () => {
@@ -108,11 +109,11 @@ export const Team = () => {
                 ))}
             </div>
 
-            {/* <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Marketing Team
+            <h2 data-aos="zoom-in" data-aos-duration="1500">
+                Finance Team
             </h2>
             <div className={styles.mentor}>
-                {Marketing.map((data) => (
+                {Finance.map((data) => (
                     <Card
                         key={data.id}
                         name={data.name}
@@ -122,7 +123,7 @@ export const Team = () => {
                         // twitter={data.twitter}
                     />
                 ))}
-            </div> */}
+            </div>
 
             <h2 data-aos="zoom-in" data-aos-duration="1500">
                 Sponsorship Team

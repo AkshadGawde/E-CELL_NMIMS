@@ -65,6 +65,7 @@ export default function Timeline() {
             {!showFest ? (
                 <div className={styles.countdown}>
                     <h1>Navi Mumbai Startup Fest</h1>
+                    <h2>-Avartan</h2>
                     <p>
                         {days} Days {hours} Hours {minutes} Minutes {seconds}{' '}
                         Seconds

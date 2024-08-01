@@ -19,8 +19,8 @@ const mentors = [
     },
     {
         id: 2,
-        name: 'Mrs. Asha Rawat',
-        image: '',
+        name: 'Prof. Asha Rawat',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722491008/Ecell/uecksvk2wnjxbis3sopw.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -94,7 +94,7 @@ const Finance = [
     {
         id: 2,
         name: 'Aditya Ladge',
-        image: '',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722487759/Ecell/cbhwfved4dwsbtbzhocx.png',
         linkedin: '',
         gif: '',
         instagram: '',
