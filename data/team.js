@@ -84,15 +84,6 @@ const eventM = [
 const Finance = [
     {
         id: 1,
-        name: 'Shreyans Rath',
-        image: '',
-        linkedin: '',
-        gif: '',
-        instagram: '',
-        twitter: '',
-    },
-    {
-        id: 2,
         name: 'Aditya Ladge',
         image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722487759/Ecell/cbhwfved4dwsbtbzhocx.png',
         linkedin: '',
@@ -133,8 +124,8 @@ const Creatives = [
     },
     {
         id: 2,
-        name: 'Manav Shah',
-        image: '',
+        name: 'Vedashree Bhandigare',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722504211/Ecell/od40nepfzkzh180dwopp.png',
         linkedin: '',
         gif: '',
         instagram: '',
