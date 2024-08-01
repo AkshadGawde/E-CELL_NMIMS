@@ -5,6 +5,7 @@ import {
     FaEnvelope,
     FaTwitch,
     FaYoutube,
+    FaLinkedin,
 } from 'react-icons/fa'
 import { SiDiscord } from 'react-icons/si'
 import styles from './Footer.module.css'
@@ -32,15 +33,18 @@ const Footer = () => {
                     <ul>
                         <li>
                             <Link
-                                href="mailto:gawdeakshad@gmail.com"
+                                href="mailto:ecell.stme@nmims.edu.in"
                                 passHref={true}
                             >
                                 <FaEnvelope />
                             </Link>
                         </li>
                         <li>
-                            <Link href="" passHref={true}>
-                                <FaFacebookSquare />
+                            <Link
+                                href="https://www.linkedin.com/company/e-cell-nm-navi-mumbai/posts/?feedView=all"
+                                passHref={true}
+                            >
+                                <FaLinkedin />
                             </Link>
                         </li>
                         <li>
@@ -49,21 +53,6 @@ const Footer = () => {
                                 passHref={true}
                             >
                                 <FaInstagram />
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="" passHref={true}>
-                                <FaTwitter />
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="" passHref={true}>
-                                <SiDiscord />
-                            </Link>
-                        </li>
-                        <li>
-                            <Link href="" passHref={true}>
-                                <FaYoutube />
                             </Link>
                         </li>
                     </ul>

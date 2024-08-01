@@ -51,7 +51,7 @@ const speaker = [
         date: '30th August ',
         time: '11:30 Am',
         how: 'Room C304',
-        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722060542/Ecell/z85fdaf5c7lbu8hvayuc.png',
+        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722416571/skejvuajnkz94h5wg6ou.png',
         link: '',
         // linkyt: '',
     },

@@ -5,14 +5,8 @@ const HButtons = () => {
     return (
         <div className={styles.buttons}>
             <Link href="/events">
-                <button className={styles.b1}>Register for Seminars</button>
+                <button className={styles.b1}>Register for Events</button>
             </Link>
-            <button className={styles.b2}>
-                <Link href="/events" target="_blank">
-                    {/* <SiDiscord className={styles.faicon} /> */}
-                    <span> Events </span>
-                </Link>
-            </button>
         </div>
     )
 }

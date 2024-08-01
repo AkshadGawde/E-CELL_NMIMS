@@ -28,7 +28,7 @@ a {
 }
 
 *::selection{
-    background: #8c58fcda; /* Disable this to switch selection color to blue */
+    background: #8c58fcda;
 }
 
 [data-aos='rotate-c'].aos-animate {

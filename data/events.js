@@ -11,15 +11,15 @@ const Pastevents = [
             {
                 key: '1',
                 name: 'Events Head: Jatin Verma',
-                email: 'Events Head: Jatin Verma@gmail.com',
-                phoneNumber: 'Events Head: Jatin Verma',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
             },
-            {
-                key: '2',
-                name: 'Events Head: Jatin Verma',
-                email: 'Events Head: Jatin Verma@gmail.com ',
-                phoneNumber: 'Events Head: Jatin Verma',
-            },
+            // {
+            //     key: '2',
+            //     name: 'Events Head: Jatin Verma',
+            //     email: 'jatin.s.p.verma@gmail.com',
+            //     phoneNumber: 'Events Head: Jatin Verma',
+            // },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934140/xoyjmjxnuaibipravhq3.png',
         registration:
@@ -52,15 +52,15 @@ const Pastevents = [
             {
                 key: '1',
                 name: 'Events Head: Jatin Verma',
-                email: 'Events Head: Jatin Verma@gmail.com',
-                phoneNumber: 'Events Head: Jatin Verma',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
             },
-            {
-                key: '2',
-                name: 'Events Head: Jatin Verma',
-                email: 'Events Head: Jatin Verma@gmail.com ',
-                phoneNumber: 'Events Head: Jatin Verma',
-            },
+            // {
+            //     key: '2',
+            //     name: 'Events Head: Jatin Verma',
+            //     email: 'jatin.s.p.verma@gmail.com ',
+            //     phoneNumber: 'Events Head: Jatin Verma',
+            // },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933407/er0yyc57kecnqrbydtcz.jpg',
         registration: 'https://forms.gle/dEafjBAL2QgXdf2h6',
@@ -77,7 +77,7 @@ const Pastevents = [
         ],
     },
     {
-        id: 1,
+        id: 3,
         link: 'Digital Marketing Competition',
         name: 'Digital Marketing Competition',
         tag: 'Strategic Marketing Challenge',
@@ -93,15 +93,15 @@ const Pastevents = [
             {
                 key: '1',
                 name: 'Events Head: Jatin Verma',
-                email: 'Events Head: Jatin Verma@gmail.com',
-                phoneNumber: 'Events Head: Jatin Verma',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
             },
-            {
-                key: '2',
-                name: 'Events Head: Jatin Verma',
-                email: 'Events Head: Jatin Verma@gmail.com ',
-                phoneNumber: 'Events Head: Jatin Verma',
-            },
+            // {
+            //     key: '2',
+            //     name: 'Events Head: Jatin Verma',
+            //     email: 'Events Head: Jatin Verma@gmail.com ',
+            //     phoneNumber: 'Events Head: Jatin Verma',
+            // },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933472/webdqyz61vflmz7ksasi.jpg',
         registration:
@@ -119,7 +119,7 @@ const Pastevents = [
         ],
     },
     {
-        id: 1,
+        id: 4,
         link: '100 to Million',
         name: '100 to Million',
         tag: 'Team Challenge',
@@ -134,14 +134,8 @@ const Pastevents = [
             {
                 key: '1',
                 name: 'Events Head: Jatin Verma',
-                email: 'Events Head: Jatin Verma@gmail.com',
-                phoneNumber: 'Events Head: Jatin Verma',
-            },
-            {
-                key: '2',
-                name: 'Events Head: Jatin Verma',
-                email: 'Events Head: Jatin Verma@gmail.com',
-                phoneNumber: 'Events Head: Jatin Verma',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
             },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933521/bclwj2fihpyxekxij1rq.jpg',
@@ -160,7 +154,7 @@ const Pastevents = [
         ],
     },
     {
-        id: 1,
+        id: 5,
         link: 'Panel Discussion',
         name: 'Panel Discussion !',
         tag: 'Entrepreneurial Insights: Join the Panel Discussion and gain valuable insights from accomplished entrepreneurs and industry leaders!',
@@ -172,8 +166,8 @@ const Pastevents = [
             {
                 key: '1',
                 name: 'Events Head: Jatin Verma',
-                email: 'Events Head: Jatin Verma@gmail.com',
-                phoneNumber: 'Events Head: Jatin Verma',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
             },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933617/ccwukdfvy6gs01gvukiz.jpg',
@@ -188,7 +182,7 @@ const Pastevents = [
         ],
     },
     {
-        id: 1,
+        id: 6,
         link: 'Squid Game',
         name: 'Squid Game',
         tag: 'Thrilling Real-life Challenge',
@@ -201,14 +195,8 @@ const Pastevents = [
             {
                 key: '1',
                 name: 'Events Head: Jatin Verma',
-                email: 'Events Head: Jatin Verma@gmail.com',
-                phoneNumber: 'Events Head: Jatin Verma',
-            },
-            {
-                key: '2',
-                name: 'Events Head: Jatin Verma',
-                email: 'Events Head: Jatin Verma@gmail.com',
-                phoneNumber: 'Events Head: Jatin Verma',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
             },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933646/tx5kqvtqrcwcd7wchowu.jpg',
@@ -222,7 +210,7 @@ const Pastevents = [
         ],
     },
     {
-        id: 1,
+        id: 7,
         link: 'IdeaHub',
         name: 'IdeaHub',
         tag: 'Dynamic Tech Challenge: Join IdeaHub, the ultimate 2-day tech challenge transcending traditional hackathons!',
@@ -272,8 +260,8 @@ const happenings = [
             {
                 key: '1',
                 name: 'Events Head: Jatin Verma',
-                email: 'LoremIpsum@gmail.com',
-                phoneNumber: '123-456-7890',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
             },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934502/wozw0ojwe768qeawzexz.png',
@@ -314,8 +302,8 @@ const happenings = [
             {
                 key: '1',
                 name: 'Events Head: Jatin Verma',
-                email: 'LoremIpsum@gmail.com',
-                phoneNumber: '123-456-7890',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
             },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934696/szk8yfiy8vaip9relnm4.png',
@@ -338,7 +326,7 @@ const happenings = [
         name: 'Panel Discussion on Entrepreneurship Ecosystem HEIs',
         tag: 'Exploring Institutional Entrepreneurship: Join the Panel Discussion on Entrepreneurship Ecosystem organized by NMIMS Navi Mumbai and E-Cell, STME!',
         description: `
-    - Led by Dr. Aparna Rao and Mr. Nilesh Lele.
+    - Led by Dr. x and Mr. Nilesh Lele.
     - Theme: Entrepreneurship in Institutions: Students and Faculty as Changemakers.
     - Mr. Lele discussed fostering innovation and shared experiences.
     - Dr. Rao highlighted student entrepreneurs' stories and emphasized an entrepreneurial mindset.
@@ -352,14 +340,8 @@ const happenings = [
             {
                 key: '1',
                 name: 'Events Head: Jatin Verma',
-                email: 'LoremIpsum@gmail.com',
-                phoneNumber: '123-456-7890',
-            },
-            {
-                key: '2',
-                name: 'Events Head: Jatin Verma',
-                email: 'LoremIpsum@gmail.com',
-                phoneNumber: '098-765-4321',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
             },
         ],
         poster: '/Posters/PD_Logo.png',
@@ -391,14 +373,8 @@ const happenings = [
             {
                 key: '1',
                 name: 'Events Head: Jatin Verma',
-                email: 'LoremIpsum@gmail.com',
-                phoneNumber: '123-456-7890',
-            },
-            {
-                key: '2',
-                name: 'Events Head: Jatin Verma',
-                email: 'LoremIpsum@gmail.com',
-                phoneNumber: '098-765-4321',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
             },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715936190/lax68aaqijoia1uc7mo1.png',
@@ -427,14 +403,8 @@ const happenings = [
             {
                 key: '1',
                 name: 'Events Head: Jatin Verma',
-                email: 'LoremIpsum@gmail.com',
-                phoneNumber: '123-456-7890',
-            },
-            {
-                key: '2',
-                name: 'Events Head: Jatin Verma',
-                email: 'LoremIpsum@gmail.com',
-                phoneNumber: '098-765-4321',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
             },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715936517/eb6k2ysfl5iitd3aj3v7.png',
@@ -468,14 +438,8 @@ const happenings = [
             {
                 key: '1',
                 name: 'Events Head: Jatin Verma',
-                email: 'LoremIpsum@gmail.com',
-                phoneNumber: '123-456-7890',
-            },
-            {
-                key: '2',
-                name: 'Events Head: Jatin Verma',
-                email: 'LoremIpsum@gmail.com',
-                phoneNumber: '098-765-4321',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
             },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715936625/oyc54zywlnulcty8tlhl.png',
@@ -648,14 +612,8 @@ const happenings = [
             {
                 key: '1',
                 name: 'Events Head: Jatin Verma',
-                email: 'LoremIpsum@gmail.com',
-                phoneNumber: '123-456-7890',
-            },
-            {
-                key: '2',
-                name: 'Events Head: Jatin Verma',
-                email: 'LoremIpsum@gmail.com',
-                phoneNumber: '098-765-4321',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
             },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715937292/c5wpuj3kl8xqebatrptu.png',
@@ -676,40 +634,6 @@ const happenings = [
 
 const UpcomingEvents = [
     {
-        id: 1,
-        link: 'ScaleUp Webinar',
-        name: 'ScaleUp Webinar',
-        tag: 'Transform Your Study Dreams into Reality - Join the CollegeDunia Study Abroad Seminar at NMIMS for Expert Guidance and Global Opportunities!',
-        description: `Learn how to maximize your return on investment and make informed decisions for a bright future! 
-Don't miss this chance to get all your questions answered and take the first step towards your dream university!
-Register now:
-https://forms.gle/Z6ryfmmU1q79bNAG7 `,
-        date: '31st July,2024',
-        time: '12 PM- 1PM ( SOC ), 1PM- 2PM (STME) & 2:30-3:30 x(All Schools); Venue: Class 307 , NMIMS Campus',
-        organisers: [
-            {
-                key: '1',
-                name: 'Events Head: Jatin Verma',
-                email: 'LoremIpsum@gmail.com',
-                phoneNumber: '123-456-7890',
-            },
-        ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722365092/Ecell/Events/yfhegvcm6n4yf3mlclje.png',
-        registration: '',
-        leadLink: '',
-        images: [
-            // '/Event-images/BootCamp_img1.png',
-            // '/Event-images/BootCamp_img2.png',
-            // '/Event-images/BootCamp_img3.png',
-            // '/Event-images/BootCamp_img4.png',
-            // '/Event-images/BootCamp_img5.png',
-            // '/Event-images/BootCamp_img6.png',
-            // '/Event-images/BootCamp_img7.png',
-            // '/Event-images/BootCamp_img8.png',
-        ],
-    },
-
-    {
         id: 2,
         link: 'India Sustainability Startathon 2024',
         name: 'India Sustainability Startathon 2024',
@@ -720,22 +644,20 @@ https://forms.gle/Z6ryfmmU1q79bNAG7 `,
 🏅 In-person Certificate Bootcamp in Design Thinking and Innovation
 📜 USD 375 worth 10 Online Certification Courses
 🎓 Access to 10 Masterclasses by International Faculty
-👨‍🏫 10 hours of one-on-one mentoring and a lifetime connection with international mentors.
-
-Register now:
-https://forms.gle/QDACZ8515kwM9AWx8 `,
-        date: '31st July,2024',
-        time: '12 PM- 1PM ( SOC ), 1PM- 2PM (STME) & 2:30-3:30 x(All Schools); Venue: Class 307 , NMIMS Campus',
+👨‍🏫 10 hours of one-on-one mentoring and a lifetime connection with international mentors.`,
+        date: '3rd - 4th August, 2024',
+        time: '',
+        venue: 'Nmims Navi Mumbai Campus',
         organisers: [
             {
                 key: '1',
                 name: 'Events Head: Jatin Verma',
-                email: 'LoremIpsum@gmail.com',
-                phoneNumber: '123-456-7890',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
             },
         ],
         poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722366069/Ecell/Events/nfqgjhfbmjlleklta75m.png',
-        registration: '',
+        registration: 'https://forms.gle/QDACZ8515kwM9AWx8',
         leadLink: '',
         images: [
             // '/Event-images/BootCamp_img1.png',
@@ -750,4 +672,39 @@ https://forms.gle/QDACZ8515kwM9AWx8 `,
     },
 ]
 
-export { Pastevents, happenings, UpcomingEvents }
+const Archives = [
+    {
+        id: 1,
+        link: 'ScaleUp Webinar',
+        name: 'ScaleUp Webinar',
+        tag: 'Transform Your Study Dreams into Reality - Join the CollegeDunia Study Abroad Seminar at NMIMS for Expert Guidance and Global Opportunities!',
+        description: `Learn how to maximize your return on investment and make informed decisions for a bright future! 
+Don't miss this chance to get all your questions answered and take the first step towards your dream university!`,
+        date: '31st July,2024',
+        time: '1PM- 2PM ',
+        venue: 'Nmims Navi Mumbai Campus',
+        organisers: [
+            {
+                key: '1',
+                name: 'Events Head: Jatin Verma',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
+            },
+        ],
+        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722365092/Ecell/Events/yfhegvcm6n4yf3mlclje.png',
+        registration: '',
+        leadLink: '',
+        images: [
+            '/Event-images/Gmat_Event_img1.png',
+            '/Event-images/Gmat_Event_img6.png',
+            '/Event-images/Gmat_Event_img3.png',
+            '/Event-images/Gmat_Event_img7.png',
+            '/Event-images/Gmat_Event_img5.png',
+            '/Event-images/Gmat_Event_img2.png',
+            '/Event-images/Gmat_Event_img4.png',
+            // '/Event-images/BootCamp_img8.png',
+        ],
+    },
+]
+
+export { Pastevents, happenings, UpcomingEvents, Archives }

@@ -4,16 +4,15 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react'
 import {
-    mentors,
+    Finance,
     technicals,
     President,
     eventM,
-    Finance,
     PR,
     Creatives,
     Logistics,
     Sponsorship,
-    Marketing,
+    mentors,
 } from '@data/team'
 
 export const Team = () => {
@@ -41,7 +40,7 @@ export const Team = () => {
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
             </div>
@@ -57,7 +56,7 @@ export const Team = () => {
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
             </div>
@@ -73,7 +72,7 @@ export const Team = () => {
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
             </div>
@@ -89,7 +88,7 @@ export const Team = () => {
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
             </div>
@@ -105,23 +104,23 @@ export const Team = () => {
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
             </div>
 
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Marketing Team
+                Finance Team
             </h2>
             <div className={styles.mentor}>
-                {Marketing.map((data) => (
+                {Finance.map((data) => (
                     <Card
                         key={data.id}
                         name={data.name}
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
             </div>
@@ -137,7 +136,7 @@ export const Team = () => {
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
             </div>
@@ -154,13 +153,13 @@ export const Team = () => {
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
             </div>
 
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Admin/Logistics Team
+                Logistics Team
             </h2>
             <div className={styles.mentor}>
                 {Logistics.map((data) => (
@@ -170,7 +169,7 @@ export const Team = () => {
                         image={data.image}
                         linkedin={data.linkedin}
                         instagram={data.instagram}
-                        twitter={data.twitter}
+                        // twitter={data.twitter}
                     />
                 ))}
             </div>

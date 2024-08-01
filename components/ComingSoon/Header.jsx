@@ -1,52 +1,43 @@
 import styles from '/styles/Header.module.css'
 import HButtons from './HButtons'
-import AOS from 'aos'
-import 'aos/dist/aos.css'
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
+import { animateElement } from '../../utils/animations.js'
 
 const Header = () => {
+    const topToBottomRef = useRef(null)
+    const bottomToTopRef = useRef(null)
+
     useEffect(() => {
-        AOS.init({
-            // duration : 5000
-        })
+        if (topToBottomRef.current) {
+            animateElement(topToBottomRef.current, 'topToBottom')
+        }
+        if (bottomToTopRef.current) {
+            animateElement(bottomToTopRef.current, 'bottomToTop')
+        }
     }, [])
 
     return (
-        <>
-            {/* <div className={styles.videoContainer}>
-                <video autoPlay loop muted className={styles.backgroundVideo}>
-                    <source
-                        src="../../public/videos/Ecell-Intro-reel.mp4"
-                        type="video/mp4"
-                    />
-                    Your browser does not support the video tag.
-                </video> */}
-            <div className={styles.hbody} id="Header">
-                <p
-                    className={styles.heading}
-                    data-aos="fade-up"
-                    data-aos-duration="2000"
-                    data-aos-anchor-placement="top-bottom"
-                >
-                    <span>Where Ideas</span> <span>Gets</span>{' '}
-                    <span className={styles.maintxt}>Stellar!</span>
-                </p>
-                <p
-                    className={styles.desciption}
-                    data-aos="zoom-in"
-                    data-aos-duration="2500"
-                >
-                    <span className={styles.subtext}>
-                        Welcome to Entrepreneurship Cell, STME NMIMS Navi Mumbai
-                    </span>
-                    <span>
-                        <br />
-                    </span>
-                </p>
-                <HButtons />
-            </div>
-            {/* </div> */}
-        </>
+        <div className={styles.hbody} id="Header">
+            <p
+                className={styles.heading}
+                ref={topToBottomRef} // Apply top-to-bottom animation to this element
+            >
+                <span>Where Ideas</span> <span>Gets</span>{' '}
+                <span className={styles.maintxt}>Stellar!</span>
+            </p>
+            <p
+                className={styles.desciption}
+                ref={bottomToTopRef} // Apply bottom-to-top animation to this element
+            >
+                <span className={styles.subtext}>
+                    Welcome to Entrepreneurship Cell, STME NMIMS Navi Mumbai
+                </span>
+                <span>
+                    <br />
+                </span>
+            </p>
+            <HButtons />
+        </div>
     )
 }
 

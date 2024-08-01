@@ -1,8 +1,9 @@
-import { HButtonLight } from '@components/Accessories/button'
-import { ImArrowUpRight2 } from 'react-icons/im'
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import styles from '../../styles/About.module.css'
+import { HButtonLight } from '@components/Accessories/button'
+import { ImArrowUpRight2 } from 'react-icons/im'
+import { animateElement } from '../../utils/animations' // Import the unified animation function
 import Button from './Button'
 import { Date } from './Date'
 import Timer from './Timer'
@@ -10,13 +11,30 @@ import Timer from './Timer'
 const About = () => {
     const [showTimer, setShowTimer] = useState(true)
 
+    const animationRefs = {
+        section1: useRef(null),
+        section2: useRef(null),
+        section3: useRef(null),
+        section4: useRef(null),
+    }
+
+    useEffect(() => {
+        // Initialize GSAP animations with different directions
+        animateElement(animationRefs.section1.current, 'leftToRight')
+        animateElement(animationRefs.section2.current, 'rightToLeft')
+        animateElement(animationRefs.section3.current, 'topToBottom')
+        animateElement(animationRefs.section4.current, 'bottomToTop')
+    }, [])
+
     return (
         <div className={styles.container} id="AboutUS">
-            <div className={styles.title_container}>
+            <div
+                className={styles.title_container}
+                ref={animationRefs.section1}
+            >
                 <h1 className={styles.title}>
                     What is <span>E-CELL &nbsp;?</span>
                 </h1>
-
                 <p className={styles.content}>
                     Welcome to the official website of the Entrepreneurship Cell
                     (E-Cell) at NMIMS Navi Mumbai. Empowering and inspiring
@@ -32,11 +50,13 @@ const About = () => {
                 </p>
             </div>
 
-            <div className={styles.title_container}>
+            <div
+                className={styles.title_container}
+                ref={animationRefs.section2}
+            >
                 <h1 className={styles.title}>
                     OUR <span>Vision</span>
                 </h1>
-
                 <p className={styles.content}>
                     We're on a mission to empower student entrepreneurs,
                     transforming them into job creators. Picture this: a college
@@ -57,7 +77,10 @@ const About = () => {
                 </div>
             </div>
 
-            <div className={styles.title_container}>
+            <div
+                className={styles.title_container}
+                ref={animationRefs.section3}
+            >
                 <h1 className={styles.title}>
                     Director's <span>Message</span>
                 </h1>
@@ -88,7 +111,10 @@ const About = () => {
                 </p>
             </div>
 
-            <div className={styles.title_container}>
+            <div
+                className={styles.title_container}
+                ref={animationRefs.section4}
+            >
                 <h1 className={styles.title}>
                     Faculty's <span>Message</span>
                 </h1>

@@ -36,7 +36,7 @@ const Card = (props) => {
                     )}
                     <style jsx global>{`
                         .imgs {
-                            border-radius: 8px;
+                            border-radius: 4px;
                         }
                     `}</style>
                     <div className={styles.content_container}>
@@ -63,15 +63,6 @@ const Card = (props) => {
                         >
                             <FaLinkedin />
                         </a>
-                        {props.twitter !== '' && (
-                            <a
-                                href={props.twitter}
-                                target="_blank"
-                                rel="noreferrer"
-                            >
-                                <FaTwitter />
-                            </a>
-                        )}
                     </div>
                 </div>
             </div>
