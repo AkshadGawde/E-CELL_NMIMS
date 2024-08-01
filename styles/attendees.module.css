@@ -72,9 +72,6 @@
     max-height: 100%;
     vertical-align: middle;
     border: 0;
-    transform: translate3d(18.084%, 0px, 0px) scale3d(1, 1, 1)
-        rotateX(37.1126deg) rotateY(-11.0291deg) rotateZ(32.9962deg)
-        skew(0deg, 0deg);
 }
 .hi2 {
     box-shadow: -55px 32px 160px -5px rgb(0 0 0 / 20%);
@@ -82,9 +79,6 @@
     max-width: 100%;
     vertical-align: middle;
     border: 0;
-    transform: translate3d(18.084%, 0px, 0px) scale3d(1, 1, 1)
-        rotateX(37.1126deg) rotateY(-11.0291deg) rotateZ(32.9962deg)
-        skew(0deg, 0deg);
     margin-bottom: -43%;
 }
 
@@ -94,9 +88,6 @@
     max-width: 100%;
     vertical-align: middle;
     border: 0;
-    transform: translate3d(18.084%, 0px, 0px) scale3d(1, 1, 1)
-        rotateX(37.1126deg) rotateY(-11.0291deg) rotateZ(32.9962deg)
-        skew(0deg, 0deg);
 }
 
 @media (min-width: 1020px) and (max-width: 1600px) {

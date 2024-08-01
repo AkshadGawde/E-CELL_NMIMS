@@ -185,3 +185,12 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.animations {
+    .animate-top-to-bottom, 
+    .animate-bottom-to-top {
+      margin: 20px;
+      padding: 20px;
+      background: lightgray;
+      border-radius: 8px;
+    }
+  }
