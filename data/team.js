@@ -32,7 +32,7 @@ const technicals = [
     {
         id: 1,
         name: 'Akshad Gawde',
-        image: '/team/AkshadGawde.png',
+        image: '/team/AkshadG.png',
         linkedin: 'https://www.linkedin.com/in/akshad-gawde-a91b54b0/',
         gif: '',
         instagram: '',
