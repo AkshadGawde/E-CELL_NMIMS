@@ -6,7 +6,6 @@ import { ImArrowUpRight2 } from 'react-icons/im'
 import { animateElement } from '../../utils/animations' // Import the unified animation function
 import Button from './Button'
 import { Date } from './Date'
-import Timer from './Timer'
 
 const About = () => {
     const [showTimer, setShowTimer] = useState(true)
@@ -86,7 +85,7 @@ const About = () => {
                 </h1>
                 <div className={styles.image_container}>
                     <Image
-                        src="https://res.cloudinary.com/dq23wxdum/image/upload/v1716808315/sbm4dbmtwsbffc0yamvl.png"
+                        src="/team/Director_img.png"
                         alt="Director"
                         width={300}
                         height={300}
@@ -120,7 +119,7 @@ const About = () => {
                 </h1>
                 <div className={styles.image_container}>
                     <Image
-                        src="https://res.cloudinary.com/dq23wxdum/image/upload/v1716808349/log0h0ehmlrchfxuladt.png"
+                        src="/team/Aparnarao_img.png"
                         alt="Faculty"
                         width={300}
                         height={300}
@@ -158,15 +157,6 @@ const About = () => {
                 </div>
             </div> */}
             <br />
-            <div className={styles.timer_container}>
-                {showTimer ? (
-                    <Timer setShowTimer={setShowTimer} />
-                ) : (
-                    <h1 className={styles.title}>
-                        It&#39;s Show<span>time</span>
-                    </h1>
-                )}
-            </div>
         </div>
     )
 }

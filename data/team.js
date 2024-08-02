@@ -2,7 +2,7 @@ const mentors = [
     {
         id: 1,
         name: 'Dr. Aparna Rao',
-        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716808349/log0h0ehmlrchfxuladt.png',
+        image: '/team/Aparnarao_img.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -20,7 +20,7 @@ const mentors = [
     {
         id: 2,
         name: 'Prof. Asha Rawat',
-        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722491008/Ecell/uecksvk2wnjxbis3sopw.png',
+        image: '/team/AshaRawat.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -32,7 +32,7 @@ const technicals = [
     {
         id: 1,
         name: 'Akshad Gawde',
-        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722452359/Ecell/zamouqa4jbjob5q2ldra.png',
+        image: '/team/AkshadG.png',
         linkedin: 'https://www.linkedin.com/in/akshad-gawde-a91b54b0/',
         gif: '',
         instagram: '',
@@ -53,7 +53,7 @@ const President = [
     {
         id: 2,
         name: 'Aarya Mishra',
-        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722451872/Ecell/n47omfpx9uiiprju4jlv.png',
+        image: '/team/AaryaMishra.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -65,7 +65,7 @@ const eventM = [
     {
         id: 1,
         name: 'Jatin Verma',
-        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716224503/woldrdq1dodfxvr5fito.jpg',
+        image: '/team/JatinVerma.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -74,7 +74,7 @@ const eventM = [
     {
         id: 2,
         name: 'Saud Shaikh',
-        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716224501/lus9q4eeao3jwxkt6cve.jpg',
+        image: '/team/SaudS.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -85,7 +85,7 @@ const Finance = [
     {
         id: 1,
         name: 'Aditya Ladge',
-        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722487759/Ecell/cbhwfved4dwsbtbzhocx.png',
+        image: '/team/AdityaL.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -96,7 +96,7 @@ const PR = [
     {
         id: 1,
         name: 'Sreevasini s',
-        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722450973/Ecell/v0npmt9dniaikmt4zdib.jpg',
+        image: '/team/SreevasiniS.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -116,7 +116,7 @@ const Creatives = [
     {
         id: 1,
         name: 'Aditee Moudgil',
-        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716224500/ynavlnx4devh3mp8mfuf.jpg',
+        image: '/team/AditeeM.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -125,7 +125,7 @@ const Creatives = [
     {
         id: 2,
         name: 'Vedashree Bhandigare',
-        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722504211/Ecell/od40nepfzkzh180dwopp.png',
+        image: '/team/VedashreeB.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -136,7 +136,7 @@ const Logistics = [
     {
         id: 1,
         name: 'Aditya Kurup',
-        image: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722451710/Ecell/m3rshq4qy0nl9mj37igi.png',
+        image: '/team/AdityaKurup.png',
         linkedin: '',
         gif: '',
         instagram: '',

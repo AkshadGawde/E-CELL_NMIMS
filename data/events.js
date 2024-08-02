@@ -62,7 +62,7 @@ const Pastevents = [
             //     phoneNumber: 'Events Head: Jatin Verma',
             // },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933407/er0yyc57kecnqrbydtcz.jpg',
+        poster: '/Posters/dragonden_game.png',
         registration: 'https://forms.gle/dEafjBAL2QgXdf2h6',
         leadLink: '1vMIoyz6Q6FOtx9pPPP92yKkfrrZ-boipmSPAaI0qB6Y',
         images: [
@@ -103,45 +103,10 @@ const Pastevents = [
             //     phoneNumber: 'Events Head: Jatin Verma',
             // },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933472/webdqyz61vflmz7ksasi.jpg',
+        poster: '/Posters/digital_marketing.png',
         registration:
             'https://docs.google.com/forms/d/e/1FAIpQLSdmhqEWNW6Muy7dUTRUnfHUf4pap5elZZQzZ3A6SPtUiMr91A/viewform?usp=sf_link',
         leadLink: '1k2yejkk2p7URprQ71YsEw3jJr6F-bFe4JpdQ-Yz8Pr4',
-        images: [
-            // '/Event-images/BlackTie_img1.png',
-            // '/Event-images/BlackTie_img2.png',
-            // '/Event-images/BlackTie_img3.png',
-            // '/Event-images/BlackTie_img4.png',
-            // '/Event-images/BlackTie_img5.png',
-            // '/Event-images/BlackTie_img6.png',
-            // '/Event-images/BlackTie_img7.png',
-            // '/Event-images/BlackTie_img8.png',
-        ],
-    },
-    {
-        id: 4,
-        link: '100 to Million',
-        name: '100 to Million',
-        tag: 'Team Challenge',
-        description: `Join the 100 to Million challenge with a team of 4 to 5 members and embark on a two-day journey towards success!
-- Each team must consist of 4-5 members.
-- Participants must adhere to the given theme and guidelines.
-- Carry your laptops for the Presentation round.
-- Judges' decisions will be final.`,
-        date: '15th March 2023',
-        time: '3:30pm - 5:00pm',
-        organisers: [
-            {
-                key: '1',
-                name: 'Events Head: Jatin Verma',
-                email: 'jatin.s.p.verma@gmail.com',
-                phoneNumber: '+91 7020046019',
-            },
-        ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933521/bclwj2fihpyxekxij1rq.jpg',
-        registration:
-            'https://dare2compete.com/p/consolelogreplicate-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottay-221911',
-        leadLink: '1RPPyF8Zo2tEH04WG0dLCmfYkceCndur4Y9HhqIvek6w',
         images: [
             // '/Event-images/BlackTie_img1.png',
             // '/Event-images/BlackTie_img2.png',
@@ -199,7 +164,7 @@ const Pastevents = [
                 phoneNumber: '+91 7020046019',
             },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933646/tx5kqvtqrcwcd7wchowu.jpg',
+        poster: '/Posters/squid_game.png',
         registration:
             'https://dare2compete.com/p/brand-aid-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-223776?lb=iUGWfEQ',
         leadLink: '19YaOkzhCQiyUHg1pvAXeNPLVNGhNTSP4vIchESMBBAE',
@@ -357,7 +322,7 @@ const happenings = [
     {
         id: 4,
         link: 'Indo-German-Collaboration',
-        name: 'Indo-German Collaboration Session',
+        name: 'Indo-German Collaboration ',
         tag: 'Cross-Border Entrepreneurship: Join the Indo-German Collaboration Session organized by E-Cell of STME, Navi Mumbai!',
         description: `- Organized interaction with Technical University, Braunschweig (TU BS), Germany.
     - Focus: Collaboration for Indo-German Centre for Entrepreneurship.
@@ -377,7 +342,7 @@ const happenings = [
                 phoneNumber: '+91 7020046019',
             },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715936190/lax68aaqijoia1uc7mo1.png',
+        poster: '/Posters/indo_german.png',
         registration: 'https://example.com/registration1',
         leadLink: '',
         images: [
@@ -385,40 +350,6 @@ const happenings = [
             '/Event-images/IndoGerman_img3.png',
             '/Event-images/IndoGerman_img2.png',
             '/Event-images/IndoGerman_img4.png',
-        ],
-    },
-    {
-        id: 5,
-        link: 'Tradiosity',
-        name: 'Tradiosity',
-        tag: 'Enhancing Financial Acumen: Join Tradiosity, the department of E-Cell, SOC dedicated to enhancing the financial acumen of young investors!',
-        description: `- Conducts insightful weekly trading sessions.
-    - Four successful sessions have been conducted, eliciting enthusiastic feedback from participants.
-    - Sessions cover stock trading fundamentals comprehensively, including compounding, basics of stock markets, Nifty 50 & Sensex insights, trading terminologies, diverse trading styles, and creating personalized stock watchlists.
-    - Goal is to provide students with practical knowledge and essential skills to confidently navigate financial markets.
-    - Positive responses motivate the team to continue fueling the curiosity of budding investors, encouraging ongoing exploration of the financial landscape.`,
-        date: '12th Oct 2023',
-        time: '11:00am - 1:00pm',
-        organisers: [
-            {
-                key: '1',
-                name: 'Events Head: Jatin Verma',
-                email: 'jatin.s.p.verma@gmail.com',
-                phoneNumber: '+91 7020046019',
-            },
-        ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715936517/eb6k2ysfl5iitd3aj3v7.png',
-        registration: 'https://example.com/registration1',
-        leadLink: '',
-        images: [
-            // '/Event-images/BootCamp_img1.png',
-            // '/Event-images/BootCamp_img2.png',
-            // '/Event-images/BootCamp_img3.png',
-            // '/Event-images/BootCamp_img4.png',
-            // '/Event-images/BootCamp_img5.png',
-            // '/Event-images/BootCamp_img6.png',
-            // '/Event-images/BootCamp_img7.png',
-            // '/Event-images/BootCamp_img8.png',
         ],
     },
     {
@@ -442,18 +373,18 @@ const happenings = [
                 phoneNumber: '+91 7020046019',
             },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715936625/oyc54zywlnulcty8tlhl.png',
+        poster: '/Posters/hassle.png',
         registration: 'https://example.com/registration1',
         leadLink: '',
         images: [
-            // '/Event-images/BootCamp_img1.png',
-            // '/Event-images/BootCamp_img2.png',
-            // '/Event-images/BootCamp_img3.png',
-            // '/Event-images/BootCamp_img4.png',
-            // '/Event-images/BootCamp_img5.png',
-            // '/Event-images/BootCamp_img6.png',
-            // '/Event-images/BootCamp_img7.png',
-            // '/Event-images/BootCamp_img8.png',
+            '/Event-images/hassle_img1.png',
+            '/Event-images/hassle_img2.png',
+            '/Event-images/hassle_img3.png',
+            '/Event-images/hassle_img4.png',
+            '/Event-images/hassle_img5.png',
+            // '/Event-images/hassle_img6.png',
+            // '/Event-images/hassle_img7.png',
+            // '/Event-images/hassle_img8.png',
         ],
     },
     {
@@ -478,7 +409,7 @@ const happenings = [
                 phoneNumber: '123-456-7890',
             },
         ],
-        poster: '/Posters/BootCamp23_Banner.png',
+        poster: '/Posters/Bootcamp23.png',
         registration: 'https://example.com/registration1',
         leadLink: 'exampleLeadLink1',
         images: [
@@ -552,7 +483,7 @@ const happenings = [
                 phoneNumber: '098-765-4321',
             },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715936801/apzivjglsrj1mepxbq2w.png',
+        poster: '/Posters/nec.png',
         registration: 'https://example.com/registration1',
         leadLink: '',
         images: [
