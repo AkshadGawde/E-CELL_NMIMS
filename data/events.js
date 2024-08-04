@@ -576,7 +576,7 @@ const UpcomingEvents = [
 📜 USD 375 worth 10 Online Certification Courses
 🎓 Access to 10 Masterclasses by International Faculty
 👨‍🏫 10 hours of one-on-one mentoring and a lifetime connection with international mentors.`,
-        date: '3rd - 4th August, 2024',
+        date: '10th - 11th August, 2024',
         time: '',
         venue: 'Nmims Navi Mumbai Campus',
         organisers: [
