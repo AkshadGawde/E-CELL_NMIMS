@@ -5,6 +5,11 @@ const EventDetails = (props) => {
 
     return (
         <div className={styles.Evecont}>
+            <p className={styles.date}>
+                {date}
+                <br />
+                {time}
+            </p>
             <p className={styles.hdn1}>details</p>
             <p className={styles.desc} style={{ whiteSpace: 'pre-line' }}>
                 {description}
@@ -24,12 +29,7 @@ const EventDetails = (props) => {
                     <p>No images available</p>
                 )}
             </div>
-            <p className={styles.date}>
-                {date}
-                <br />
-                {time}
-            </p>
-            <hr />
+            {/* <hr /> */}
         </div>
     )
 }
