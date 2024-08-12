@@ -34,7 +34,7 @@ export const Event = () => {
                 ))}
             </div>
 
-            <h1>Archives</h1>
+            <h1>Archives 2024</h1>
             <div className={styles.cards}>
                 {Archives.map((data) => (
                     <Card
