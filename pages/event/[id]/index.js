@@ -6,7 +6,6 @@ import Navbar from '@components/Nav/Navbar'
 import EventDetails from '@components/Events/EventDetails'
 import OrganizerContainer from '@components/Events/Orgnjdge'
 import { Pastevents, happenings, UpcomingEvents, Archives } from '@data/events'
-import { images } from 'next.config'
 
 export const getStaticPaths = async () => {
     const eventPaths = Pastevents.map((event) => ({

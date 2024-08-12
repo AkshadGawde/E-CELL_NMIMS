@@ -568,22 +568,24 @@ const UpcomingEvents = [
         id: 2,
         link: '',
         name: 'Business Plan Competition',
-        tag: '',
-        description: ``,
-        date: '',
-        time: '',
-        venue: '',
+        tag: 'Business Plan Competition',
+        description: `This competition, spanning four months, aims to empower aspiring entrepreneurs by refining
+their startup ideas through pitching, receiving expert guidance, and competing for recognition
+and potential funding.`,
+        date: 'TBD',
+        time: 'TBD',
+        venue: 'TBD',
         organisers: [
-            // {
-            //     key: '1',
-            //     name: 'Events Head: Jatin Verma',
-            //     email: 'jatin.s.p.verma@gmail.com',
-            //     phoneNumber: '+91 7020046019',
-            // },
+            {
+                key: '1',
+                name: 'Events Head: Jatin Verma',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
+            },
         ],
         poster: '/Posters/QuestionMark.png',
-        registration: '',
-        leadLink: '',
+        registration: 'TBD',
+        leadLink: 'TBD',
         images: [
             // '/Event-images/Startathon_img1.png',
             // '/Event-images/BootCamp_img2.png',
