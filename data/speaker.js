@@ -55,6 +55,17 @@ const speaker = [
         link: '',
         // linkyt: '',
     },
+    {
+        id: 6,
+        name: 'Sakshee Banerjee',
+        details: 'Assistant Manager Collegedunia Web Pvt ltd',
+        date: '31st July ',
+        time: '1pm - 2pm',
+        how: 'Room C307',
+        image: '/speakers/Sakshee_Collegeduniya.png',
+        link: '',
+        // linkyt: '',
+    },
 ]
 
 export { speaker }
