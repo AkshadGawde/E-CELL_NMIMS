@@ -662,6 +662,69 @@ Don't miss this chance to get all your questions answered and take the first ste
             // '/Event-images/BootCamp_img8.png',
         ],
     },
+    {
+        id: 2,
+        link: 'India Sustainability Startathon 2024',
+        name: 'India Sustainability Startathon 2024',
+        tag: 'Join Us in Shaping a Greener Future - An Exclusive Event by Rotaract Club of NMIMS and E-Cell, Focused on Sustainable Innovation and Leadership',
+        description: `Receive a FULLY FUNDED SCHOLARSHIP to be part of the ASEAN - China - India Youth Leadership Summit 2024 in SINGAPORE and get an opportunity to pre-incubate your sustainability startup!
+        In addition to this,
+    🌿 Be part of the Climate Ninja Program by The Sustainability Mafia
+    🏅 In-person Certificate Bootcamp in Design Thinking and Innovation
+    📜 USD 375 worth 10 Online Certification Courses
+    🎓 Access to 10 Masterclasses by International Faculty
+    👨‍🏫 10 hours of one-on-one mentoring and a lifetime connection with international mentors.
+    
+    The Startathon is designed to foster innovation and entrepreneurship among college students by providing them with real-world problem statements from UNN companies.
+    The event includes ideation, development, and pitching of solutions in a competitive format, with mentorship and evaluation by industry professionals.
+    
+    Duration:
+    Total Event Time: 24 hours(On-campus)
+    Overall Time: 3 months
+    
+    Team Formation and Registration:
+    Team Size- 2 to 4 members.
+    Registration Fee- Rs. 599 / team for the pr main event. 
+    
+    Pre-Startathon (Months 1 & 2): 
+    Problem Statements will be given by UNN companies.
+    Submissions: Teams submit a 5-minute video and PPT.
+    Evaluation and selection of up to 5 teams per college by the jury.
+    
+    On-Campus Startathon (Month 3):
+    1. 24-hour Startathon.
+    2. First Jury Round for feedback.
+    3. Dinner.
+    4. Submission of final videos.
+    5. Announce shortlisted teams.
+    6. Final pitches.
+    7. Award ceremony, kit distribution.
+    8. Get to interact with industry professionals.`,
+        date: '10th - 11th August, 2024',
+        time: '',
+        venue: 'Nmims Navi Mumbai Campus',
+        organisers: [
+            {
+                key: '1',
+                name: 'Events Head: Jatin Verma',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
+            },
+        ],
+        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722366069/Ecell/Events/nfqgjhfbmjlleklta75m.png',
+        registration: 'https://forms.gle/QDACZ8515kwM9AWx8',
+        leadLink: '',
+        images: [
+            '/Event-images/Startathon_img1.png',
+            // '/Event-images/BootCamp_img2.png',
+            // '/Event-images/BootCamp_img3.png',
+            // '/Event-images/BootCamp_img4.png',
+            // '/Event-images/BootCamp_img5.png',
+            // '/Event-images/BootCamp_img6.png',
+            // '/Event-images/BootCamp_img7.png',
+            // '/Event-images/BootCamp_img8.png',
+        ],
+    },
 ]
 
 export { Pastevents, happenings, UpcomingEvents, Archives }
