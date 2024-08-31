@@ -55,6 +55,17 @@ const speaker = [
         link: '',
         // linkyt: '',
     },
+    {
+        id: 6,
+        name: 'Sakshee Banarjee',
+        details: 'Senior Study Abroad Advisor',
+        date: '30th August ',
+        time: '11:30 Am',
+        how: 'Room C304',
+        image: '/speakers/Sakshee_Collegeduniya.png',
+        link: '',
+        // linkyt: '',
+    },
 ]
 
 export { speaker }

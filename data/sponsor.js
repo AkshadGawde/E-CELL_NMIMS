@@ -6,7 +6,7 @@ let sponsors = [
         id: 1,
         name: 'Belgian Waffle',
         link: 'https://thebelgianwaffle.co/',
-        logo: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716483209/tdnrsox0swdhznuky2rp.jpg',
+        logo: '/Posters/Belgian_Logo.png',
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ let sponsors = [
     {
         id: 3,
         name: 'Flex Fuel',
-        link: '',
+        link: 'https://www.skillindiadigital.gov.in/',
         logo: '/Posters/FlexFuel_logo.png',
     },
 ]
@@ -27,17 +27,23 @@ let sponsors2 = [
         id: 1,
         name: 'Cinnabon',
         link: 'https://www.cinnabon.com/',
-        logo: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716483209/juxttuefdn4yyxealrf5.png',
+        logo: '/Posters/Cinnabon_Logo.png',
     },
-]
-
-let sponsors3 = [
     {
-        id: 1,
+        id: 2,
         name: 'Sabarro',
         link: 'https://www.sbarroindia.com/',
-        logo: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1716483209/pmwqx6605r3kff1t01mb.png',
+        logo: '/Posters/Sbarro_Logo.png',
     },
 ]
 
-export { sponsors, sponsors2, sponsors3 }
+// let sponsors3 = [
+//     {
+//         id: 1,
+//         name: 'Sabarro',
+//         link: 'https://www.sbarroindia.com/',
+//         logo: '/Posters/Sbarro_Logo.png',
+//     },
+// ]
+
+export { sponsors, sponsors2 }

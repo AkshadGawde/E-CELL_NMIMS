@@ -2,7 +2,7 @@ import { useRef, useEffect } from 'react'
 import { SponsorsRow } from './SponsorsRow'
 import styles from './Sponsor.module.css'
 import styleP from './Prizes.module.css'
-import { sponsors, sponsors2, sponsors3 } from '@data/sponsor'
+import { sponsors, sponsors2 } from '@data/sponsor'
 import { prizes } from '@data/prizes'
 import { animateElement } from '../../utils/animations.js'
 
@@ -43,9 +43,9 @@ export const Sponsors = () => {
                 <div ref={sponsorRowRef2}>
                     <SponsorsRow sponsors={sponsors2} />
                 </div>
-                <div ref={sponsorRowRef3}>
+                {/* <div ref={sponsorRowRef3}>
                     <SponsorsRow sponsors={sponsors3} />
-                </div>
+                </div> */}
             </div>
         </div>
     )
