@@ -1,12 +1,11 @@
 import Head from 'next/head'
-import styles from '../../../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 import Footer from '@components/Footer/Footer'
 import EventHeading from '@components/Events/EventHeading'
 import Navbar from '@components/Nav/Navbar'
 import EventDetails from '@components/Events/EventDetails'
 import OrganizerContainer from '@components/Events/Orgnjdge'
 import { Pastevents, happenings, UpcomingEvents, Archives } from '@data/events'
-import { images } from 'next.config'
 
 export const getStaticPaths = async () => {
     const eventPaths = Pastevents.map((event) => ({

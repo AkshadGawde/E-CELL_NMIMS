@@ -566,13 +566,15 @@ const happenings = [
 const UpcomingEvents = [
     {
         id: 2,
-        link: 'Business Plan',
-        name: 'Business Plan',
-        tag: 'Coming Soon ',
-        description: `Coming Soon`,
+        link: '',
+        name: 'Business Plan Competition',
+        tag: 'Business Plan Competition',
+        description: `This competition, spanning four months, aims to empower aspiring entrepreneurs by refining
+their startup ideas through pitching, receiving expert guidance, and competing for recognition
+and potential funding.`,
         date: 'TBD',
         time: 'TBD',
-        venue: 'Nmims Navi Mumbai Campus',
+        venue: 'TBD',
         organisers: [
             {
                 key: '1',
@@ -581,11 +583,11 @@ const UpcomingEvents = [
                 phoneNumber: '+91 7020046019',
             },
         ],
-        poster: '/Event-images/Question_mark_img.png',
-        registration: '',
-        leadLink: '',
+        poster: '/Posters/QuestionMark.png',
+        registration: 'TBD',
+        leadLink: 'TBD',
         images: [
-            '/Event-images/Question_mark_img.png',
+            // '/Event-images/Startathon_img1.png',
             // '/Event-images/BootCamp_img2.png',
             // '/Event-images/BootCamp_img3.png',
             // '/Event-images/BootCamp_img4.png',
@@ -633,7 +635,7 @@ Don't miss this chance to get all your questions answered and take the first ste
     {
         id: 2,
         link: 'India Sustainability Startathon 2024',
-        name: 'India Sustainability Startathon 2024',
+        name: 'Sustainability Startathon 2024',
         tag: 'Join Us in Shaping a Greener Future - An Exclusive Event by Rotaract Club of NMIMS and E-Cell, Focused on Sustainable Innovation and Leadership',
         description: `Receive a FULLY FUNDED SCHOLARSHIP to be part of the ASEAN - China - India Youth Leadership Summit 2024 in SINGAPORE and get an opportunity to pre-incubate your sustainability startup!
         In addition to this,
@@ -669,7 +671,7 @@ Don't miss this chance to get all your questions answered and take the first ste
     7. Award ceremony, kit distribution.
     8. Get to interact with industry professionals.`,
         date: '10th - 11th August, 2024',
-        time: '',
+        time: '9am - 5pm sat - sun',
         venue: 'Nmims Navi Mumbai Campus',
         organisers: [
             {
@@ -683,14 +685,14 @@ Don't miss this chance to get all your questions answered and take the first ste
         registration: 'https://forms.gle/QDACZ8515kwM9AWx8',
         leadLink: '',
         images: [
-            '/Event-images/Startathon_img1.png',
-            '/Event-images/Startathon_img2.png',
-            '/Event-images/Startathon_img3.png',
-            '/Event-images/Startathon_img4.png',
-            '/Event-images/Startathon_img5.png',
-            '/Event-images/Startathon_img6.png',
-            '/Event-images/Startathon_img7.png',
-            '/Event-images/Startathon_img8.png',
+            '/Event-images/Startathon_img2.jpg',
+            '/Event-images/Startathon_img3.jpg',
+            '/Event-images/Startathon_img4.jpg',
+            '/Event-images/Startathon_img1.jpg',
+            '/Event-images/Startathon_img5.jpg',
+            '/Event-images/Startathon_img6.jpg',
+            '/Event-images/Startathon_img7.jpg',
+            '/Event-images/Startathon_img8.jpg',
         ],
     },
 ]
