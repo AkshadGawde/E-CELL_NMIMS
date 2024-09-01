@@ -79,3 +79,57 @@
         font-size: 2rem;
     }
 }
+.carousel_container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px;
+    position: relative; /* Ensure arrows are positioned relative to the container */
+}
+
+.carousel_image img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+    padding: 0.3rem;
+}
+.slick-prev,
+.slick-next {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5); /* Arrow background color */
+    border-radius: 50%;
+    z-index: 1;
+    font-size: 24px; /* Increase font size for better visibility */
+    color: #ffffff; /* Arrow color */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-prev {
+    left: 10px;
+    @media (max-width: 768px) {
+        left: 5px;
+    }
+}
+
+.slick-next {
+    right: 10px;
+    @media (max-width: 768px) {
+        right: 5px;
+    }
+}
+
+.slick-dots {
+    bottom: -30px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: white;
+}
+
+.slick-dots li.slick-active button:before {
+    color: black;
+}
