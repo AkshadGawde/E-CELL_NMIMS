@@ -99,19 +99,31 @@ export const Team = () => {
                         <img src="/team/Team.png" alt="Team Member 1" />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/Team.png" alt="Team Member 2" />
+                        <img src="/team/President.png" alt="Team Member 2" />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/Team.png" alt="Team Member 3" />
+                        <img src="/team/Tech_Head.png" alt="Team Member 3" />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/Team.png" alt="Team Member 4" />
+                        <img
+                            src="/team/Creatives_Head.png"
+                            alt="Team Member 4"
+                        />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/Team.png" alt="Team Member 5" />
+                        <img
+                            src="/team/Marketing_Head.png"
+                            alt="Team Member 5"
+                        />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/Team.png" alt="Team Member 6" />
+                        <img src="/team/RnD_Head.png" alt="Team Member 6" />
+                    </div>
+                    <div className={styles.carousel_image}>
+                        <img src="/team/Logs_Head.png" alt="Team Member 7" />
+                    </div>
+                    <div className={styles.carousel_image}>
+                        <img src="/team/Events_Head.png" alt="Team Member 8" />
                     </div>
                 </Slider>
             </div>
