@@ -1,12 +1,12 @@
-import styles from '../../styles/Team.module.css';
-import Card from './Card';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import styles from '../../styles/Team.module.css'
+import Card from './Card'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import { useEffect } from 'react'
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'
 import {
     Finance,
     technicals,
@@ -17,18 +17,18 @@ import {
     Logistics,
     Sponsorship,
     mentors,
-} from '@data/team';
+} from '@data/team'
 
 export const Team = () => {
     useEffect(() => {
         AOS.init({
             duration: 1000, // Adjust duration as needed
             once: true, // Animation happens only once
-        });
-    }, []);
+        })
+    }, [])
 
     const NextArrow = (props) => {
-        const { className, style, onClick } = props;
+        const { className, style, onClick } = props
         return (
             <FaArrowRight
                 className={className}
@@ -40,11 +40,11 @@ export const Team = () => {
                 }}
                 onClick={onClick}
             />
-        );
-    };
+        )
+    }
 
     const PrevArrow = (props) => {
-        const { className, style, onClick } = props;
+        const { className, style, onClick } = props
         return (
             <FaArrowLeft
                 className={className}
@@ -56,8 +56,8 @@ export const Team = () => {
                 }}
                 onClick={onClick}
             />
-        );
-    };
+        )
+    }
 
     const carouselSettings = {
         dots: true,
@@ -85,7 +85,7 @@ export const Team = () => {
                 },
             },
         ],
-    };
+    }
 
     return (
         <div className={styles.team_container}>
@@ -96,22 +96,22 @@ export const Team = () => {
             <div className={styles.carousel_container}>
                 <Slider {...carouselSettings}>
                     <div className={styles.carousel_image}>
-                        <img src="/team/AaryaMishra.png" alt="Team Member 1" />
+                        <img src="/team/Team.png" alt="Team Member 1" />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/AaryaMishra.png" alt="Team Member 2" />
+                        <img src="/team/Team.png" alt="Team Member 2" />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/AaryaMishra.png" alt="Team Member 3" />
+                        <img src="/team/Team.png" alt="Team Member 3" />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/AaryaMishra.png" alt="Team Member 4" />
+                        <img src="/team/Team.png" alt="Team Member 4" />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/AaryaMishra.png" alt="Team Member 5" />
+                        <img src="/team/Team.png" alt="Team Member 5" />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/AaryaMishra.png" alt="Team Member 6" />
+                        <img src="/team/Team.png" alt="Team Member 6" />
                     </div>
                 </Slider>
             </div>
@@ -261,5 +261,5 @@ export const Team = () => {
                 ))}
             </div>
         </div>
-    );
-};
+    )
+}
