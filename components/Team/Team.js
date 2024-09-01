@@ -96,22 +96,22 @@ export const Team = () => {
             <div className={styles.carousel_container}>
                 <Slider {...carouselSettings}>
                     <div className={styles.carousel_image}>
-                        <img src="/team/AaryaMishra.png" alt="Team Member 1" />
+                        <img src="/team/Team.png" alt="Team Member 1" />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/AaryaMishra.png" alt="Team Member 2" />
+                        <img src="/team/Team.png" alt="Team Member 2" />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/AaryaMishra.png" alt="Team Member 3" />
+                        <img src="/team/Team.png" alt="Team Member 3" />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/AaryaMishra.png" alt="Team Member 4" />
+                        <img src="/team/Team.png" alt="Team Member 4" />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/AaryaMishra.png" alt="Team Member 5" />
+                        <img src="/team/Team.png" alt="Team Member 5" />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/AaryaMishra.png" alt="Team Member 6" />
+                        <img src="/team/Team.png" alt="Team Member 6" />
                     </div>
                 </Slider>
             </div>
