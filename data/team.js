@@ -42,7 +42,7 @@ const technicals = [
         id: 2,
         name: 'Malay Thoria',
         image: '/team/Malay.png',
-        linkedin: '',
+        linkedin: 'https://www.linkedin.com/in/malay-thoria-5b83a1248/',
         gif: '',
         instagram: '',
         twitter: '',
@@ -103,7 +103,7 @@ const Finance = [
     {
         id: 2,
         name: 'Harsh Bhanushali',
-        image: '',
+        image: '/team/harshB.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -134,9 +134,10 @@ const PR = [
     },
     {
         id: 2,
-        name: 'Astha ',
+        name: 'Astha Patil ',
         image: '/team/Astha.png',
-        linkedin: '',
+        linkedin:
+            'https://www.linkedin.com/in/astha-patil-22543120a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
         gif: '',
         instagram: '',
         twitter: '',
@@ -187,7 +188,7 @@ const Sponsorship = [
         id: 1,
         name: 'Ishika Mohan',
         image: '/team/IshikaM.png',
-        linkedin: '',
+        linkedin: 'https://www.linkedin.com/in/ishika-mohan-04410827a/',
         gif: '',
         instagram: '',
         twitter: '',
@@ -205,8 +206,8 @@ const Sponsorship = [
 const Marketing = [
     {
         id: 1,
-        name: 'Vaishnavi Kaidav',
-        image: '',
+        name: 'Vaishnavi Kidav',
+        image: '/team/VaishnaviK.png',
         linkedin: '',
         gif: '',
         instagram: '',
