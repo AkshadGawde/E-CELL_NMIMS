@@ -127,6 +127,9 @@ export const Team = () => {
                     <div className={styles.carousel_image}>
                         <img src="/team/Events_Head.png" alt="Team Member 8" />
                     </div>
+                    <div className={styles.carousel_image}>
+                        <img src="/team/PR_Head.png" alt="Team Member 9" />
+                    </div>
                 </Slider>
             </div>
 
