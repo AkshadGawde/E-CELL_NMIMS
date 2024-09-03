@@ -566,11 +566,71 @@ const happenings = [
 const UpcomingEvents = [
     {
         id: 2,
-        link: 'Business Plan',
-        name: 'Business Plan',
-        tag: 'Coming Soon ',
-        description: `Coming Soon`,
-        date: 'TBD',
+        link: 'The Learning Odyssey',
+        name: 'The Learning Odyssey',
+        tag: 'Unlock your potential with hands-on learning beyond the classroom',
+        description: `Our workshops are designed to provide students with an in-depth and interactive learning experience that goes beyond the standard classroom curriculum. Through hands-on activities and collaborative projects, students will gain a deeper understanding of complex concepts, develop essential problem-solving skills, and enhance their overall academic performance.
+
+    Purpose:
+    Our workshops are designed to provide students with an in-depth and interactive learning experience that goes beyond the standard classroom curriculum. Through hands-on activities and collaborative projects, students will gain a deeper understanding of complex concepts, develop essential problem-solving skills, and enhance their overall academic performance.
+    
+    Benefits:
+    - Enhanced Academic Performance: Deepen your understanding of subjects and excel in exams.
+    - Practical Skills Development: Apply theoretical knowledge to real-world scenarios.
+    - Networking Opportunities: Connect with peers and industry professionals.
+    - Internship Certificates: Earn valuable certificates from E Cell.
+    - Reputation Enhancement: Contribute to the college's reputation and attract potential students and faculty.
+    
+    Workshop Details:
+    - Duration: 10-12 sessions over 1-1.5 months.
+    - Frequency: 3 sessions per week.
+    - Timing: 1-1.5 hours after regular classes.
+    - Cost: Rs. 600/- per subject for the entire duration.
+    - Minimum Participants: 7 to 8
+    
+    Course Plan:
+    Subject: C++
+    Topics:
+    - Introduction to C++ programming
+    - Data types and variables
+    - Operators and expressions
+    - Control flow statements (if-else, loops)
+    - Functions and arrays
+    - Object-oriented programming concepts
+    Instructor: Suditi Pradhan
+    
+    Subject: Data Structures and Algorithms (DSA)
+    Topics:
+    - Arrays, linked lists, stacks, queues
+    - Trees and graphs
+    - Sorting and searching algorithms
+    - Dynamic programming
+    Instructors: Malay Thoria, Akshad Gawde
+
+Subject: Physics
+Topics:
+- Mechanics (Newton's laws, kinematics, dynamics)
+- Thermodynamics (heat, temperature, energy)
+- Electromagnetism (electric fields, magnetic fields, circuits)
+- Optics (light, lenses, mirrors)
+Instructor: TBD
+
+Subject: Calculus
+Topics:
+- Limits, continuity, differentiation
+- Integration (definite and indefinite)
+- Applications of calculus (optimization, related rates)
+Instructor: Aditya Ray
+
+Workshop Series Name: The Learning Odyssey: Grow Beyond Classroom
+Starting Date: 10th September
+End Date: 30th September
+Registration: August 29th
+
+Note: The course plan may be subject to minor adjustments based on student needs and interests.
+
+By participating in these workshops, you'll gain valuable knowledge, skills, and experiences that will set you apart in your academic journey and future career.`,
+        date: '10th September 2024',
         time: 'TBD',
         venue: 'Nmims Navi Mumbai Campus',
         organisers: [
@@ -581,11 +641,11 @@ const UpcomingEvents = [
                 phoneNumber: '+91 7020046019',
             },
         ],
-        poster: '/Event-images/Question_mark_img.png',
-        registration: '',
+        poster: '/Event-images/Learning_Odyssey.png',
+        registration: 'https://forms.gle/x13JYJHEoer4WtJK6',
         leadLink: '',
         images: [
-            '/Event-images/Question_mark_img.png',
+            '/Event-images/Learning_Odyssey.png',
             // '/Event-images/BootCamp_img2.png',
             // '/Event-images/BootCamp_img3.png',
             // '/Event-images/BootCamp_img4.png',
