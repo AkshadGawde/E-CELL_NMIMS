@@ -38,6 +38,15 @@ const technicals = [
         instagram: '',
         twitter: '',
     },
+    {
+        id: 2,
+        name: 'Malay Thoria',
+        image: '/team/Malay.png',
+        linkedin: '',
+        gif: '',
+        instagram: '',
+        twitter: '',
+    },
 ]
 
 const President = [
@@ -92,20 +101,23 @@ const Finance = [
         twitter: '',
     },
 ]
-const PR = [
+
+const Photography = [
     {
         id: 1,
         name: 'Sreevasini s',
-        image: '/team/SreevasiniS.png',
+        image: '/team/Sreevasini.png',
         linkedin: '',
         gif: '',
         instagram: '',
         twitter: '',
     },
+]
+const PR = [
     {
-        id: 2,
+        id: 1,
         name: 'Tanay koli',
-        image: '',
+        image: '/team/TanayK.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -145,7 +157,7 @@ const Logistics = [
     {
         id: 2,
         name: 'Tanuj Kayasth',
-        image: '',
+        image: '/team/TanujK.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -154,9 +166,18 @@ const Logistics = [
 ]
 const Sponsorship = [
     {
-        id: 2,
+        id: 1,
         name: 'Ishika Mohan',
-        image: '',
+        image: '/team/IshikaM.png',
+        linkedin: '',
+        gif: '',
+        instagram: '',
+        twitter: '',
+    },
+    {
+        id: 2,
+        name: 'Aditya Ladge',
+        image: '/team/AdityaL.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -166,8 +187,17 @@ const Sponsorship = [
 const Marketing = [
     {
         id: 1,
-        name: '',
+        name: 'Vaishnavi Kaidav',
         image: '',
+        linkedin: '',
+        gif: '',
+        instagram: '',
+        twitter: '',
+    },
+    {
+        id: 2,
+        name: 'Archit Sharma',
+        image: '/team/ArchitS.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -184,4 +214,6 @@ export {
     Creatives,
     Logistics,
     Sponsorship,
+    Photography,
+    Marketing,
 }
