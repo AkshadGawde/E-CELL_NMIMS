@@ -89,7 +89,7 @@
 
 .carousel_image img {
     width: 100%;
-    height: auto;
+    max-height: 40vh;
     border-radius: 3px;
     padding: 0.3rem;
 }

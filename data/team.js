@@ -32,8 +32,17 @@ const technicals = [
     {
         id: 1,
         name: 'Akshad Gawde',
-        image: '/team/AkshadG.png',
+        image: '/team/Aks.png',
         linkedin: 'https://www.linkedin.com/in/akshad-gawde-a91b54b0/',
+        gif: '',
+        instagram: '',
+        twitter: '',
+    },
+    {
+        id: 2,
+        name: 'Malay Thoria',
+        image: '/team/Malay.png',
+        linkedin: 'https://www.linkedin.com/in/malay-thoria-5b83a1248/',
         gif: '',
         instagram: '',
         twitter: '',
@@ -84,8 +93,29 @@ const eventM = [
 const Finance = [
     {
         id: 1,
-        name: 'Aditya Ladge',
-        image: '/team/AdityaL.png',
+        name: 'Om Parekh',
+        image: '/team/OmP.png',
+        linkedin: '',
+        gif: '',
+        instagram: '',
+        twitter: '',
+    },
+    {
+        id: 2,
+        name: 'Harsh Bhanushali',
+        image: '/team/harshB.png',
+        linkedin: '',
+        gif: '',
+        instagram: '',
+        twitter: '',
+    },
+]
+
+const Photography = [
+    {
+        id: 1,
+        name: 'Sreevasini s',
+        image: '/team/Sreevasini.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -95,8 +125,8 @@ const Finance = [
 const PR = [
     {
         id: 1,
-        name: 'Sreevasini s',
-        image: '/team/SreevasiniS.png',
+        name: 'Tanay koli',
+        image: '/team/TanayK.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -104,9 +134,10 @@ const PR = [
     },
     {
         id: 2,
-        name: 'Tanay koli',
-        image: '',
-        linkedin: '',
+        name: 'Astha Patil ',
+        image: '/team/Astha.png',
+        linkedin:
+            'https://www.linkedin.com/in/astha-patil-22543120a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
         gif: '',
         instagram: '',
         twitter: '',
@@ -145,7 +176,7 @@ const Logistics = [
     {
         id: 2,
         name: 'Tanuj Kayasth',
-        image: '',
+        image: '/team/TanujK.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -154,9 +185,18 @@ const Logistics = [
 ]
 const Sponsorship = [
     {
-        id: 2,
+        id: 1,
         name: 'Ishika Mohan',
-        image: '',
+        image: '/team/IshikaM.png',
+        linkedin: 'https://www.linkedin.com/in/ishika-mohan-04410827a/',
+        gif: '',
+        instagram: '',
+        twitter: '',
+    },
+    {
+        id: 2,
+        name: 'Aditya Ladge',
+        image: '/team/AdityaL.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -166,8 +206,17 @@ const Sponsorship = [
 const Marketing = [
     {
         id: 1,
-        name: '',
-        image: '',
+        name: 'Vaishnavi Kidav',
+        image: '/team/VaishnaviK.png',
+        linkedin: '',
+        gif: '',
+        instagram: '',
+        twitter: '',
+    },
+    {
+        id: 2,
+        name: 'Archit Sharma',
+        image: '/team/ArchitS.png',
         linkedin: '',
         gif: '',
         instagram: '',
@@ -184,4 +233,6 @@ export {
     Creatives,
     Logistics,
     Sponsorship,
+    Photography,
+    Marketing,
 }
