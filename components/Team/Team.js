@@ -17,6 +17,8 @@ import {
     Logistics,
     Sponsorship,
     mentors,
+    Photography,
+    Marketing,
 } from '@data/team'
 
 export const Team = () => {
@@ -99,19 +101,34 @@ export const Team = () => {
                         <img src="/team/Team.png" alt="Team Member 1" />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/Team.png" alt="Team Member 2" />
+                        <img src="/team/President.png" alt="Team Member 2" />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/Team.png" alt="Team Member 3" />
+                        <img src="/team/Tech_Head.png" alt="Team Member 3" />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/Team.png" alt="Team Member 4" />
+                        <img
+                            src="/team/Creatives_Head.png"
+                            alt="Team Member 4"
+                        />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/Team.png" alt="Team Member 5" />
+                        <img
+                            src="/team/Marketing_Head.png"
+                            alt="Team Member 5"
+                        />
                     </div>
                     <div className={styles.carousel_image}>
-                        <img src="/team/Team.png" alt="Team Member 6" />
+                        <img src="/team/RnD_Head.png" alt="Team Member 6" />
+                    </div>
+                    <div className={styles.carousel_image}>
+                        <img src="/team/Logs_Head.png" alt="Team Member 7" />
+                    </div>
+                    <div className={styles.carousel_image}>
+                        <img src="/team/Events_Head.png" alt="Team Member 8" />
+                    </div>
+                    <div className={styles.carousel_image}>
+                        <img src="/team/PR_Head.png" alt="Team Member 9" />
                     </div>
                 </Slider>
             </div>
@@ -150,7 +167,7 @@ export const Team = () => {
             </div>
 
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Public Relations Team
+                Public Relation Heads
             </h2>
             <div className={styles.mentor}>
                 {PR.map((data) => (
@@ -166,7 +183,7 @@ export const Team = () => {
             </div>
 
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Creatives Team
+                Creative Heads
             </h2>
             <div className={styles.mentor}>
                 {Creatives.map((data) => (
@@ -182,7 +199,7 @@ export const Team = () => {
             </div>
 
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Technical Team
+                Technical Heads
             </h2>
             <div className={styles.mentor}>
                 {technicals.map((data) => (
@@ -198,7 +215,7 @@ export const Team = () => {
             </div>
 
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Finance Team
+                Finance Heads
             </h2>
             <div className={styles.mentor}>
                 {Finance.map((data) => (
@@ -214,23 +231,7 @@ export const Team = () => {
             </div>
 
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Sponsorship Team
-            </h2>
-            <div className={styles.mentor}>
-                {Sponsorship.map((data) => (
-                    <Card
-                        key={data.id}
-                        name={data.name}
-                        image={data.image}
-                        linkedin={data.linkedin}
-                        instagram={data.instagram}
-                        // twitter={data.twitter}
-                    />
-                ))}
-            </div>
-
-            <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Events Team
+                Event Heads
             </h2>
             <div className={styles.mentor}>
                 {eventM.map((data) => (
@@ -246,10 +247,58 @@ export const Team = () => {
             </div>
 
             <h2 data-aos="zoom-in" data-aos-duration="1500">
-                Logistics Team
+                Sponsorship Heads
+            </h2>
+            <div className={styles.mentor}>
+                {Sponsorship.map((data) => (
+                    <Card
+                        key={data.id}
+                        name={data.name}
+                        image={data.image}
+                        linkedin={data.linkedin}
+                        instagram={data.instagram}
+                        // twitter={data.twitter}
+                    />
+                ))}
+            </div>
+
+            <h2 data-aos="zoom-in" data-aos-duration="1500">
+                Admin & Logistic Heads
             </h2>
             <div className={styles.mentor}>
                 {Logistics.map((data) => (
+                    <Card
+                        key={data.id}
+                        name={data.name}
+                        image={data.image}
+                        linkedin={data.linkedin}
+                        instagram={data.instagram}
+                        // twitter={data.twitter}
+                    />
+                ))}
+            </div>
+
+            <h2 data-aos="zoom-in" data-aos-duration="1500">
+                Marketing Heads
+            </h2>
+            <div className={styles.mentor}>
+                {Marketing.map((data) => (
+                    <Card
+                        key={data.id}
+                        name={data.name}
+                        image={data.image}
+                        linkedin={data.linkedin}
+                        instagram={data.instagram}
+                        // twitter={data.twitter}
+                    />
+                ))}
+            </div>
+
+            <h2 data-aos="zoom-in" data-aos-duration="1500">
+                Photography Head
+            </h2>
+            <div className={styles.mentor}>
+                {Photography.map((data) => (
                     <Card
                         key={data.id}
                         name={data.name}
