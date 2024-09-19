@@ -27,9 +27,12 @@
     left: -50%;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
-    background: -moz-linear-gradient(40deg, rgba(255, 174, 104,1) 10%, rgba(255, 200, 151,1) 45%, rgba(194,139,255,1) 76%, rgba(140,88,252,1) 100%);
-    background: -webkit-linear-gradient(40deg, rgba(255, 174, 104,1) 10%, rgba(255, 200, 151,1) 45%, rgba(194,139,255,1) 76%, rgba(140,88,252,1) 100%);
-    background: linear-gradient(40deg, rgba(255, 174, 104,1) 10%, rgba(255, 200, 151,1) 45%, rgba(194,139,255,1) 76%, rgba(140,88,252,1) 100%);
+    /* background: -moz-linear-gradient(40deg, rgba(255, 174, 104,1) 10%, rgba(255, 200, 151,1) 45%, rgba(194,139,255,1) 76%, rgba(140,88,252,1) 100%); */
+    background: -webkit-linear-gradient(40deg,  rgb(11, 129, 255),
+    rgb(38, 84, 152) 26%,
+    rgb(123, 155, 189) 67%,
+    rgb(255, 255, 255) );
+    /* background: linear-gradient(40deg, rgba(255, 174, 104,1) 10%, rgba(255, 200, 151,1) 45%, rgba(194,139,255,1) 76%, rgba(140,88,252,1) 100%); */
 }
 /* Content */
 .sponsor{

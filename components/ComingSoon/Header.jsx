@@ -22,8 +22,9 @@ const Header = () => {
                 className={styles.heading}
                 ref={topToBottomRef} // Apply top-to-bottom animation to this element
             >
-                <span>Where Ideas</span> <span>Gets</span>{' '}
-                <span className={styles.maintxt}>Stellar!</span>
+                <span>Empowering Entrepreneurs,</span>{' '}
+                <span>Building the </span>{' '}
+                <span className={styles.maintxt}>Future</span>
             </p>
             <p
                 className={styles.desciption}

@@ -75,7 +75,7 @@
 
 
 .heading > span {
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-size: 80px;
     font-weight: 600;
     text-align: center;
@@ -149,10 +149,10 @@
 .maintxt {
     background-image: linear-gradient(
         90deg,
-        rgba(140, 88, 252, 1),
-        rgba(193.85, 138.52, 255, 1) 26%,
-        rgba(255, 191.87, 137.46, 1) 67%,
-        rgba(255, 191.87, 137.46, 0.6)
+        rgb(11, 129, 255),
+        rgb(38, 84, 152) 26%,
+        rgb(123, 155, 189) 67%,
+        rgb(255, 255, 255)
     );
     background-clip: text;
     -webkit-background-clip: text;

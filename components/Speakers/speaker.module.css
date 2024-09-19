@@ -6,6 +6,10 @@
     height: 100%;
     --p1: #050786;
     --p3: #ffad66;
+    background-color:  rgb(11, 129, 255),
+        rgb(38, 84, 152) 26%,
+        rgb(123, 155, 189) 67%,
+        rgb(255, 255, 255);
 }
 .speaker .image {
     position: relative;

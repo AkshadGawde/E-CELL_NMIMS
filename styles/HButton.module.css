@@ -17,7 +17,7 @@
 }
 
 .b1 {
-    background-image: linear-gradient(to left, #8c58fc, #ffc089);
+    background-image: linear-gradient(to left, #f7f7f7, #1730d4);
     color: var(--black);
     font-weight: 600;
     border: none;
