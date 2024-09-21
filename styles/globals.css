@@ -16,6 +16,30 @@ body {
     --linearg1: #0671e4;
     --linearg2: rgb(255, 255, 255);
     --cardbg: #000000a2;
+
+
+    --light: #fff;
+    --dark: #000;
+    --p1: #8c58fc;
+    --p2: #c28bff;
+    --p3: #ffc089;
+    --p4: #fce2cb;
+    --bg-gradient: linear-gradient( rgb(11, 129, 255),
+    rgb(38, 84, 152) 26%,
+    rgb(123, 155, 189) 67%,
+    rgb(255, 255, 255));
+
+
+    --primary-color: #0056b3;
+  --secondary-color: #17a2b8;
+  --accent-color: #ffc107;
+  --text-dark: #000000;
+  --text-light: #ffffff;
+  --background-light: #f8f9fa;
+  --background-dark: #000000;
+  --card-background: #ffffff;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
 }
 a {
     color: inherit;

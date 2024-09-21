@@ -6,19 +6,19 @@ let sponsors = [
         id: 1,
         name: 'Belgian Waffle',
         link: 'https://thebelgianwaffle.co/',
-        logo: '/Posters/Belgian_Logo.png',
+        logo: '/sponsor_logo/Belgian_Logo.png',
     },
     {
         id: 2,
         name: 'Skill India ',
         link: 'https://www.skillindiadigital.gov.in/home',
-        logo: '/Posters/SkillIndia_logo.png',
+        logo: '/sponsor_logo/SkillIndia_logo.png',
     },
     {
         id: 3,
         name: 'Flex Fuel',
         link: 'https://www.skillindiadigital.gov.in/',
-        logo: '/Posters/FlexFuel_logo.png',
+        logo: '/sponsor_logo/FlexFuel_logo.png',
     },
 ]
 
@@ -27,13 +27,13 @@ let sponsors2 = [
         id: 1,
         name: 'Cinnabon',
         link: 'https://www.cinnabon.com/',
-        logo: '/Posters/Cinnabon_Logo.png',
+        logo: '/sponsor_logo/Cinnabon_Logo.png',
     },
     {
         id: 2,
         name: 'Sabarro',
         link: 'https://www.sbarroindia.com/',
-        logo: '/Posters/Sbarro_Logo.png',
+        logo: '/sponsor_logo/Sbarro_Logo.png',
     },
 ]
 
@@ -42,7 +42,7 @@ let sponsors2 = [
 //         id: 1,
 //         name: 'Sabarro',
 //         link: 'https://www.sbarroindia.com/',
-//         logo: '/Posters/Sbarro_Logo.png',
+//         logo: '/sponsor_logo/Sbarro_Logo.png',
 //     },
 // ]
 
