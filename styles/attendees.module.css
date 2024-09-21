@@ -1,13 +1,14 @@
 .back {
     position: static;
     display: block;
-    width: 100%;
+    width: 100vw;
     margin-top: 0px;
     margin-right: auto;
     margin-left: auto;
     padding: 0px 40px;
+    padding-bottom: 40px;
     flex: 0 auto;
-    background-color: #ffffff;
+    background-color: #000;
     overflow-x: clip;
 }
 .inner1 {
@@ -19,7 +20,7 @@
     margin-top: 20px;
     margin-bottom: 10px;
     font-family: var(--title);
-    color: #101010;
+    color: white;
     font-size: 4em;
     line-height: 1.1em;
     font-weight: 700;
@@ -43,7 +44,7 @@
 .h4 {
     margin: 10px auto;
     font-family: var(--subtext);
-    color: #101010;
+    color: #fff;
     font-size: 1.8em;
     line-height: 1.1em;
     font-weight: 700;
@@ -60,7 +61,7 @@
     display: block;
     font-family: var(--subtext);
     font-weight: 500;
-    color: #101010;
+    color: #fff;
     font-size: 1.3em;
     line-height: 1.4em;
 }
@@ -93,6 +94,7 @@
 @media (min-width: 1020px) and (max-width: 1600px) {
     .grid {
         grid-template-columns: minmax(200px, 500px) minmax(200px, 500px);
+        grid-template-rows:300px 450px 300px;
     }
     .img {
         padding-right: 7%;

@@ -8,8 +8,8 @@
 }
 
 .b1, .b2 {
-    height: 46px;
-    width: 197px;
+    width: max-content;
+    padding:  0.9rem 2rem;
     border-radius: 25px;
     font-size: 18px;
     font-family: var(--title);
@@ -17,13 +17,17 @@
 }
 
 .b1 {
-    background-image: linear-gradient(to left, #f7f7f7, #1730d4);
-    color: var(--black);
-    font-weight: 600;
+    background: linear-gradient(270deg, rgba(0,20,126,1) 0%, rgba(0,129,250,1) 100%);
+    color: var(--white);
+    font-weight: 400;
     border: none;
     cursor: pointer;
+    transition: all 0.2s ease;
 }
-
+.b1:hover {
+ color: rgb(203, 203, 203);
+ /* background: linear-gradient(270deg, rgba(0,11,72,1) 0%, rgba(0,88,171,1) 100%); */
+}
 .b2 {
     border: 2px solid var(--white);
     color: var(--white);

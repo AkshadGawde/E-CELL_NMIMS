@@ -80,13 +80,7 @@ const Attendes = () => {
                     <div className={styles.text} ref={workshopsRef}>
                         <h4 className={styles.h4}>Workshops</h4>
                         <p className={styles.bl}>
-                            No one comes up with the technique of tying a
-                            shoelace; the “2 egg reference” is taught to us
-                            while we do it ourselves. This hands-on experience
-                            saves a lot of initial time-consuming steps of
-                            learning a topic and is the basis for a strong
-                            foundation. Experience quality, fun-packed,
-                            interactive workshops at ECELL NMIMS.
+The art of tying shoelaces isn't innate; it's taught through the practical "2 egg reference" method as we learn by doing. This hands-on approach bypasses time-consuming theoretical steps, laying a robust foundation for learning. At ECELL NMIMS, we embrace this philosophy, offering high-quality, engaging, and interactive workshops that prioritize experiential learning. Our sessions are designed to be both educational and enjoyable, allowing participants to dive right into the heart of each topic. Join us to accelerate your learning journey through immersive, practical experiences that will stay with you long after the workshop ends.
                         </p>
                     </div>
                     <div className={styles.img} ref={img2Ref}>

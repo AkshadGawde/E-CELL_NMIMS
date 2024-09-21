@@ -24,15 +24,15 @@ export default function Speakers() {
                                     target="_blank"
                                     rel="noreferrer"
                                 >
-                                    Event Link
+                                     LinkedIn
                                 </a>
-                                <a
+                                {/* <a
                                     href={item.linkyt}
                                     target="_blank"
                                     rel="noreferrer"
                                 >
                                     YouTube
-                                </a>
+                                </a> */}
                             </div>
                         </div>
                     </div>

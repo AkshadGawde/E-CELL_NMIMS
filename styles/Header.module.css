@@ -147,13 +147,7 @@
 }
 
 .maintxt {
-    background-image: linear-gradient(
-        90deg,
-        rgb(11, 129, 255),
-        rgb(38, 84, 152) 26%,
-        rgb(123, 155, 189) 67%,
-        rgb(255, 255, 255)
-    );
+    background: linear-gradient(270deg, rgba(0,20,126,1) 0%, rgba(0,129,250,1) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
