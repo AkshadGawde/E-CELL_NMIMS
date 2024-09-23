@@ -19,8 +19,8 @@
     position: relative;
     width: 100%;
     padding: 2px;
-    background: #8c58fc;
-    background: linear-gradient(180deg, #8c58fc 0%, #ffc089 79%);
+    /* background: #8c58fc; */
+    background: linear-gradient(270deg, rgba(0,20,126,1) 0%, rgba(0,129,250,1) 100%);
     transition: all 0.3s;
     height: 100%;
   }

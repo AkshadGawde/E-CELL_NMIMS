@@ -566,72 +566,37 @@ const happenings = [
 const UpcomingEvents = [
     {
         id: 2,
-        link: 'The Learning Odyssey',
-        name: 'The Learning Odyssey',
-        tag: 'Unlock your potential with hands-on learning beyond the classroom',
-        description: `Our workshops are designed to provide students with an in-depth and interactive learning experience that goes beyond the standard classroom curriculum. Through hands-on activities and collaborative projects, students will gain a deeper understanding of complex concepts, develop essential problem-solving skills, and enhance their overall academic performance.
+        link: 'STARTATHON',
+        name: 'STARTATHON',
+        tag: 'Celebrating startups for National Building',
+        description: `The Startathon is designed to foster innovation and
+entrepreneurship among college students by providing
+them with real-world problem statements from UN
+companies. The event includes ideation, development, and
+pitching of solutions in a competitive format, with
+mentorship and evaluation by industry professionals.
 
-    Purpose:
-    Our workshops are designed to provide students with an in-depth and interactive learning experience that goes beyond the standard classroom curriculum. Through hands-on activities and collaborative projects, students will gain a deeper understanding of complex concepts, develop essential problem-solving skills, and enhance their overall academic performance.
-    
-    Benefits:
-    - Enhanced Academic Performance: Deepen your understanding of subjects and excel in exams.
-    - Practical Skills Development: Apply theoretical knowledge to real-world scenarios.
-    - Networking Opportunities: Connect with peers and industry professionals.
-    - Internship Certificates: Earn valuable certificates from E Cell.
-    - Reputation Enhancement: Contribute to the college's reputation and attract potential students and faculty.
-    
-    Workshop Details:
-    - Duration: 10-12 sessions over 1-1.5 months.
-    - Frequency: 3 sessions per week.
-    - Timing: 1-1.5 hours after regular classes.
-    - Cost: Rs. 600/- per subject for the entire duration.
-    - Minimum Participants: 7 to 8
-    
-    Course Plan:
-    Subject: C++
-    Topics:
-    - Introduction to C++ programming
-    - Data types and variables
-    - Operators and expressions
-    - Control flow statements (if-else, loops)
-    - Functions and arrays
-    - Object-oriented programming concepts
-    Instructor: Suditi Pradhan
-    
-    Subject: Data Structures and Algorithms (DSA)
-    Topics:
-    - Arrays, linked lists, stacks, queues
-    - Trees and graphs
-    - Sorting and searching algorithms
-    - Dynamic programming
-    Instructors: Malay Thoria, Akshad Gawde
+    What's in it for you? 🧐
+💡 Gain Insights: Interact with top industry professionals and receive valuable feedback from the best in the business!
+🤝 Expand Your Network: Connect with mentors and like-minded peers from various institutions to form your dream team.
+🏆 Achieve Recognition: Showcase your problem-solving skills and innovative ideas to win awards and recognition!
 
-Subject: Physics
-Topics:
-- Mechanics (Newton's laws, kinematics, dynamics)
-- Thermodynamics (heat, temperature, energy)
-- Electromagnetism (electric fields, magnetic fields, circuits)
-- Optics (light, lenses, mirrors)
-Instructor: TBD
+Team Formation and Registration : 
+Team Size: 2 to 4 members
+Registration Fee: Rs. 599 / team
+(Registration Fee Applicable from 2nd round)
+Eligibility criteria: Applicants must be enrolled as
+students at any recognized institute or college in
+India. 
 
-Subject: Calculus
-Topics:
-- Limits, continuity, differentiation
-- Integration (definite and indefinite)
-- Applications of calculus (optimization, related rates)
-Instructor: Aditya Ray
+GRAB THE CHANCE TO WIN AMAZING CASH PRICE UPTO ₹50,000!
 
-Workshop Series Name: The Learning Odyssey: Grow Beyond Classroom
-Starting Date: 10th September
-End Date: 30th September
-Registration: August 29th
-
-Note: The course plan may be subject to minor adjustments based on student needs and interests.
-
-By participating in these workshops, you'll gain valuable knowledge, skills, and experiences that will set you apart in your academic journey and future career.`,
-        date: '10th September 2024',
-        time: 'TBD',
+        ROUND 1: Ideation and Problem Statement 
+        ROUND 2: Group Discussion and Pitching
+        ROUND 3: Development and Implementation *(On Campus)
+    `,
+        date: '7th October 2024',
+        time: ``,
         venue: 'TBD',
         organisers: [
             {
@@ -640,9 +605,15 @@ By participating in these workshops, you'll gain valuable knowledge, skills, and
                 email: 'jatin.s.p.verma@gmail.com',
                 phoneNumber: '+91 7020046019',
             },
+            {
+                key: '2',
+                name: 'Events Head: Saud Shaikh',
+                email: '',
+                phoneNumber: '+91 7977524108',
+            },
         ],
         poster: '/Event-images/Learning_Odyssey.png',
-        registration: 'https://forms.gle/x13JYJHEoer4WtJK6',
+        registration: 'https://forms.gle/UjGBCzMMGwknfxh87',
         leadLink: '',
         images: [
             '/Event-images/Learning_Odyssey.png',
@@ -751,6 +722,99 @@ Don't miss this chance to get all your questions answered and take the first ste
             '/Event-images/Startathon_img6.jpg',
             '/Event-images/Startathon_img7.jpg',
             '/Event-images/Startathon_img8.jpg',
+        ],
+    },
+    {
+        id: 2,
+        link: 'Study Buddy Workshops',
+        name: 'Study Buddy Workshops',
+        tag: 'Unlock your potential with hands-on learning beyond the classroom',
+        description: `Our workshops are designed to provide students with an in-depth and interactive learning experience that goes beyond the standard classroom curriculum. Through hands-on activities and collaborative projects, students will gain a deeper understanding of complex concepts, develop essential problem-solving skills, and enhance their overall academic performance.
+
+    Purpose:
+    Our workshops are designed to provide students with an in-depth and interactive learning experience that goes beyond the standard classroom curriculum. Through hands-on activities and collaborative projects, students will gain a deeper understanding of complex concepts, develop essential problem-solving skills, and enhance their overall academic performance.
+    
+    Benefits:
+    - Enhanced Academic Performance: Deepen your understanding of subjects and excel in exams.
+    - Practical Skills Development: Apply theoretical knowledge to real-world scenarios.
+    - Networking Opportunities: Connect with peers and industry professionals.
+    - Internship Certificates: Earn valuable certificates from E Cell.
+    - Reputation Enhancement: Contribute to the college's reputation and attract potential students and faculty.
+    
+    Workshop Details:
+    - Duration: Total of 10 sessions, spread over 1 - 1.5 months.
+    - Frequency: -3 sessions per week, each lasting 1 hour (post-lectures).
+    - Timing: 1-1.5 hours after regular classes.
+    - Cost: Rs. 600/- per subject for the entire duration.
+    - Minimum Participants: 7 to 8
+    
+    Course Plan:
+    Subject: C++
+    Topics:
+    - Introduction to C++ programming
+    - Data types and variables
+    - Operators and expressions
+    - Control flow statements (if-else, loops)
+    - Functions and arrays
+    - Object-oriented programming concepts
+    Instructor: Suditi Pradhan
+    
+    Subject: Data Structures and Algorithms (DSA)
+    Topics:
+    - Arrays, linked lists, stacks, queues
+    - Trees and graphs
+    - Sorting and searching algorithms
+    - Dynamic programming
+    Instructors: Malay Thoria, Akshad Gawde
+
+Subject: Physics
+Topics:
+- Mechanics (Newton's laws, kinematics, dynamics)
+- Thermodynamics (heat, temperature, energy)
+- Electromagnetism (electric fields, magnetic fields, circuits)
+- Optics (light, lenses, mirrors)
+Instructor: TBD
+
+Subject: Calculus
+Topics:
+- Limits, continuity, differentiation
+- Integration (definite and indefinite)
+- Applications of calculus (optimization, related rates)
+Instructor: Aditya Ray
+
+Workshop Series Name: The Learning Odyssey: Grow Beyond Classroom
+Starting Date: 10th September
+End Date: 30th September
+Registration: August 29th
+
+Note: The course plan may be subject to minor adjustments based on student needs and interests.
+
+By participating in these workshops, you'll gain valuable knowledge, skills, and experiences that will set you apart in your academic journey and future career.`,
+        date: '23th September 2024',
+        time: `• 4:00 - 4:30 PM: Calculus 
+        \n 4:30 - 5:00 PM: Programming in C++ (PPS)
+        5:00 - 5:30 PM: Data Structures & Algorithm (DSA)`,
+        venue: 'Classroom 005',
+        organisers: [
+            {
+                key: '1',
+                name: 'Events Head: Jatin Verma',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
+            },
+        ],
+        poster: '/Event-images/Learning_Odyssey.png',
+        registration: 'https://forms.gle/x13JYJHEoer4WtJK6',
+        leadLink: '',
+        images: [
+            '/Event-images/Learning_Odyssey.png',
+            // '/Event-images/BootCamp_img2.png',
+            // '/Event-images/BootCamp_img3.png',
+            // '/Event-images/BootCamp_img4.png',
+            // '/Event-images/BootCamp_img5.png',
+            // '/Event-images/BootCamp_img6.png',
+            // '/Event-images/BootCamp_img7.png',
+            // '/Event-images/BootCamp_img8.png',
         ],
     },
 ]

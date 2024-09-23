@@ -25,13 +25,7 @@
     font-family: var(--coming);
     font-size: 5rem;
     font-weight: 900;
-    background: -webkit-linear-gradient(
-        0deg,
-        rgba(140, 88, 252, 1),
-        rgba(193.85, 138.52, 255, 1) 26%,
-        rgba(255, 191.87, 137.46, 1) 67%,
-        rgba(255, 191.87, 137.46, 0.2)
-    );
+    background: linear-gradient(270deg, rgba(0,20,126,1) 0%, rgba(0,129,250,1) 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
