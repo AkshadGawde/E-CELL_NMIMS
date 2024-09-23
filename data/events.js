@@ -566,8 +566,8 @@ const happenings = [
 const UpcomingEvents = [
     {
         id: 2,
-        link: 'STARTATHON',
-        name: 'STARTATHON',
+        link: 'Startathon',
+        name: 'Startathon',
         tag: 'Celebrating startups for National Building',
         description: `The Startathon is designed to foster innovation and
 entrepreneurship among college students by providing
@@ -596,7 +596,7 @@ GRAB THE CHANCE TO WIN AMAZING CASH PRICE UPTO ₹50,000!
         ROUND 3: Development and Implementation *(On Campus)
     `,
         date: '7th October 2024',
-        time: ``,
+        time: `TBD`,
         venue: 'TBD',
         organisers: [
             {
@@ -612,11 +612,11 @@ GRAB THE CHANCE TO WIN AMAZING CASH PRICE UPTO ₹50,000!
                 phoneNumber: '+91 7977524108',
             },
         ],
-        poster: '/Event-images/Learning_Odyssey.png',
+        poster: '/Event-images/Startathon.png',
         registration: 'https://forms.gle/UjGBCzMMGwknfxh87',
         leadLink: '',
         images: [
-            '/Event-images/Learning_Odyssey.png',
+            '/Event-images/Startathon.png',
             // '/Event-images/BootCamp_img2.png',
             // '/Event-images/BootCamp_img3.png',
             // '/Event-images/BootCamp_img4.png',
