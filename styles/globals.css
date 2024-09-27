@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css');
 html,
 body {
@@ -14,9 +13,33 @@ body {
     --title: 'poppins';
     --subtext: 'poppins';
     --coming: 'poppins';
-    --linearg1: #3a0ba0;
-    --linearg2: #ffc089;
-    --cardbg: #282728a2;
+    --linearg1: #0671e4;
+    --linearg2: rgb(255, 255, 255);
+    --cardbg: #000000a2;
+
+
+    --light: #fff;
+    --dark: #000;
+    --p1: #8c58fc;
+    --p2: #c28bff;
+    --p3: #ffc089;
+    --p4: #fce2cb;
+    --bg-gradient: linear-gradient( rgb(11, 129, 255),
+    rgb(38, 84, 152) 26%,
+    rgb(123, 155, 189) 67%,
+    rgb(255, 255, 255));
+
+
+    --primary-color: #0056b3;
+  --secondary-color: #17a2b8;
+  --accent-color: #ffc107;
+  --text-dark: #000000;
+  --text-light: #ffffff;
+  --background-light: #f8f9fa;
+  --background-dark: #000000;
+  --card-background: #ffffff;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
 }
 a {
     color: inherit;

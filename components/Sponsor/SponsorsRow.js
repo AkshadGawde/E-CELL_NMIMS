@@ -15,6 +15,8 @@ export const SponsorsRow  = (props) => {
                             <style jsx global>{`
                                 .Img {
                                     transition: transform 175ms ease-in-out;
+                                    object-fit: contain;
+                                    width:80%;
                                 }
                                 .Img:hover {
                                     transform: scale(90%);

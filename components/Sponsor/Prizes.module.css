@@ -1,15 +1,8 @@
 /* This file only styles the 'Prizes' Section of the Sponsor Component */
 
 .prizesDiv {
-    background: #ffedc5;
     width: 100%;
-    background: linear-gradient(
-        180deg,
-        #ffbf88 0%,
-        #ffb9f9 40%,
-        #ffd8bb 75%,
-        #ffaa60 100%
-    );
+    background: linear-gradient(270deg, rgba(0,20,126,1) 0%, rgba(0,129,250,1) 100%);
 }
 
 .prizesRow {

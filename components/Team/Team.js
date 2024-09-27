@@ -91,7 +91,7 @@ export const Team = () => {
 
     return (
         <div className={styles.team_container}>
-            <h1>
+            <h1 data-aos="zoom-in" data-aos-duration="1500">
                 Our <span>Team</span>
             </h1>
 

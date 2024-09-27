@@ -19,7 +19,7 @@
     margin-top: 4vw;
     margin-bottom: calc(8vh + 2vw);
     font-weight: normal;
-    color: var(--black); /* Will override color (regardless of order) */
+    color: var(--white); /* Will override color (regardless of order) */
     letter-spacing: -0.032em;
 }
 
@@ -61,7 +61,7 @@
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 600;
-    color: var(--black);
+    color: var(--white);
     text-decoration: 3px underline transparent;
     transition: text-decoration 250ms ease-in-out;
 }
