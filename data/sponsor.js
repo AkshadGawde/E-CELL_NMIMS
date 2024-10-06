@@ -6,19 +6,19 @@ let sponsors = [
         id: 1,
         name: 'Belgian Waffle',
         link: 'https://thebelgianwaffle.co/',
-        logo: '/sponsor_logo/Belgian_Logo.png',
+        logo: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728200864/Sponsors/BelgianWaffle.jpg',
     },
     {
         id: 2,
         name: 'Skill India ',
         link: 'https://www.skillindiadigital.gov.in/home',
-        logo: '/sponsor_logo/SkillIndia_logo.png',
+        logo: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728200865/Sponsors/SkillIndia.png',
     },
     {
         id: 3,
         name: 'Flex Fuel',
         link: 'https://www.skillindiadigital.gov.in/',
-        logo: '/sponsor_logo/FlexFuel_logo.png',
+        logo: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728200865/Sponsors/FlexFuel.png',
     },
 ]
 
@@ -27,13 +27,13 @@ let sponsors2 = [
         id: 1,
         name: 'Cinnabon',
         link: 'https://www.cinnabon.com/',
-        logo: '/sponsor_logo/Cinnabon_Logo.png',
+        logo: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728200864/Sponsors/Cinnabon.png',
     },
     {
         id: 2,
         name: 'Sabarro',
         link: 'https://www.sbarroindia.com/',
-        logo: '/sponsor_logo/Sbarro_Logo.png',
+        logo: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728200865/Sponsors/Sabarro.png',
     },
 ]
 

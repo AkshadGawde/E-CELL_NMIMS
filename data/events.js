@@ -21,7 +21,7 @@ const Pastevents = [
             //     phoneNumber: 'Events Head: Jatin Verma',
             // },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934140/xoyjmjxnuaibipravhq3.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728201360/Events-Esummit1.0/BlackTie.webp',
         registration:
             'https://dare2compete.com/p/commit-the-flag-dhruva-indian-institute-of-information-technology-iiit-kottayam-224044?lb=wTDkKUs',
         leadLink: '1ikUbjDjqULqP3sSQeZPoYP3Wj4lwLW90PHB1ihbIFfk',
@@ -62,7 +62,7 @@ const Pastevents = [
             //     phoneNumber: 'Events Head: Jatin Verma',
             // },
         ],
-        poster: '/Posters/dragonden_game.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728201381/Events-Esummit1.0/dragonden.webp',
         registration: 'https://forms.gle/dEafjBAL2QgXdf2h6',
         leadLink: '1vMIoyz6Q6FOtx9pPPP92yKkfrrZ-boipmSPAaI0qB6Y',
         images: [
@@ -103,7 +103,7 @@ const Pastevents = [
             //     phoneNumber: 'Events Head: Jatin Verma',
             // },
         ],
-        poster: '/Posters/digital_marketing.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728201427/Events-Esummit1.0/DigitalMarketing.webp',
         registration:
             'https://docs.google.com/forms/d/e/1FAIpQLSdmhqEWNW6Muy7dUTRUnfHUf4pap5elZZQzZ3A6SPtUiMr91A/viewform?usp=sf_link',
         leadLink: '1k2yejkk2p7URprQ71YsEw3jJr6F-bFe4JpdQ-Yz8Pr4',
@@ -135,7 +135,7 @@ const Pastevents = [
                 phoneNumber: '+91 7020046019',
             },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933617/ccwukdfvy6gs01gvukiz.jpg',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728201446/Events-Esummit1.0/PanelDiscussion.webp',
         registration:
             'https://dare2compete.com/p/take-de-bait-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-220531',
         leadLink: '1SZkSgZO9BVO9-rMkURy4T-f37GsdB-SPJRN_iw_ZKMM',
@@ -164,7 +164,7 @@ const Pastevents = [
                 phoneNumber: '+91 7020046019',
             },
         ],
-        poster: '/Posters/squid_game.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728201475/Events-Esummit1.0/SquidGame.webp',
         registration:
             'https://dare2compete.com/p/brand-aid-dhruva-iiit-kottayams-annual-technical-fest-indian-institute-of-information-technology-iiit-kottayam-223776?lb=iUGWfEQ',
         leadLink: '19YaOkzhCQiyUHg1pvAXeNPLVNGhNTSP4vIchESMBBAE',
@@ -196,7 +196,7 @@ const Pastevents = [
                 phoneNumber: 'Events Head: Jatin Verma',
             },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715933928/zroucfhbz9jamjrkoopf.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728201494/Events-Esummit1.0/IdeaHub.webp',
         registration: '',
         leadLink: '14BEml9QbsCcVn25YWX8kNKz7KK74MvcU2116zx1jt08',
         images: [
@@ -229,7 +229,7 @@ const happenings = [
                 phoneNumber: '+91 7020046019',
             },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934502/wozw0ojwe768qeawzexz.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728201549/Events-Happening/InnovateX.webp',
         registration: '',
         leadLink: '',
         images: [
@@ -271,7 +271,7 @@ const happenings = [
                 phoneNumber: '+91 7020046019',
             },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715934696/szk8yfiy8vaip9relnm4.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728201574/Events-Happening/Sharkatank.webp',
         registration: 'https://example.com/registration1',
         leadLink: 'exampleLeadLink1',
         images: [
@@ -309,7 +309,7 @@ const happenings = [
                 phoneNumber: '+91 7020046019',
             },
         ],
-        poster: '/Posters/PD_Logo.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728201560/Events-Happening/PannelDiscussion.webp',
         registration: 'https://example.com/registration1',
         leadLink: '',
         images: [
@@ -342,7 +342,7 @@ const happenings = [
                 phoneNumber: '+91 7020046019',
             },
         ],
-        poster: '/Posters/indo_german.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728201669/Events-Happening/indo_german.webp',
         registration: 'https://example.com/registration1',
         leadLink: '',
         images: [
@@ -373,7 +373,7 @@ const happenings = [
                 phoneNumber: '+91 7020046019',
             },
         ],
-        poster: '/Posters/hassle.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728201688/Events-Happening/hassle.webp',
         registration: 'https://example.com/registration1',
         leadLink: '',
         images: [
@@ -409,7 +409,7 @@ const happenings = [
                 phoneNumber: '123-456-7890',
             },
         ],
-        poster: '/Posters/Bootcamp23.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728201704/Events-Happening/Bootcamp23.webp',
         registration: 'https://example.com/registration1',
         leadLink: 'exampleLeadLink1',
         images: [
@@ -447,7 +447,7 @@ const happenings = [
                 phoneNumber: '098-765-4321',
             },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715937028/leveyuu80tyebddbvh76.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728201735/Events-Happening/FabLab-RIIDL.webp',
         registration: 'https://example.com/registration1',
         leadLink: '',
         images: [
@@ -483,7 +483,7 @@ const happenings = [
                 phoneNumber: '098-765-4321',
             },
         ],
-        poster: '/Posters/nec.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728201762/Events-Happening/NEC.webp',
         registration: 'https://example.com/registration1',
         leadLink: '',
         images: [
@@ -519,7 +519,7 @@ const happenings = [
                 phoneNumber: '098-765-4321',
             },
         ],
-        poster: '/Posters/FabLab_logo.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728202750/Events-Happening/FabLab-Pune.webp',
         registration: '',
         leadLink: '',
         images: [
@@ -547,7 +547,7 @@ const happenings = [
                 phoneNumber: '+91 7020046019',
             },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1715937292/c5wpuj3kl8xqebatrptu.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728202783/Ecell_Logo_Dark.webp',
         registration: '',
         leadLink: '',
         images: [
@@ -595,9 +595,9 @@ GRAB THE CHANCE TO WIN AMAZING CASH PRICE UPTO ₹50,000!
         ROUND 2: Group Discussion and Pitching
         ROUND 3: Development and Implementation *(On Campus)
     `,
-        date: '7th October 2024',
+        date: 'registration deadline 6th october, starting date 10th october and final round 11th 12th jan 2025 ',
         time: `TBD`,
-        venue: 'TBD',
+        venue: 'NMIMS CAMPUS',
         organisers: [
             {
                 key: '1',
@@ -612,7 +612,7 @@ GRAB THE CHANCE TO WIN AMAZING CASH PRICE UPTO ₹50,000!
                 phoneNumber: '+91 7977524108',
             },
         ],
-        poster: '/Event-images/Startathon.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728200986/Events-Upcoming/Startathon.jpg',
         registration: 'https://forms.gle/UjGBCzMMGwknfxh87',
         leadLink: '',
         images: [
@@ -647,7 +647,7 @@ Don't miss this chance to get all your questions answered and take the first ste
                 phoneNumber: '+91 7020046019',
             },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722365092/Ecell/Events/yfhegvcm6n4yf3mlclje.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728201094/Events-Archives2024/ScaleUpWebinar.webp',
         registration: '',
         leadLink: '',
         images: [
@@ -710,7 +710,7 @@ Don't miss this chance to get all your questions answered and take the first ste
                 phoneNumber: '+91 7020046019',
             },
         ],
-        poster: 'https://res.cloudinary.com/dq23wxdum/image/upload/v1722366069/Ecell/Events/nfqgjhfbmjlleklta75m.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728201319/Events-Archives2024/Sustainibility.webp',
         registration: 'https://forms.gle/QDACZ8515kwM9AWx8',
         leadLink: '',
         images: [
@@ -803,7 +803,7 @@ By participating in these workshops, you'll gain valuable knowledge, skills, and
                 phoneNumber: '+91 7020046019',
             },
         ],
-        poster: '/Event-images/Learning_Odyssey.png',
+        poster: 'https://res.cloudinary.com/dlh4cp3pr/image/upload/v1728201146/Events-Archives2024/Studybuddy.webp',
         registration: 'https://forms.gle/x13JYJHEoer4WtJK6',
         leadLink: '',
         images: [
