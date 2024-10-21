@@ -595,7 +595,7 @@ GRAB THE CHANCE TO WIN AMAZING CASH PRICE UPTO ₹50,000!
         ROUND 2: Group Discussion and Pitching
         ROUND 3: Development and Implementation *(On Campus)
     `,
-        date: 'registration deadline 6th october, starting date 10th october and final round 11th 12th jan 2025 ',
+        date: 'Registration deadline 17th october ',
         time: `TBD`,
         venue: 'NMIMS CAMPUS',
         organisers: [
@@ -617,6 +617,65 @@ GRAB THE CHANCE TO WIN AMAZING CASH PRICE UPTO ₹50,000!
         leadLink: '',
         images: [
             '/Event-images/Startathon.png',
+            // '/Event-images/BootCamp_img2.png',
+            // '/Event-images/BootCamp_img3.png',
+            // '/Event-images/BootCamp_img4.png',
+            // '/Event-images/BootCamp_img5.png',
+            // '/Event-images/BootCamp_img6.png',
+            // '/Event-images/BootCamp_img7.png',
+            // '/Event-images/BootCamp_img8.png',
+        ],
+    },
+    {
+        id: 3,
+        link: 'The Grand India Challenge',
+        name: 'The Grand India Challenge',
+        tag: 'Celebrating startups for National Building',
+        description: `The Grand India Challenge is a multi-phase Business Plan Competition for rising entrepreneurs. The event is designed to provide a platform for students to showcase their innovative business ideas, receive mentorship from industry experts, and compete for exciting prizes. 
+        Participants will find a platform to showcase their startup ideas, gain from mentorship, and be pitch-ready for investment.
+
+
+    EVENT BREAKDOWN:
+    Total Event Time : 3 Months
+    Final Round : 10th January 2025 ( NMIMS CAMPUS )
+    
+
+
+Team Formation and Registration : 
+Team Size: 2 to 4 members
+Registration Fee: Free
+Eligibility criteria: Applicants must be enrolled as
+students at any recognized institute or college in
+India. 
+
+GRAB THE CHANCE TO WIN AMAZING CASH PRICE UPTO ₹50,000!
+
+        PHASE 1: Idea Spark
+        PHASE 2: Accelerating Progress
+        PHASE 3: Investor Showcase *(On Campus)
+    `,
+        date: 'Registration deadline 25th october ',
+        time: `10th January 2025`,
+        venue: 'NMIMS CAMPUS',
+        organisers: [
+            {
+                key: '1',
+                name: 'Events Head: Jatin Verma',
+                email: 'jatin.s.p.verma@gmail.com',
+                phoneNumber: '+91 7020046019',
+            },
+            {
+                key: '2',
+                name: 'Events Head: Saud Shaikh',
+                email: 'ecell.stem@nmims.edu.in',
+                phoneNumber: '+91 7977524108',
+            },
+        ],
+        poster: '/Posters/GIC_poster.png',
+        registration: 'https://forms.gle/fQQzwvHio9GGX1cs9',
+        leadLink: '',
+        images: [
+            '/Event-images/GIC_poster.png',
             // '/Event-images/BootCamp_img2.png',
             // '/Event-images/BootCamp_img3.png',
             // '/Event-images/BootCamp_img4.png',
